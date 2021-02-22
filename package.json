@@ -1,6 +1,6 @@
 {
     "name": "frontend-tips",
-    "description": "Super tiny, quick tips and tricks of front-end development",
+    "description": "Super tiny, quick tips, tricks and best practices of front-end development",
     "author": {
         "name": "Nguyen Huu Phuoc",
         "email": "me@phuoc.ng",
@@ -26,7 +26,7 @@
     "scripts": {
         "build": "eleventy",
         "serve": "eleventy --serve",
-        "deploy": "npm run build && netlify deploy --dir=www --prod"
+        "deploy": "npm run build && netlify deploy --dir=_site --prod"
     },
     "devDependencies": {
         "@11ty/eleventy": "^0.11.1",
