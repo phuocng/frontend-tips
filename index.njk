@@ -6,13 +6,19 @@ layout: layouts/base.njk
 <div class="home">
     <h1 class="home__heading">Tips, tricks and best practices<br />of front-end development</h1>
 
-    {% set lastPost = collections.posts %}
+    {% set lastPost = collections.posts[0] %}
     <div class="post">
         <div class="post__content">
             <h1 class="post__title">
-                {{ lastPost[0].data.title }}
+                {{ lastPost.data.title }}
             </h1>
-            {{ lastPost[0].templateContent | safe }}
+            {{ lastPost.templateContent | safe }}
         </div>
     </div>
+
+    {% if lastPost.data.nextPost %}
+    <div class="post__next">
+        &rarr; <a class="next" href="{{ lastPost.data.nextPost.url }}">{{ lastPost.data.nextPost.data.title }}</a>
+    </div>
+    {% endif %}
 </div>

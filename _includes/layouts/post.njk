@@ -7,6 +7,12 @@ permalink: "/{{ page.fileSlug }}.html"
     <a href="/">Tips</a>
 </header>
 
+{% if prevPost %}
+<div class="post__prev">
+    &larr; <a class="next" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
+</div>
+{% endif %}
+
 <div class="post">
     <div class="post__content">
         <h1 class="post__title">{{ title }}</h1>

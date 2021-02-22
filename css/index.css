@@ -18,9 +18,14 @@ body {
     line-height: 1.5;
     text-align: center;
 }
-.home__github {
-    background: #4B5563;
+.home__cta {
+    display: flex;
+    justify-content: center;
+}
+.home__cta a {
+    background: #2563EB;
     color: #fff;
+    font-size: 1.5rem;
     padding: 0.25rem 0.5rem;
     text-decoration: none;
 }
@@ -58,4 +63,11 @@ body {
     background: #fff;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
+}
+
+.post__next {
+    text-align: right;
+}
+.post__prev {
+    text-align: left;
 }
