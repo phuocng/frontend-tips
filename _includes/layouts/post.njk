@@ -13,11 +13,11 @@ permalink: "/{{ page.fileSlug }}.html"
 </div>
 {% endif %}
 
-<div class="post">
-    <div class="post__content">
-        <h1 class="post__title">{{ title }}</h1>
-        {{ content | safe }}
-    </div>
+<div class="post__index">#{{ index + 1 }}</div>
+
+<div class="post__content">
+    <h1 class="post__title">{{ title }}</h1>
+    {{ content | safe }}
 </div>
 
 {% if nextPost %}

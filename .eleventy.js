@@ -24,6 +24,7 @@ module.exports = function (eleventyConfig) {
         const posts = collection.getFilteredByTag('posts');
       
         for(let i = 0; i < posts.length; i++) {
+            posts[i].data['index'] = i;
             posts[i].data['prevPost'] = i === 0 ? null : posts[i - 1];
             posts[i].data['nextPost'] = i === posts.length - 1 ? null : posts[i + 1];
         }
