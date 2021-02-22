@@ -7,46 +7,100 @@ body {
 * {
     box-sizing: border-box;
 }
+.hero {
+    background: #2e2b74;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
 .container {
     margin: 0 auto;
     max-width: 48rem;
 }
-
-/* Home page */
-.home__heading {
-    font-size: 2rem;
-    line-height: 1.5;
+.footer {
+    border-top: 1px solid #D1D5DB;
+    margin: 2rem auto 3rem auto;
+    max-width: 48rem;
+}
+.footer__title {
+    text-transform: lowercase;
+    font-weight: 600;
+    color: #4B5563;
+    margin: 1rem 0;
+}
+.footer__links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer__link {
+    color: #9CA3AF;
+    display: inline-block;
+    margin: 0.25rem 0;
+    text-decoration: none;
+}
+.footer__copyright {
+    margin: 1rem 0;
     text-align: center;
 }
-.home__cta {
+
+.grid {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 -0.5rem;
 }
-.home__cta a {
-    background: #2563EB;
-    color: #fff;
-    font-size: 1.5rem;
-    padding: 0.25rem 0.5rem;
-    text-decoration: none;
+.grid__col {
+    padding: 0 .5rem;
+    width: 33%;
+}
+
+.feature__list {
+    margin: 4rem 0;
+}
+.feature__item {
+    text-align: center;
+}
+.feature__icon {
+    color: #2e2b74;
+}
+.feature__title {
+    font-family: Sacramento;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.home__heading {
+    font-family: Sacramento;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Home page */
+.home__placeholder-title {
+    color: #2e2b74;
+}
+.home__placeholder-content {
+    color: #ef4043;
 }
 
 /* Post page */
 .post__index {
-    font-size: 2rem;
+    font-family: Sacramento;
+    font-size: 3rem;
     font-weight: 700;
     margin: 2rem;
     text-align: center;
 }
 .post__content {
     background: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid #D1D5DB;
     margin: 4rem 0;
     padding: 1rem;
     position: relative;
 }
 .post__content:after,
 .post__content:before {
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid #E5E7EB;
     content: '';
     height: 100%;
     position: absolute;
@@ -63,8 +117,9 @@ body {
     z-index: -1;
 }
 .post__title {
-    border-bottom: 1px solid rgba(0, 0, 0, .3);
-    font-size: 1.5rem;
+    border-bottom: 1px solid #9CA3AF;
+    font-family: Sacramento;
+    font-size: 3rem;
     padding-bottom: 1rem;
     text-align: center;
 }
@@ -97,4 +152,10 @@ body {
 }
 .post__category--tip {
     border-right-color: #2563EB;
+}
+.post__category--trick {
+    border-right-color: #DC2626;
+}
+.post__category--practice {
+    border-right-color: #059669;
 }
