@@ -3,4 +3,13 @@ layout: layouts/base.njk
 permalink: "/{{ page.fileSlug }}.html"
 ---
 
-{{ content | safe }}
+<header>
+    <a href="/">Tips</a>
+</header>
+
+<div class="post">
+    <div class="post__content">
+        <h1 class="post__title">{{ title }}</h1>
+        {{ content | safe }}
+    </div>
+</div>

@@ -9,5 +9,37 @@ body {
 }
 .container {
     margin: 0 auto;
-    max-width: 64rem;
+    max-width: 48rem;
+}
+.post {
+    margin: 4rem 0;
+    position: relative;
+}
+.post:after,
+.post:before {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    content: '';
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.post:after {
+    transform: rotate(-3deg);
+    z-index: -2;
+}
+.post:before {
+    background: #eee;
+    transform: rotate(-6deg);
+    z-index: -1;
+}
+.post__title {
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    padding: 1rem;
+    text-align: center;
+}
+.post__content {
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
 }

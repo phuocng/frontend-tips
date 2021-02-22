@@ -13,9 +13,16 @@ const [first, ...rest] = 'Hello';
 // rest = ['e', 'l', 'l', 'o'] 
 ```
 
-We can use it to capitalize or decapitalize a string:
+We can use it to [capitalize](https://1loc.dev/#capitalize-a-string) or [decapitalize](https://1loc.dev/#decapitalize-a-string) a string:
 
 ```js
-capitalize = ([first, ...rest]) => `${first.toUpperCase()}${rest.join('')}`;
-decapitalize = ([first, ...rest]) => `${first.toLowerCase()}${rest.join('')}`;
+capitalize = ([first, ...rest]) => (
+  `${first.toUpperCase()}${rest.join('')}`
+);
+
+decapitalize = ([first, ...rest]) => (
+  `${first.toLowerCase()}${rest.join('')}`
+);
+
+capitalize('hello world');  // 'Hello world'
 ```
