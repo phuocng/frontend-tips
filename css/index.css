@@ -11,6 +11,21 @@ body {
     margin: 0 auto;
     max-width: 48rem;
 }
+
+/* Home page */
+.home__heading {
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: center;
+}
+.home__github {
+    background: #4B5563;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    text-decoration: none;
+}
+
+/* Post page */
 .post {
     margin: 4rem 0;
     position: relative;
@@ -35,7 +50,8 @@ body {
 }
 .post__title {
     border-bottom: 1px solid rgba(0, 0, 0, .3);
-    padding: 1rem;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
     text-align: center;
 }
 .post__content {

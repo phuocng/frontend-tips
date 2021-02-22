@@ -3,13 +3,16 @@ title: Super tiny, quick tips, tricks and best practices of front-end developmen
 layout: layouts/base.njk
 ---
 
-<h1>Tips, tricks and best practices of front-end development</h1>
+<div class="home">
+    <h1 class="home__heading">Tips, tricks and best practices<br />of front-end development</h1>
 
-{% set postslist = collections.posts %}
-<ul>
-{% for post in postslist | reverse %}
-    <li>
-        <a href='{{ post.url | url }}'>{{ post.data.title }}</a>
-    </li>
-{% endfor %}
-</ul>
+    {% set lastPost = collections.posts %}
+    <div class="post">
+        <div class="post__content">
+            <h1 class="post__title">
+                {{ lastPost[0].data.title }}
+            </h1>
+            {{ lastPost[0].templateContent | safe }}
+        </div>
+    </div>
+</div>
