@@ -18,15 +18,17 @@ body {
     max-width: 48rem;
 }
 .footer {
-    border-top: 1px solid #D1D5DB;
     margin: 2rem auto 3rem auto;
     max-width: 48rem;
 }
 .footer__title {
+    border-bottom: 1px solid #D1D5DB;
+    font-family: Sacramento;
+    font-size: 1.75rem;
     text-transform: lowercase;
     font-weight: 600;
     color: #4B5563;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
 .footer__links {
     list-style-type: none;
