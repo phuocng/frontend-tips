@@ -20,6 +20,17 @@ module.exports = function (eleventyConfig) {
     });
     eleventyConfig.setLibrary('md', markdownLibrary);
 
+    eleventyConfig.addCollection('posts', function(collection) {
+        const posts = collection.getFilteredByTag('posts');
+      
+        for(let i = 0; i < posts.length; i++) {
+            posts[i].data['prevPost'] = i === 0 ? null : posts[i - 1];
+            posts[i].data['nextPost'] = i === posts.length - 1 ? null : posts[i + 1];
+        }
+      
+        return posts;
+    });
+
     return {
         templateFormats: ['md', 'njk', 'html', 'liquid'],
         markdownTemplateEngine: 'liquid',
