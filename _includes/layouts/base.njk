@@ -4,6 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title or metadata.title | escape }}</title>
+    <meta name="description" content="Super tiny, quick tips, tricks and best practices of front-end development" />
+
+    <meta name="twitter:site" content="@nghuuphuoc" />
+    <meta name="twitter:title" content="Super tiny, quick tips, tricks and best practices of front-end development" />
+    <meta name="twitter:description" content="Super tiny, quick tips, tricks and best practices of front-end development" />
+    <meta name="twitter:creator" content="@nghuuphuoc" />
+    <meta name="twitter:image" content="https://getfrontend.tips/assets/screenshot.png" />
+
+    <meta property="og:site_name" content="Front-End Tips" />
+    <meta property="og:title" content="Super tiny, quick tips, tricks and best practices of front-end development" />
+    <meta property="og:description" content="Super tiny, quick tips, tricks and best practices of front-end development" />
+    <meta property="og:url" content="https://getfrontend.tips" />
+    <meta property="og:image" content="https://getfrontend.tips/assets/screenshot.png" />
+
+    <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
     {{ content | safe }}
