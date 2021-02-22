@@ -75,3 +75,26 @@ body {
 .post__prev {
     text-align: left;
 }
+
+.post__category {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 0px 4rem 4rem 0px;
+    color: #fff;
+    height: 4rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4rem;
+}
+.post__icon {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    transform: rotate(45deg) translate(0, -0.75rem);
+    width: 4rem;
+}
+.post__category--tip {
+    border-right-color: #2563EB;
+}

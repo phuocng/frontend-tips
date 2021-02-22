@@ -1,5 +1,6 @@
 ---
 title: Convert string to number
+category: tip
 tags:
   - posts
 layout: layouts/post.njk

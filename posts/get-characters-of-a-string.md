@@ -1,5 +1,6 @@
 ---
 title: Get characters of a string
+category: tip
 tags:
   - posts
 layout: layouts/post.njk
