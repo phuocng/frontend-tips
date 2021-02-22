@@ -48,7 +48,7 @@ layout: layouts/base.njk
         </div>
     </div>
 
-    {% set lastPost = collections.posts[0] %}
+    {% set lastPost = collections.posts[collections.posts.length - 1] %}
     <div class="post">
         <div class="post__content">
             <h1 class="post__title home__placeholder-title">
@@ -75,6 +75,6 @@ layout: layouts/base.njk
     </div>
 
     <div class="post__next">
-        #1 <a class="next" href="{{ lastPost.url }}">{{ lastPost.data.title }}</a> &rarr;
+        #{{ collections.posts.length }} <a class="next" href="{{ lastPost.url }}">{{ lastPost.data.title }}</a> &rarr;
     </div>
 </div>
