@@ -4,21 +4,77 @@ layout: layouts/base.njk
 ---
 
 <div class="home">
-    <h1 class="home__heading">Tips, tricks and best practices<br />of front-end development</h1>
+    <h1 class="home__heading">super tiny & quick</h1>
+    <div class="grid feature__list">
+        <div class="grid__col feature__item">
+            <div class="feature__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="96" height="96">
+                    <path d="M13.514 23.5L10.514 23.5" fill="none" stroke="#2563EB" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M14.514 21.5L9.514 21.5" fill="none" stroke="#2563EB" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M12.014 0.5L12.014 3.5" fill="none" stroke="#2563EB" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M3.528 4.015L5.65 6.136" fill="none" stroke="#2563EB" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M20.499 4.015L18.378 6.136" fill="none" stroke="#2563EB" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M0.514 12.5L3.514 12.5" fill="none" stroke="#2563EB" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M23.514 12.5L20.514 12.5" fill="none" stroke="#2563EB" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M18.014,12.5a6,6,0,1,0-9.429,4.917,1,1,0,0,1,.429.821V19a.5.5,0,0,0,.5.5h5a.5.5,0,0,0,.5-.5v-.763a1,1,0,0,1,.429-.821A5.98,5.98,0,0,0,18.014,12.5Z" fill="none" stroke="#2563EB" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+            </div>
+            <div class="feature__title">tips</div>
+        </div>
+        <div class="grid__col feature__item">
+            <div class="feature__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="96" height="96">
+                    <path d="M6.433,5.6l2.775.961L10.972,4.8a.613.613,0,0,1,1.061.452L12.1,8.38l2.8,1.1a.654.654,0,0,1-.08,1.237l-3.206.895-.9,3.207a.654.654,0,0,1-1.237.079l-1.1-2.8-3.132-.068a.613.613,0,0,1-.453-1.06L6.561,9.209,5.6,6.433A.662.662,0,0,1,6.433,5.6Z" fill="none" stroke="#DC2626" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M12.246,11.441l10.779,9.588a1.414,1.414,0,1,1-2,2L11.441,12.246" fill="none" stroke="#DC2626" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M0.5 9.5L2.5 9.5" fill="none" stroke="#DC2626" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M9.5 0.5L9.5 2.5" fill="none" stroke="#DC2626" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M2.5 1.5L2.5 3.5" fill="none" stroke="#DC2626" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M3.5 2.5L1.5 2.5" fill="none" stroke="#DC2626" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M3.5 15L3.5 17" fill="none" stroke="#DC2626" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M4.5 16L2.5 16" fill="none" stroke="#DC2626" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M15 3.5L17 3.5" fill="none" stroke="#DC2626" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M16 4.5L16 2.5" fill="none" stroke="#DC2626" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+            </div>
+            <div class="feature__title">tricks</div>
+        </div>
+        <div class="grid__col feature__item">
+            <div class="feature__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="96" height="96">
+                    <path d="M19.5,16.065h0a1.5,1.5,0,0,1,0,3h-1a1.5,1.5,0,0,1,0,3H12c-4,0-3-2-11-2v-9H4a7.949,7.949,0,0,0,7.5-8c0-1.581,3-1.781,3,1.219a31.593,31.593,0,0,1-1,5.781h8a1.5,1.5,0,0,1,0,3h-1a1.5,1.5,0,0,1,0,3h-1" fill="none" stroke="#059669" stroke-linecap="round" stroke-linejoin="round">
+                </svg>
+            </div>
+            <div class="feature__title">best practices</div>
+        </div>
+    </div>
 
     {% set lastPost = collections.posts[0] %}
     <div class="post">
         <div class="post__content">
-            <h1 class="post__title">
-                {{ lastPost.data.title }}
+            <h1 class="post__title home__placeholder-title">
+                <placeholder-lines size="2" />
             </h1>
-            {{ lastPost.templateContent | safe }}
+            <div class="post__category post__category--tip">
+                <div class="post__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M13.514 23.5L10.514 23.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M14.514 21.5L9.514 21.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M12.014 0.5L12.014 3.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M3.528 4.015L5.65 6.136" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M20.499 4.015L18.378 6.136" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M0.514 12.5L3.514 12.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M23.514 12.5L20.514 12.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M18.014,12.5a6,6,0,1,0-9.429,4.917,1,1,0,0,1,.429.821V19a.5.5,0,0,0,.5.5h5a.5.5,0,0,0,.5-.5v-.763a1,1,0,0,1,.429-.821A5.98,5.98,0,0,0,18.014,12.5Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="home__placeholder-content">
+                <placeholder-lines size="10" />
+            </div>
         </div>
     </div>
 
-    {% if lastPost.data.nextPost %}
     <div class="post__next">
-        &rarr; <a class="next" href="{{ lastPost.data.nextPost.url }}">{{ lastPost.data.nextPost.data.title }}</a>
+        #1 <a class="next" href="{{ lastPost.url }}">{{ lastPost.data.title }}</a> &rarr;
     </div>
-    {% endif %}
 </div>
