@@ -1,2 +1,5 @@
-# frontend-tips
-Super tiny and quick front-end tips and tricks
+# front-end tips
+
+Super tiny, quick tips, tricks and best practices of front-end development
+
+![front-end tips](/img/screenshot.png)
