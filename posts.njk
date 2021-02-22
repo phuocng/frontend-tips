@@ -1,0 +1,13 @@
+---
+title: Super tiny, quick tips, tricks and best practices of front-end development
+layout: layouts/base.njk
+---
+
+<div class="posts">
+    {% set posts = collections.posts | reverse %}
+    <ul>
+    {% for post in posts %}
+        <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+    {% endfor %}
+    </ul>
+</div>

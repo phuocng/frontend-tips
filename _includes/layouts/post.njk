@@ -13,3 +13,9 @@ permalink: "/{{ page.fileSlug }}.html"
         {{ content | safe }}
     </div>
 </div>
+
+{% if nextPost %}
+<div class="post__next">
+    &rarr; <a class="next" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+</div>
+{% endif %}
