@@ -8,42 +8,53 @@ body {
     box-sizing: border-box;
 }
 .hero {
+    align-items: center;
     background: #2e2b74;
     color: #fff;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    padding-bottom: 2rem;
+}
+.hero__logo {
+    text-decoration: none;
+}
+.hero__github {
+    color: #ee4044;
+    text-decoration: none; 
 }
 .container {
     margin: 0 auto;
     max-width: 48rem;
 }
 .footer {
-    margin: 2rem auto 3rem auto;
+    margin: 4rem auto;
     max-width: 48rem;
 }
-.footer__title {
+.footer__copyright {
+    align-items: center;
     border-bottom: 1px solid #D1D5DB;
-    font-family: Sacramento;
-    font-size: 1.75rem;
-    text-transform: lowercase;
-    font-weight: 600;
-    color: #4B5563;
+    display: flex;
+    justify-content: space-between;
     margin: 0.5rem 0;
+    padding: 0.5rem 0;
 }
 .footer__links {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+.footer__dot {
+    color: #9CA3AF;
+    margin: 0 0.5rem;
+}
 .footer__link {
     color: #9CA3AF;
-    display: inline-block;
-    margin: 0.25rem 0;
+    margin: 0.125rem 0;
     text-decoration: none;
-}
-.footer__copyright {
-    margin: 1rem 0;
-    text-align: center;
 }
 
 .grid {
@@ -82,7 +93,13 @@ body {
     color: #2e2b74;
 }
 .home__placeholder-content {
-    color: #ef4043;
+    margin: 1rem 0;
+}
+.home__placeholder-content--tip {
+    color: #2563EB;
+}
+.home__placeholder-content--trick {
+    color: #DC2626;
 }
 
 /* Post page */
@@ -127,10 +144,20 @@ body {
 }
 
 .post__next {
+    margin: 0.5rem 0;
     text-align: right;
 }
 .post__prev {
+    margin: 0.5rem 0;
     text-align: left;
+}
+.post__next a,
+.post__prev a {
+    text-decoration: none;
+}
+.post__next a:hover,
+.post__prev a:hover {
+    text-decoration: underline;
 }
 
 .post__category {
@@ -160,4 +187,18 @@ body {
 }
 .post__category--practice {
     border-right-color: #059669;
+}
+
+.post__edit {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    text-decoration: none;
+}
+.post__edit:hover {
+    text-decoration: underline;
+}
+.post__edit svg {
+    margin-right: 0.25rem;
 }
