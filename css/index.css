@@ -79,12 +79,12 @@ body {
 .feature__title {
     font-family: Sacramento;
     font-size: 2.5rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 .home__heading {
     font-family: Sacramento;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -106,7 +106,7 @@ body {
 .post__index {
     font-family: Sacramento;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 500;
     margin: 2rem;
     text-align: center;
 }
@@ -136,9 +136,10 @@ body {
     z-index: -1;
 }
 .post__title {
-    border-bottom: 1px solid #9CA3AF;
+    border-bottom: 1px solid #D1D5DB;
     font-family: Sacramento;
     font-size: 3rem;
+    font-weight: 500;
     padding-bottom: 1rem;
     text-align: center;
 }
