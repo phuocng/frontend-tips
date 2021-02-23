@@ -144,10 +144,20 @@ body {
 }
 
 .post__next {
+    margin: 0.5rem 0;
     text-align: right;
 }
 .post__prev {
+    margin: 0.5rem 0;
     text-align: left;
+}
+.post__next a,
+.post__prev a {
+    text-decoration: none;
+}
+.post__next a:hover,
+.post__prev a:hover {
+    text-decoration: underline;
 }
 
 .post__category {
@@ -177,4 +187,18 @@ body {
 }
 .post__category--practice {
     border-right-color: #059669;
+}
+
+.post__edit {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    text-decoration: none;
+}
+.post__edit:hover {
+    text-decoration: underline;
+}
+.post__edit svg {
+    margin-right: 0.25rem;
 }
