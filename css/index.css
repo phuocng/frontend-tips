@@ -21,32 +21,33 @@ body {
     max-width: 48rem;
 }
 .footer {
-    margin: 2rem auto 3rem auto;
+    margin: 4rem auto;
     max-width: 48rem;
 }
-.footer__title {
+.footer__copyright {
+    align-items: center;
     border-bottom: 1px solid #D1D5DB;
-    font-family: Sacramento;
-    font-size: 1.75rem;
-    text-transform: lowercase;
-    font-weight: 600;
-    color: #4B5563;
+    display: flex;
+    justify-content: space-between;
     margin: 0.5rem 0;
+    padding: 0.5rem 0;
 }
 .footer__links {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+.footer__dot {
+    color: #9CA3AF;
+    margin: 0 0.5rem;
+}
 .footer__link {
     color: #9CA3AF;
-    display: inline-block;
-    margin: 0.25rem 0;
+    margin: 0.125rem 0;
     text-decoration: none;
-}
-.footer__copyright {
-    margin: 1rem 0;
-    text-align: center;
 }
 
 .grid {
