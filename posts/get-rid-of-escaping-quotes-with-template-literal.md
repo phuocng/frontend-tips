@@ -15,3 +15,7 @@ const message = 'It\'s a message';
 // We can do this which is more convenient
 const message = `It's a message`;
 ```
+
+_More_
+
+* [Use template literal to concatenate strings](/use-template-literal-to-concatenate-strings.html)
