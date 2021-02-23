@@ -8,12 +8,19 @@ body {
     box-sizing: border-box;
 }
 .hero {
+    align-items: center;
     background: #2e2b74;
     color: #fff;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    padding-bottom: 2rem;
 }
-.hero a {
+.hero__logo {
+    text-decoration: none;
+}
+.hero__github {
+    color: #ee4044;
     text-decoration: none; 
 }
 .container {
