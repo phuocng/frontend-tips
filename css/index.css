@@ -13,6 +13,9 @@ body {
     display: flex;
     justify-content: center;
 }
+.hero a {
+    text-decoration: none; 
+}
 .container {
     margin: 0 auto;
     max-width: 48rem;
@@ -82,7 +85,13 @@ body {
     color: #2e2b74;
 }
 .home__placeholder-content {
-    color: #ef4043;
+    margin: 1rem 0;
+}
+.home__placeholder-content--tip {
+    color: #2563EB;
+}
+.home__placeholder-content--trick {
+    color: #DC2626;
 }
 
 /* Post page */
