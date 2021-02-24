@@ -236,5 +236,6 @@ body {
 
 .post__callout {
     border: 2px solid #60A5FA;
+    margin: 1rem 0;
     padding: 0.5rem;
 }
