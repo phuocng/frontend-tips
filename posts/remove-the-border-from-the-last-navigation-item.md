@@ -1,6 +1,7 @@
 ---
 title: Remove the border from the last navigation item
 category: tip
+date: 2021-02-24 13:30:00 +7
 tags:
   - posts
 layout: layouts/post.njk

@@ -1,6 +1,7 @@
 ---
 title: Prefix class name with js to manipulate with javascript
 category: practice
+date: 2021-02-23 08:23:00 +7
 tags:
   - posts
 layout: layouts/post.njk

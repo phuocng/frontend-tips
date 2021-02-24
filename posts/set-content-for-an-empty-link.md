@@ -1,6 +1,7 @@
 ---
 title: Set content for an empty link
 category: tip
+date: 2021-02-24 10:20:00 +7
 tags:
   - posts
 layout: layouts/post.njk

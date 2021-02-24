@@ -1,6 +1,7 @@
 ---
 title: Convert string to number
 category: tip
+date: 2021-02-22 16:29:00 +7
 tags:
   - posts
 layout: layouts/post.njk

@@ -1,6 +1,7 @@
 ---
 title: Indicate img elements that miss alt attribute
 category: tip
+date: 2021-02-22 23:12:00 +7
 tags:
   - posts
 layout: layouts/post.njk

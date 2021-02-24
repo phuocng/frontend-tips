@@ -1,6 +1,7 @@
 ---
 title: Use an underscore to name unused argument
 category: practice
+date: 2021-02-23 10:14:00 +7
 tags:
   - posts
 layout: layouts/post.njk

@@ -1,6 +1,7 @@
 ---
 title: Trim the spaces before parsing a number
 category: practice
+date: 2021-02-23 09:49:00 +7
 tags:
   - posts
 layout: layouts/post.njk

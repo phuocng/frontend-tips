@@ -1,6 +1,7 @@
 ---
 title: Get characters of a string
 category: tip
+date: 2021-02-22 14:07:00 +7
 tags:
   - posts
 layout: layouts/post.njk

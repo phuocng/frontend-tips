@@ -1,6 +1,7 @@
 ---
 title: Prevent the default behavior with jQuery event handler
 category: practice
+date: 2021-02-23 09:51:00 +7
 tags:
   - posts
 layout: layouts/post.njk

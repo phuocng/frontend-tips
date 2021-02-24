@@ -1,6 +1,7 @@
 ---
 title: Always pass the radix to parseInt
 category: practice
+date: 2021-02-23 08:15:00 +7
 tags:
   - posts
 layout: layouts/post.njk

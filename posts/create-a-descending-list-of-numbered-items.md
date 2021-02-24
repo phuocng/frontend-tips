@@ -1,6 +1,7 @@
 ---
 title: Create a descending list of numbered items
 category: tip
+date: 2021-02-24 14:29:00 +7
 tags:
   - posts
 layout: layouts/post.njk

@@ -1,6 +1,7 @@
 ---
 title: Create an autocomplete list with the datalist element
 category: tip
+date: 2021-02-24 15:33:00 +7
 tags:
   - posts
 layout: layouts/post.njk

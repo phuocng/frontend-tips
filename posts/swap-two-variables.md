@@ -1,6 +1,7 @@
 ---
 title: Swap two variables
 category: tip
+date: 2021-02-23 10:09:00 +7
 tags:
   - posts
 layout: layouts/post.njk
