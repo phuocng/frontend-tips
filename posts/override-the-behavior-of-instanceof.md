@@ -1,6 +1,7 @@
 ---
 title: Override the behavior of instanceof
 category: trick
+date: 2021-02-23 09:47:00 +7
 tags:
   - posts
 layout: layouts/post.njk

@@ -1,6 +1,7 @@
 ---
 title: Use template literal to concatenate strings
 category: practice
+date: 2021-02-23 22:50:00 +7
 tags:
   - posts
 layout: layouts/post.njk

@@ -1,6 +1,7 @@
 ---
 title: Use the wbr tags to represent path
 category: tip
+date: 2021-02-23 09:45:00 +7
 tags:
   - posts
 layout: layouts/post.njk

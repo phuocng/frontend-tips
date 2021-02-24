@@ -1,6 +1,7 @@
 ---
 title: Add an icon to external links
 category: tip
+date: 2021-02-23 20:42:00 +7
 tags:
   - posts
 layout: layouts/post.njk

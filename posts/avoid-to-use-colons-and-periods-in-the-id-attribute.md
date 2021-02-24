@@ -1,6 +1,7 @@
 ---
 title: Avoid to use colons and periods in the id attribute
 category: practice
+date: 2021-02-23 09:54:00 +7
 tags:
   - posts
 layout: layouts/post.njk

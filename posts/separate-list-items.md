@@ -1,6 +1,7 @@
 ---
 title: Separate list items
 category: tip
+date: 2021-02-24 12:19:00 +7
 tags:
   - posts
 layout: layouts/post.njk

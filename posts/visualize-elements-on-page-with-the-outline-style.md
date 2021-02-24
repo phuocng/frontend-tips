@@ -1,6 +1,7 @@
 ---
 title: Visualize elements on page with the outline style
 category: trick
+date: 2021-02-23 09:59:00 +7
 tags:
   - posts
 layout: layouts/post.njk

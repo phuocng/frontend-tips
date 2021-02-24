@@ -1,6 +1,7 @@
 ---
 title: Check if the browser supports for an element attribute
 category: trick
+date: 2021-02-24 14:00:00 +7
 tags:
   - posts
 layout: layouts/post.njk

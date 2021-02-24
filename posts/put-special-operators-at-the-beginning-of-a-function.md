@@ -1,6 +1,7 @@
 ---
 title: Put special operators at the beginning of a function
 category: trick
+date: 2021-02-23 08:19:00 +7
 tags:
   - posts
 layout: layouts/post.njk

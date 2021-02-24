@@ -1,6 +1,7 @@
 ---
 title: Use negative nth-child and nth-last-child
 category: tip
+date: 2021-02-24 10:17:00 +7
 tags:
   - posts
 layout: layouts/post.njk

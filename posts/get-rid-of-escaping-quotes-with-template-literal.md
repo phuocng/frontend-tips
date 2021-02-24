@@ -1,6 +1,7 @@
 ---
 title: Get rid of escaping quotes with template literal
 category: tip
+date: 2021-02-23 10:02:00 +7
 tags:
   - posts
 layout: layouts/post.njk

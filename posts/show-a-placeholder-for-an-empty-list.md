@@ -1,6 +1,7 @@
 ---
 title: Show a placeholder for an empty list
 category: tip
+date: 2021-02-24 16:00:00 +7
 tags:
   - posts
 layout: layouts/post.njk

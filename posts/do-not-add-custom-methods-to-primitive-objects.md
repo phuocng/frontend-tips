@@ -1,6 +1,7 @@
 ---
 title: Do not add custom methods to primitive objects
 category: practice
+date: 2021-02-22 22:54:00 +7
 tags:
   - posts
 layout: layouts/post.njk

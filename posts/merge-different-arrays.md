@@ -1,6 +1,7 @@
 ---
 title: Merge different arrays
 category: tip
+date: 2021-02-22 19:46:00 +7
 tags:
   - posts
 layout: layouts/post.njk

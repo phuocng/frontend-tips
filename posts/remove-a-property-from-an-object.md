@@ -1,6 +1,7 @@
 ---
 title: Remove a property from an object
 category: tip
+date: 2021-02-22 23:31:00 +7
 tags:
   - posts
 layout: layouts/post.njk

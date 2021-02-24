@@ -1,6 +1,7 @@
 ---
 title: Track the focused element with Chrome DevTools
 category: trick
+date: 2021-02-23 10:06:00 +7
 tags:
   - posts
 layout: layouts/post.njk

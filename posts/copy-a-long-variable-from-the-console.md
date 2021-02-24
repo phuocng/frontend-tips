@@ -1,6 +1,7 @@
 ---
 title: Copy a long variable from the Console
 category: tip
+date: 2021-02-23 22:30:00 +7
 tags:
   - posts
 layout: layouts/post.njk

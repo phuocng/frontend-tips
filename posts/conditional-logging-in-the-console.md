@@ -1,6 +1,7 @@
 ---
 title: Conditional logging in the Console
 category: tip
+date: 2021-02-24 17:15:00 +7
 tags:
   - posts
 layout: layouts/post.njk
