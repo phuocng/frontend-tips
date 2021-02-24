@@ -164,6 +164,10 @@ body {
     padding: 0.5rem;
     width: 100%;
 }
+.post__content input {
+    border: 1px solid #D1D5DB;
+    height: 2rem;
+}
 .post__content ol, 
 .post__content ul {
     margin: 0 0 0 1rem;
