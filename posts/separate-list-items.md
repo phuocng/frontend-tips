@@ -21,6 +21,8 @@ li:not(:last-child):after {
 }
 ```
 
+The footer of this website uses the same technique.
+
 _Demo_
 
 <style>

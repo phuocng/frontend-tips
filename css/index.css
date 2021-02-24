@@ -47,14 +47,17 @@ body {
     margin: 0;
     padding: 0;
 }
-.footer__dot {
-    color: #9CA3AF;
-    margin: 0 0.5rem;
-}
-.footer__link {
+.footer__link,
+.footer__link--dot {
     color: #9CA3AF;
     margin: 0.125rem 0;
     text-decoration: none;
+}
+.footer__link--dot:not(:last-child):after {
+    color: #9CA3AF;
+    display: inline-flex;
+    content: " • ";
+    margin: 0 0.5rem;
 }
 
 .grid {
