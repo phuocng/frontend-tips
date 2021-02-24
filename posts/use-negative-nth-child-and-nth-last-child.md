@@ -4,6 +4,7 @@ category: tip
 tags:
   - posts
 layout: layouts/post.njk
+topics: CSS
 ---
 
 `nth-child` is used to choose a child or a range of children of a given element.

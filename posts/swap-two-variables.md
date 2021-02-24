@@ -4,6 +4,7 @@ category: tip
 tags:
   - posts
 layout: layouts/post.njk
+topics: JavaScript
 ---
 
 There are a few ways to [swap two variables](https://1loc.dev/#swap-two-variables) without using a temporary variable:

@@ -4,6 +4,7 @@ category: tip
 tags:
   - posts
 layout: layouts/post.njk
+topics: A11y, Accessibility, CSS
 ---
 
 The following CSS gives a red outline to any img having a missing or blank alt attribute:

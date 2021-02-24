@@ -4,6 +4,7 @@ category: tip
 tags:
   - posts
 layout: layouts/post.njk
+topics: JavaScript
 ---
 
 Use ES6 destructing to get the first and the remaining characters of a string:

@@ -4,6 +4,7 @@ category: tip
 tags:
   - posts
 layout: layouts/post.njk
+topics: CSS
 ---
 
 By default, the browser will display a placeholder for a broken image. This post introduces a simple tip to replace that placeholder with our stylable elements.

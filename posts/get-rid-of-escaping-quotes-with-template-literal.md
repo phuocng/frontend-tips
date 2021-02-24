@@ -4,6 +4,7 @@ category: tip
 tags:
   - posts
 layout: layouts/post.njk
+topics: JavaScript
 ---
 
 You can use the template literal syntax in ES6 to get rid of escaping quote. For example:

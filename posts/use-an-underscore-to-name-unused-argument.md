@@ -4,6 +4,7 @@ category: practice
 tags:
   - posts
 layout: layouts/post.njk
+topics: JavaScript
 ---
 
 You can use an underscore to name the argument which is not used in an arrow function. It makes the code more readable.

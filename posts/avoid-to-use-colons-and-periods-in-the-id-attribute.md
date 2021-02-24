@@ -4,6 +4,7 @@ category: practice
 tags:
   - posts
 layout: layouts/post.njk
+topics: DOM, HTML
 ---
 
 According to the [HTML specifications](https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute), a valid `id` can consist of almost characters except [ASCII whitespace](https://infra.spec.whatwg.org/#ascii-whitespace).

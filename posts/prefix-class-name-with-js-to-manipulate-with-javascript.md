@@ -4,6 +4,7 @@ category: practice
 tags:
   - posts
 layout: layouts/post.njk
+topics: DOM, HTML
 ---
 
 Have you ever seen a class name starting with `js-`?

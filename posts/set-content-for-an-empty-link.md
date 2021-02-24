@@ -4,6 +4,7 @@ category: tip
 tags:
   - posts
 layout: layouts/post.njk
+topics: CSS
 ---
 
 For a link whose content is empty, we can replace the content with the `href` attribute:

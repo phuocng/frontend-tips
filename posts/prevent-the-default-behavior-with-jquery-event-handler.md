@@ -4,6 +4,7 @@ category: practice
 tags:
   - posts
 layout: layouts/post.njk
+topics: DOM, JavaScript
 ---
 
 If you're using jQuery to manage the events, then you're able to use `return false` within the event handler:
