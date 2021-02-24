@@ -36,14 +36,20 @@ The content of markdown file has to look like
 ---
 title: ___
 category: ___
+date: ___
 tags:
   - posts
 layout: layouts/post.njk
+topics: ___
 ---
+
+The content of post
 ```
 
 * `title`: Must match with the file name
 * `category`: Can be one of `tip`, `trick` or `practice`
+* `date`: The date that post is created
+* `topics`: The list of topic(s), separated by a comma
 
 [Here](posts/convert-string-to-number.md) is an example.
 
