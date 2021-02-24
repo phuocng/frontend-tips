@@ -16,7 +16,7 @@ ul:empty::after {
 }
 ```
 
-If you want the placeholder to be more flexible instead of being hardcoded in CSS, it can be taken from an attribute, such as `placeholder`:
+If you want the placeholder to be more flexible instead of being hardcoded in CSS, it can be taken from an attribute, such as `data-placeholder`:
 
 ```css
 ul:empty::after {
