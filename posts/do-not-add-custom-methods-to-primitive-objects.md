@@ -4,6 +4,7 @@ category: practice
 tags:
   - posts
 layout: layouts/post.njk
+topics: JavaScript
 ---
 
 It is not recommended to add a custom method to primitive objects such as `Array`, `Boolean`, `Number`, `String`, etc.

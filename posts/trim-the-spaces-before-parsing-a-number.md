@@ -4,6 +4,7 @@ category: practice
 tags:
   - posts
 layout: layouts/post.njk
+topics: JavaScript
 ---
 
 Both `Number()` and `parseInt` accept the spaces in input. But be aware that you could get different result when passing a value with spaces as following:

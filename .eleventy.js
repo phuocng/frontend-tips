@@ -32,6 +32,10 @@ module.exports = function (eleventyConfig) {
         return posts;
     });
 
+    eleventyConfig.addPairedShortcode('callout', (content) => (
+		`<div class='post__callout'>${markdownLibrary.renderInline(content.trim())}</div>`
+    ));
+
     return {
         templateFormats: ['md', 'njk', 'html', 'liquid'],
         markdownTemplateEngine: 'liquid',

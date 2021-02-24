@@ -4,6 +4,7 @@ category: practice
 tags:
   - posts
 layout: layouts/post.njk
+topics: JavaScript
 ---
 
 There are some ways to concatenate variables in a string. It's recommended to use template literal syntax to avoid unexpected result when the types of variables vary.

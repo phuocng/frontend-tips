@@ -4,6 +4,7 @@ category: tip
 tags:
   - posts
 layout: layouts/post.njk
+topics: CSS
 ---
 
 By default, the browser will display a placeholder for a broken image. This post introduces a simple tip to replace that placeholder with our stylable elements.
@@ -58,15 +59,15 @@ The demo below shows extra elements for a broken image whose markup is
 ```
 
 <style>
-img {
+.demo__image {
   display: block;
   position: relative;
   height: auto;
   min-height: 4rem;
   width: 100%;
 }
-img:before,
-img:after {
+.demo__image:before,
+.demo__image:after {
   height: 100%;
   left: 0;
   position: absolute;
@@ -74,11 +75,11 @@ img:after {
   width: 100%;
 }
 
-img:before {
+.demo__image:before {
   background: #fff;
   content: '';
 }
-img:after { 
+.demo__image:after { 
   align-items: center;
   border: 2px dotted #D1D5DB;
   content: attr(alt) " image is broken";
@@ -87,4 +88,4 @@ img:after {
 }
 </style>
 
-<img src="/img/not-found.png" alt="front-end tips" />
+<img class="demo__image" src="/img/not-found.png" rel="nofollow" alt="front-end tips" />

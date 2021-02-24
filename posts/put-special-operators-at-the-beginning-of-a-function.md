@@ -4,6 +4,7 @@ category: trick
 tags:
   - posts
 layout: layouts/post.njk
+topics: JavaScript
 ---
 
 Usually, we can invoke a function by using the form of Immediately Invoked Function Expression (IIFE).

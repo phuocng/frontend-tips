@@ -4,6 +4,7 @@ category: tip
 tags:
   - posts
 layout: layouts/post.njk
+topics: HTML
 ---
 
 A browser might break a long text at unexpected places. For example, the specific path (`/this/is/.../folder`) in the following text is placed at the second line:

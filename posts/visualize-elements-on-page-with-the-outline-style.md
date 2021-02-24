@@ -4,6 +4,7 @@ category: trick
 tags:
   - posts
 layout: layouts/post.njk
+topics: DOM, JavaScript
 ---
 
 The outline property is useful when you want to visualize elements on the page. In the following sample code, we iterate over all the elements and set the `outline` property with a [random hex color](https://1loc.dev/#generate-a-random-hex-color):

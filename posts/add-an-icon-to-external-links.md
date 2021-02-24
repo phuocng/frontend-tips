@@ -4,6 +4,7 @@ category: tip
 tags:
   - posts
 layout: layouts/post.njk
+topics: CSS
 ---
 
 If you want to add an icon to `a` element that links to an external website, then you can depend on the `href` or `[target="_blank"]` attribute.

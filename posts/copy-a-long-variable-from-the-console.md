@@ -4,6 +4,7 @@ category: tip
 tags:
   - posts
 layout: layouts/post.njk
+topics: DevTools
 ---
 
 The Chrome DevTools' Console will collapse and split a long variable into smaller ranges. The following screenshot shows how you see `console.log(range)` in the _Console_, where `range` is an array of numbers between 0 and 500.

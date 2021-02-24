@@ -4,6 +4,7 @@ category: tip
 tags:
   - posts
 layout: layouts/post.njk
+topics: JavaScript
 ---
 
 We can use underscores (`_`) to make a long number more readable:

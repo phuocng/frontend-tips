@@ -4,6 +4,7 @@ category: tip
 tags:
   - posts
 layout: layouts/post.njk
+topics: JavaScript
 ---
 
 Instead of using the `Number()` constructor to convert a string to number, you can use the `+` operator:

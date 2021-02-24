@@ -4,6 +4,7 @@ category: practice
 tags:
   - posts
 layout: layouts/post.njk
+topics: TypeScript
 ---
 
 Let's say that we have the following TypeScript enum:

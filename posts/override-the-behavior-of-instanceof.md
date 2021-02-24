@@ -4,6 +4,7 @@ category: trick
 tags:
   - posts
 layout: layouts/post.njk
+topics: JavaScript
 ---
 
 `instanceof` doesn't work for primitive types.

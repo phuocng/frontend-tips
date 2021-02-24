@@ -4,6 +4,7 @@ category: trick
 tags:
   - posts
 layout: layouts/post.njk
+topics: DevTools
 ---
 
 Assume that you want to test the keyboard accessibility in your website. 

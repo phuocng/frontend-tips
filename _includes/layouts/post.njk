@@ -40,6 +40,9 @@ permalink: "/{{ page.fileSlug }}.html"
             {% endif %}
         </div>
     </div>
+    {% if topics %}
+    <div class="post__topics">Topics: {{ topics }}</div>
+    {% endif %}
     {{ content | safe }}
     <a href="https://github.com/phuoc-ng/frontend-tips/blob/main/posts/{{ page.fileSlug }}.md" class="post__edit">
         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24" width="24" height="24">
