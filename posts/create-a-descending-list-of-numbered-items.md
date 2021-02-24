@@ -23,11 +23,15 @@ To do that, we just simply add the `reversed` attribute:
 </ol>
 ```
 
+{% callout %}
+You can use the `start` attribute which indicates the start number.
+{% endcallout %}
+
 _Demo_
 
 _Top 10 movies rated on [IMDB](https://www.imdb.com/chart/top/)_
 
-<ol class="demo__list" reversed>
+<ol reversed>
   <li>The Lord of the Rings: The Fellowship of the Ring (2001)</li>
   <li>The Good, the Bad and the Ugly (1966)</li>
   <li>Pulp Fiction (1994)</li>

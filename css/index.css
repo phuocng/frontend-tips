@@ -229,3 +229,8 @@ body {
 .post__edit svg {
     margin-right: 0.25rem;
 }
+
+.post__callout {
+    border: 2px solid #60A5FA;
+    padding: 0.5rem;
+}
