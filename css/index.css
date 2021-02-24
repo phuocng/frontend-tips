@@ -164,6 +164,7 @@ body {
     padding: 0.5rem;
     width: 100%;
 }
+.post__content ol, 
 .post__content ul {
     margin: 0 0 0 1rem;
     padding: 0;
