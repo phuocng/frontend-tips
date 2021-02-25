@@ -173,6 +173,20 @@ body {
     margin: 0 0 0 1rem;
     padding: 0;
 }
+.post__content table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.post__content th {
+    text-align: left;
+}
+.post__content td,
+.post__content th {
+    padding: 0.25rem;
+}
+.post__content tr {
+    border-bottom: 1px solid #D1D5DB;
+}
 
 .post__next {
     margin: 0.5rem 0;
