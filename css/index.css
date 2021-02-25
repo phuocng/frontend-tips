@@ -25,11 +25,11 @@ body {
 }
 .container {
     margin: 0 auto;
-    max-width: 48rem;
+    max-width: 64rem;
 }
 .footer {
     margin: 4rem auto;
-    max-width: 48rem;
+    max-width: 64rem;
 }
 .footer__copyright {
     align-items: center;
@@ -131,12 +131,12 @@ body {
     width: 100%;
 }
 .post__content:after {
-    transform: rotate(-3deg);
+    transform: rotate(-2deg);
     z-index: -2;
 }
 .post__content:before {
     background: #eee;
-    transform: rotate(-6deg);
+    transform: rotate(-4deg);
     z-index: -1;
 }
 .post__title {
@@ -172,6 +172,20 @@ body {
 .post__content ul {
     margin: 0 0 0 1rem;
     padding: 0;
+}
+.post__content table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.post__content th {
+    text-align: left;
+}
+.post__content td,
+.post__content th {
+    padding: 0.25rem;
+}
+.post__content tr {
+    border-bottom: 1px solid #D1D5DB;
 }
 
 .post__next {

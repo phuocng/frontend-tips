@@ -1,3 +1,4 @@
+const { DateTime } = require('luxon');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginNavigation = require('@11ty/eleventy-navigation');
@@ -35,6 +36,11 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPairedShortcode('callout', (content) => (
 		`<div class='post__callout'>${markdownLibrary.renderInline(content.trim())}</div>`
     ));
+
+    eleventyConfig.addFilter('sitemapDateTimeString', (dateObj) => {
+        const dt = DateTime.fromJSDate(dateObj, { zone: 'utc' });
+        return !dt.isValid ? '' : dt.toISO();
+    });
 
     return {
         templateFormats: ['md', 'njk', 'html', 'liquid'],
