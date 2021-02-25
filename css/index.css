@@ -131,12 +131,12 @@ body {
     width: 100%;
 }
 .post__content:after {
-    transform: rotate(-3deg);
+    transform: rotate(-2deg);
     z-index: -2;
 }
 .post__content:before {
     background: #eee;
-    transform: rotate(-6deg);
+    transform: rotate(-4deg);
     z-index: -1;
 }
 .post__title {

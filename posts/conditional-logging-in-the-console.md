@@ -20,3 +20,7 @@ if (condition) {
 // Better
 console.assert(!condition, 'Error message');
 ```
+
+_More_
+
+* [Log a variable in an arrow function](/log-a-variable-in-an-arrow-function.html)
