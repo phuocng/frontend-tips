@@ -25,11 +25,11 @@ body {
 }
 .container {
     margin: 0 auto;
-    max-width: 48rem;
+    max-width: 64rem;
 }
 .footer {
     margin: 4rem auto;
-    max-width: 48rem;
+    max-width: 64rem;
 }
 .footer__copyright {
     align-items: center;
