@@ -3,9 +3,14 @@ layout: layouts/base.njk
 permalink: "/{{ page.fileSlug }}.html"
 ---
 
-<div class="post__index">#{{ index + 1 }}</div>
+{% if prevPost %}
+<div class="post__prev">
+    &larr; #{{ index }} <a href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
+</div>
+{% endif %}
 
 <div class="post__content">
+    <div class="post__index">#{{ index + 1 }}</div>
     <h1 class="post__title">{{ title }}</h1>
     <div class="post__category post__category--{{ category }}">
         <div class="post__icon">
@@ -59,14 +64,8 @@ permalink: "/{{ page.fileSlug }}.html"
     </a>
 </div>
 
-{% if prevPost %}
-<div class="post__prev">
-    &larr; #{{ index }} <a class="next" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
-</div>
-{% endif %}
-
 {% if nextPost %}
 <div class="post__next">
-   #{{ index + 2 }} <a class="next" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a> &rarr;
+   #{{ index + 2 }} <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a> &rarr;
 </div>
 {% endif %}

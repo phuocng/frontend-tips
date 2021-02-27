@@ -189,11 +189,11 @@ body {
 }
 
 .post__next {
-    margin: 0.5rem 0;
+    margin: 1.5rem 0;
     text-align: right;
 }
 .post__prev {
-    margin: 0.5rem 0;
+    margin: 1.5rem 0;
     text-align: left;
 }
 .post__next a,
