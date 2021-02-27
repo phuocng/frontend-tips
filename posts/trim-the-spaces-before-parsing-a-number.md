@@ -18,5 +18,5 @@ parseInt('12 345');     // 12, not 12345
 To avoid the similar situations, you should [remove all spaces](https://1loc.dev/#remove-spaces-from-a-string) before parsing:
 
 ```js
-parseInt(value.replace(/s+/g, ''), 10);
+parseInt(value.replace(/\s+/g, ''), 10);
 ```
