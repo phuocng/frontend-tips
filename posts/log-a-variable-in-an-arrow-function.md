@@ -39,3 +39,5 @@ You will find more useful 1 line-of-code functions on [1 LOC](https://1loc.dev)
 _More_
 
 * [Conditional logging in the Console](/conditional-logging-in-the-console.html)
+* [Log a value to the Console](/log-a-value-to-the-console.html)
+* [Log an array to the Console](/log-an-array-to-the-console.html)
