@@ -23,4 +23,6 @@ console.assert(!condition, 'Error message');
 
 _More_
 
+* [Log a value to the Console](/log-a-value-to-the-console.html)
 * [Log a variable in an arrow function](/log-a-variable-in-an-arrow-function.html)
+* [Log an array to the Console](/log-an-array-to-the-console.html)
