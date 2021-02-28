@@ -18,3 +18,7 @@ const range = (min, max) => (
     Array(max - min + 1).fill(0).map((_, i) => min + i);
 );
 ```
+
+_More_
+
+* [Ignore items from array destructuring](/ignore-items-from-array-destructuring.html)
