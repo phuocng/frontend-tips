@@ -17,7 +17,7 @@ const dateTime = '2021-02-28T14:57:00';
 const [, time] = dateTime.split('T');
 
 // Ignore the seconds
-const [hours, minute, ] = time.split(':');
+const [hours, minutes, ] = time.split(':');
 
 hours;      // '14'
 minutes;    // '57'
