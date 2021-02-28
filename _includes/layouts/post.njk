@@ -5,7 +5,7 @@ permalink: "/{{ page.fileSlug }}.html"
 
 {% if prevPost %}
 <div class="post__prev">
-    &larr; #{{ index }} <a href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
+    ← #{{ index }} <a href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
 </div>
 {% endif %}
 
@@ -66,6 +66,6 @@ permalink: "/{{ page.fileSlug }}.html"
 
 {% if nextPost %}
 <div class="post__next">
-   #{{ index + 2 }} <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a> &rarr;
+   #{{ index + 2 }} <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a> →
 </div>
 {% endif %}
