@@ -40,4 +40,5 @@ _More_
 
 * [Conditional logging in the Console](/conditional-logging-in-the-console.html)
 * [Log a value to the Console](/log-a-value-to-the-console.html)
+* [Log a variable to the console using conditional breakpoints](/log-a-variable-to-the-console-using-conditional-breakpoints.html)
 * [Log an array to the Console](/log-an-array-to-the-console.html)
