@@ -8,10 +8,17 @@ layout: layouts/post.njk
 topics: JavaScript
 ---
 
-Use ES6 destructing to get the first and the remaining characters of a string:
+The following line returns all characters of a given string:
 
 ```js
-const [first, ...rest] = 'Hello';
+const message = 'Hello';
+const chars = [...message];   // ['H', 'e', 'l', 'l', 'o']
+```
+
+If you want to get the first and the remaining characters of a string, then use ES6 destructing:
+
+```js
+const [first, ...rest] = message;
 // first = 'H'
 // rest = ['e', 'l', 'l', 'o'] 
 ```
