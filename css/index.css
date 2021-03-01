@@ -165,8 +165,8 @@ body {
 }
 .post__content img {
     height: auto;
+    max-width: 100%;
     padding: 0.5rem;
-    width: 100%;
 }
 .post__content input {
     border: 1px solid #D1D5DB;
