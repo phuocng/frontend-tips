@@ -10,12 +10,12 @@ body {
 .message {
     background: #2e2b74;
     border-radius: 0.5rem;
-    bottom: 1rem;
+    bottom: 0;
     color: #fff;
-    max-width: 12rem;
     position: fixed;
-    right: 1rem;
+    right: 0;
     text-align: center;
+    width: 100%;
 }
 .message__code {
     background: #ee4044;
@@ -52,10 +52,12 @@ body {
 .container {
     margin: 0 auto;
     max-width: 64rem;
+    padding: 0 1rem;
 }
 .footer {
-    margin: 4rem auto;
+    margin: 4rem auto 6rem auto;
     max-width: 64rem;
+    padding: 0 1rem;
 }
 .footer__copyright {
     align-items: center;
@@ -147,27 +149,17 @@ body {
     background: #fff;
     border: 1px solid #D1D5DB;
     line-height: 1.5;
-    margin: 4rem 0;
+    margin: 3rem 0;
     padding: 1rem;
     position: relative;
 }
 .post__content:after,
 .post__content:before {
     border: 1px solid #E5E7EB;
-    content: '';
     height: 100%;
     position: absolute;
     top: 0;
     width: 100%;
-}
-.post__content:after {
-    transform: rotate(-2deg);
-    z-index: -2;
-}
-.post__content:before {
-    background: #eee;
-    transform: rotate(-4deg);
-    z-index: -1;
 }
 .post__title {
     border-bottom: 1px solid #D1D5DB;
@@ -251,9 +243,9 @@ body {
     align-items: center;
     display: flex;
     justify-content: center;
-    height: 4rem;
-    transform: rotate(45deg) translate(0, -0.75rem);
-    width: 4rem;
+    height: 3rem;
+    transform: rotate(45deg) translate(25%, -35%);
+    width: 3rem;
 }
 .post__category--tip {
     border-right-color: #2563EB;
@@ -283,4 +275,31 @@ body {
     border: 2px solid #60A5FA;
     margin: 1rem 0;
     padding: 0.5rem;
+}
+
+/* Responsive */
+@media (min-width: 1024px) {
+    .footer {
+        margin-bottom: 4rem;
+    }
+    .message {
+        bottom: 1rem;
+        max-width: 12rem;
+        right: 1rem;
+    }
+}
+@media (min-width: 1280px) {
+    .post__content:after {
+        content: '';
+        overflow: hidden;
+        transform: rotate(-2deg);
+        z-index: -2;
+    }
+    .post__content:before {
+        background: #eee;
+        content: '';
+        overflow: hidden;
+        transform: rotate(-4deg);
+        z-index: -1;
+    }
 }
