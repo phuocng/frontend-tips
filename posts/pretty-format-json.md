@@ -8,7 +8,7 @@ layout: layouts/post.njk
 topics: JavaScript
 ---
 
-We often use `JSON.stringify` to generate JSON for a given object. By default, it remove all spaces between items. It's not easy to scan the output, especially when using with `console.log`.
+We often use `JSON.stringify` to generate JSON for a given object. By default, it removes all spaces between items. It's not easy to scan the output, especially when using with `console.log`.
 
 Do you know that it's possible for us to generate a pretty output by passing the indentation level to the third parameter?
 
