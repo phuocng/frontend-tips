@@ -7,6 +7,32 @@ body {
 * {
     box-sizing: border-box;
 }
+.message {
+    background: #2e2b74;
+    border-radius: 0.5rem;
+    bottom: 1rem;
+    color: #fff;
+    max-width: 12rem;
+    position: fixed;
+    right: 1rem;
+    text-align: center;
+}
+.message__code {
+    background: #ee4044;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+}
+.message__content {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+.message__link {
+    color: #fff;
+}
+
 .hero {
     align-items: center;
     background: #2e2b74;
