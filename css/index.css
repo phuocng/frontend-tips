@@ -179,6 +179,7 @@ body {
 }
 .post__content table {
     border-collapse: collapse;
+    border-bottom: 1px solid #D1D5DB;
     width: 100%;
 }
 .post__content th {
@@ -186,10 +187,10 @@ body {
 }
 .post__content td,
 .post__content th {
-    padding: 0.25rem;
+    padding: 0.5rem;
 }
 .post__content tr {
-    border-bottom: 1px solid #D1D5DB;
+    border-top: 1px solid #D1D5DB;
 }
 
 .post__next {
