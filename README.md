@@ -1,6 +1,14 @@
-# front-end tips
+# Front-end Tips
 
-Super tiny, quick tips, tricks and best practices of front-end development.
+A series of super tiny, quick tips, tricks and best practices of front-end development.
+
+The series cover different topics:
+
+* CSS
+* HTML
+* JavaScript
+* TypeScript
+* Browser developer tools
 
 ![front-end tips](/img/screenshot.png)
 

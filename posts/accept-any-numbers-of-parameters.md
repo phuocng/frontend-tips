@@ -32,3 +32,7 @@ const sum = (...params) => params.reduce((a, b) => a + b, 0);
 
 sum(1, 2, 3, 4, 5);     // 15
 ```
+
+_More_
+
+* [Pass an array as function arguments](/pass-an-array-as-function-arguments.html)
