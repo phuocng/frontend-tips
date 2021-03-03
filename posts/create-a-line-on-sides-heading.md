@@ -1,0 +1,51 @@
+---
+title: Create a line-on-sides heading
+category: tip
+date: 2021-03-03 16:16:00 +7
+tags:
+  - posts
+layout: layouts/post.njk
+topics: CSS
+---
+
+A heading whose left and right sides are horizontal lines can be structured as a grid with three columns:
+
+```css
+.heading {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-gap: 1rem;
+    text-align: center;
+}
+```
+
+`1fr auto 1fr` indicates that the left and right columns will have the same widths and they'll take the remaining spaces.
+
+We can use the `::before` and `::after` pseudo elements to represent the left and right sides of the heading respectively:
+
+```css
+.heading::before,
+.heading::after {
+    align-self: center;
+    border-top: 0.25rem double #E5E7EB;
+    content: '';
+}
+```
+_Demo_
+
+<style>
+.demo__heading {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-gap: 1rem;
+    text-align: center;
+}
+.demo__heading::before,
+.demo__heading::after {
+    align-self: center;
+    border-top: 0.25rem double #E5E7EB;
+    content: '';
+}
+</style>
+
+<h2 class="demo__heading">Front-end Tips</h2>
