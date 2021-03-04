@@ -62,3 +62,7 @@ Note that it has a lower specificity than the `id` selector:
     ...
 }
 ```
+
+_More_
+
+* [Do not use submit to name a submit button](/do-not-use-submit-to-name-a-submit-button.html)
