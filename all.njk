@@ -8,7 +8,7 @@ layout: layouts/page.njk
     <div class="collection__item">
         <div class="collection__index">
             <div class="collection__number">
-                {{ post.data.index + 1 }}
+                {{ (post.data.index + 1) | prefixZeros(collections.posts.length) }}
             </div>
         </div>
         <div class="collection__content">
