@@ -294,6 +294,33 @@ body {
     padding: 0.5rem;
 }
 
+/* Collection */
+.collection__item {
+    align-items: center;
+    display: flex;
+    margin: 1rem 0;
+}
+.collection__index {
+    border: 1px solid #D1D5DB;
+    border-radius: 0.25rem;
+    margin-right: 1.5rem;
+    padding: 1rem;
+}
+.collection__number {
+    font-size: 2rem;
+}
+.collection__link {
+    display: block;
+    margin-bottom: 0.25rem;
+    text-decoration: none;
+}
+.collection__link:hover {
+    text-decoration: underline;
+}
+.collection__topics {
+    font-style: italic;
+}
+
 /* Responsive */
 @media (min-width: 1024px) {
     .footer {

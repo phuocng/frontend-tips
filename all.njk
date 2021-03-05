@@ -1,7 +1,22 @@
 ---
+title: Collection of tips, tricks and best practices
 layout: layouts/page.njk
 ---
 
 <div class="container">
-    
+    {%- for post in collections.posts | reverse %}
+    <div class="collection__item">
+        <div class="collection__index">
+            <div class="collection__number">
+                {{ post.data.index + 1 }}
+            </div>
+        </div>
+        <div class="collection__content">
+            <a class="collection__link" href="{{ post.url | url }}">{{ post.data.title }}</a>
+            <div class="collection__topics">
+                {{ post.data.topics }}
+            </div>
+        </div>
+    </div>
+    {%- endfor %}
 </div>
