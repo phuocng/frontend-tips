@@ -37,7 +37,7 @@ _Demo_
 }
 </style>
 
-<table class="demo__calendar" style="width: 24rem">
+<table class="demo__calendar" style="width: 18rem">
     <thead>
         <tr>
             <th>Monday</th>

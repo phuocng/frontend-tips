@@ -21,7 +21,7 @@ module.exports = function (eleventyConfig) {
     });
     eleventyConfig.setLibrary('md', markdownLibrary);
 
-    eleventyConfig.addCollection('posts', function(collection) {
+    eleventyConfig.addCollection('posts', (collection) => {
         const posts = collection.getFilteredByTag('posts');
       
         for(let i = 0; i < posts.length; i++) {
@@ -40,6 +40,10 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('sitemapDateTimeString', (dateObj) => {
         const dt = DateTime.fromJSDate(dateObj, { zone: 'utc' });
         return !dt.isValid ? '' : dt.toISO();
+    });
+
+    eleventyConfig.addFilter('prefixZeros', (number, max) => {
+        return String(number).padStart(`${max}`.length, '0');
     });
 
     return {

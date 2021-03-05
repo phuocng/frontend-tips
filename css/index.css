@@ -51,12 +51,39 @@ body {
 }
 .container {
     margin: 0 auto;
-    max-width: 64rem;
+    max-width: 48rem;
     padding: 0 1rem;
 }
+
+/* Header */
+.header {
+    background: #2e2b74;
+    color: #fff;
+    padding: 0.25rem 0;
+}
+.header__inner {
+    align-items: center;
+    display: flex;
+}
+.header__logo {
+    margin-right: auto;
+    text-decoration: none;
+}
+.header__link {
+    align-items: center;
+    color: #ee4044;
+    display: flex;
+    margin-left: 1.5rem;
+    text-decoration: none; 
+}
+.header__link-icon {
+    margin-right: 0.25rem;
+}
+
+/* Footer */
 .footer {
     margin: 4rem auto 6rem auto;
-    max-width: 64rem;
+    max-width: 48rem;
     padding: 0 1rem;
 }
 .footer__copyright {
@@ -128,21 +155,11 @@ body {
 }
 
 /* Post page */
-.post__header {
-    background: #2e2b74;
-    color: #fff;
-    padding: 0.25rem 0;
-}
-.post__header-inner {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
 .post__index {
     font-family: Sacramento;
     font-size: 3rem;
     font-weight: 500;
-    margin: 2rem;
+    margin: 1rem;
     text-align: center;
 }
 .post__content {
@@ -275,6 +292,61 @@ body {
     border: 2px solid #60A5FA;
     margin: 1rem 0;
     padding: 0.5rem;
+}
+
+/* Collection */
+.collection__item {
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    display: flex;
+    padding: 1rem 0;
+}
+.collection__number {
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    margin-right: 1rem;
+    width: 2rem;
+}
+.collection__number--tip {
+    background: #2563EB;
+}
+.collection__number--trick {
+    background: #DC2626;
+}
+.collection__number--practice {
+    background: #059669;
+}
+.collection__content {
+    flex: 1;
+}
+.collection__link {
+    display: block;
+    margin-bottom: 0.25rem;
+    text-decoration: none;
+}
+.collection__link:hover {
+    text-decoration: underline;
+}
+.collection__topics {
+    font-style: italic;
+}
+.collection__category {
+    height: 1.5rem;
+    margin-left: auto;
+    width: 1.5rem;
+}
+.collection__category--tip {
+    background: url(/img/tip.svg) no-repeat center center;
+}
+.collection__category--trick {
+    background: url(/img/trick.svg) no-repeat center center;
+}
+.collection__category--practice {
+    background: url(/img/practice.svg) no-repeat center center;
 }
 
 /* Responsive */
