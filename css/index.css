@@ -202,7 +202,8 @@ body {
     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
     font-size: 1rem;
 }
-.post__content img {
+.post__content img,
+.post__content video {
     height: auto;
     max-width: 100%;
     padding: 0.5rem;
