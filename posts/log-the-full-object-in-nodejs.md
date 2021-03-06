@@ -8,7 +8,7 @@ layout: layouts/post.njk
 topics: NodeJS
 ---
 
-Using the `console.log` method in NodeJS might not be a deal if the input has deep nested properties. It will replace the deep nested property with `[Object]`.
+Using the `console.log` method in NodeJS might not be ideal if the input has deep nested properties. It will replace the deep nested property with `[Object]`.
 
 Let's say that the `person` variable holds the information of a person. `console.log(person)` will produce the following output:
 
