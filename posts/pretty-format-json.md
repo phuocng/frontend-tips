@@ -43,3 +43,7 @@ JSON.stringify(person, null, '\t');
 }"
 */
 ```
+
+_More_
+
+* [Log the full object in NodeJS](/log-the-full-object-in-nodejs.html)
