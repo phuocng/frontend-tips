@@ -310,10 +310,10 @@ body {
     border-radius: 50%;
     color: #fff;
     display: flex;
-    height: 2rem;
+    height: 2.5rem;
     justify-content: center;
     margin-right: 1rem;
-    width: 2rem;
+    width: 2.5rem;
 }
 .collection__number--tip {
     background: #2563EB;
@@ -329,6 +329,7 @@ body {
 }
 .collection__link {
     display: block;
+    font-size: 1.25rem;
     margin-bottom: 0.25rem;
     text-decoration: none;
 }
@@ -336,6 +337,7 @@ body {
     text-decoration: underline;
 }
 .collection__topics {
+    font-size: 0.75rem;
     font-style: italic;
 }
 .collection__category {
