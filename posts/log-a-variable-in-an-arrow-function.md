@@ -26,7 +26,7 @@ formatYmd(new Date());
 // Print something like `2021-02-25T04:52:39.720Z` in the Console
 ```
 
-There is another, less known tip which uses the comma operator:
+There is another, less known tip which uses the [comma operator](/shorten-codes-with-the-comma-operator.html):
 
 ```js
 const formatYmd = date => (console.log(...), date.toISOString().slice(0, 10));
