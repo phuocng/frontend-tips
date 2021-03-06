@@ -64,10 +64,14 @@ body {
 .header__inner {
     align-items: center;
     display: flex;
+    justify-content: space-between;
 }
 .header__logo {
-    margin-right: auto;
     text-decoration: none;
+}
+.header__links {
+    align-items: center;
+    display: flex;
 }
 .header__link {
     align-items: center;
