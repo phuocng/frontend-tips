@@ -53,3 +53,7 @@ switch (true) {
 {% callout %}
 This trick gives us an idea of using `switch (true)` to make the code more readable. The specific issue in this post, calculating the [quarter of a given date](https://1loc.dev/#get-the-current-quarter-of-a-date), can be done with a [single line-of-code](https://1loc.dev).
 {% endcallout %}
+
+_More_
+
+* [Replace multiple if statements with a lookup table](/replace-multiple-if-statements-with-a-lookup-table.html)
