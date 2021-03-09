@@ -3,6 +3,7 @@ const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginNavigation = require('@11ty/eleventy-navigation');
 const markdownIt = require('markdown-it');
+const minify = require('html-minifier').minify;
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginRss);
@@ -45,6 +46,25 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('prefixZeros', (number, max) => {
         return String(number).padStart(`${max}`.length, '0');
     });
+
+    // Minify HTML
+    const minifyHtml = (rawContent, outputPath) => (
+        (outputPath && outputPath.endsWith('.html'))
+            ? minify(rawContent, {
+                removeAttributeQuotes: true,
+                collapseBooleanAttributes: true,
+                collapseWhitespace: true,
+                removeComments: true,
+                sortClassName: true,
+                sortAttributes: true,
+                html5: true,
+                decodeEntities: true,
+                removeOptionalTags: true,
+            })
+            : rawContent
+    );
+
+    eleventyConfig.addTransform("minifyHtml", minifyHtml);
 
     return {
         templateFormats: ['md', 'njk', 'html', 'liquid'],
