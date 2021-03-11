@@ -83,6 +83,9 @@ body {
 .header__link-icon {
     margin-right: 0.25rem;
 }
+.header__link-label {
+    display: none;
+}
 
 /* Footer */
 .footer {
@@ -363,6 +366,11 @@ body {
 }
 
 /* Responsive */
+@media (min-width: 640px) {
+    .header__link-label {
+        display: inline-block;
+    }
+}
 @media (min-width: 1024px) {
     .footer {
         margin-bottom: 4rem;
