@@ -36,3 +36,7 @@ const FULL_DATE_LENGTH = 'YYYY-MM-DD'.length;
 
 const format = date => date.toISOString().slice(0, FULL_DATE_LENGTH);
 ```
+
+_More_
+
+* [Keep the calculation of a magic number](/keep-the-calculation-of-a-magic-number.html)
