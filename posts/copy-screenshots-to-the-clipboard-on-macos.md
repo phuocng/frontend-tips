@@ -1,5 +1,5 @@
 ---
-title: Copy screenshots to the clipboard on macos
+title: Copy screenshots to the clipboard on macOS
 category: tip
 date: 2021-03-14 14:34:00 +7
 tags:
