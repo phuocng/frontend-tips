@@ -45,3 +45,7 @@ List items:
   <li class="demo__item">HTML</li>
   <li class="demo__item">TypeScript</li>
 </ul>
+
+_More_
+
+* [Style list items with special characters](/style-list-items-with-special-characters.html)
