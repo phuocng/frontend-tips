@@ -20,3 +20,7 @@ It's very helpful when we need the screenshot to report an issue, on GitHub for 
 <video loop muted controls>
     <source src="/img/copy-screenshot-to-clipboard.mp4" type="video/mp4">
 </video>
+
+_More_
+
+* [Move the screenshot area on macOS](/move-the-screenshot-area-on-macos.html)
