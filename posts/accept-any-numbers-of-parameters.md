@@ -35,4 +35,5 @@ sum(1, 2, 3, 4, 5);     // 15
 
 _More_
 
+* [Create a function that accepts a single parameter](/create-a-function-that-accepts-a-single-parameter.html)
 * [Pass an array as function arguments](/pass-an-array-as-function-arguments.html)
