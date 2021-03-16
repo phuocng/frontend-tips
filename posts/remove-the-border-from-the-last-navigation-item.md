@@ -31,6 +31,14 @@ li:not(:last-child) {
 }
 ```
 
+Another approach is to use the `+` selector:
+
+```css
+li + li {
+    border-top: 1px solid #E5E7EB;
+}
+```
+
 _Demo_
 
 <style>
