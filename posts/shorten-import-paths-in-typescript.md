@@ -60,3 +60,7 @@ import { validator } from '@helpers/validator';
 import { userModel } from '@models/user';
 import { authService } from '@services/authService';
 ```
+
+_More_
+
+* [Shorten import paths in Webpack](/shorten-import-paths-in-webpack.html)
