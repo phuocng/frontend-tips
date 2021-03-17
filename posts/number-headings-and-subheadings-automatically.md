@@ -88,3 +88,7 @@ h5::before {
     content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) ". ";
 }
 ```
+
+_More_
+
+* [Style index numbers of list items](/style-index-numbers-of-list-items.html)

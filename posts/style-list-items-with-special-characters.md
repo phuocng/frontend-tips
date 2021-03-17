@@ -58,3 +58,4 @@ _Demo_
 _More_
 
 * [Separate list items](/separate-list-items.html)
+* [Style index numbers of list items](/style-index-numbers-of-list-items.html)

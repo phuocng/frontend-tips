@@ -61,4 +61,5 @@ In the same way, `:nth-child(n+100)` overrides the styles of `:nth-child(n+10)`.
 
 _More_
 
+* [Style index numbers of list items](/style-index-numbers-of-list-items.html)
 * [Use negative nth-child and nth-last-child](/use-negative-nth-child-and-nth-last-child.html)
