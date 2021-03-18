@@ -23,4 +23,5 @@ It's very helpful when we need the screenshot to report an issue, on GitHub for 
 
 _More_
 
+* [Capture a screenshot without shadow on macOS](/capture-a-screenshot-without-shadow-on-macos.html)
 * [Move the screenshot area on macOS](/move-the-screenshot-area-on-macos.html)
