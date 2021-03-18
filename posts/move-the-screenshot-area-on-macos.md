@@ -20,4 +20,5 @@ In that case, rather than pressing the <kbd>escape</kbd> key and try again, you 
 
 _More_
 
+* [Capture a screenshot without shadow on macOS](/capture-a-screenshot-without-shadow-on-macos.html)
 * [Copy screenshots to the clipboard on macOS](/copy-screenshots-to-the-clipboard-on-macos.html)
