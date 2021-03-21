@@ -106,4 +106,5 @@ If a function uses a fixed lookup table, it's recommended to move the lookup to 
 
 _More_
 
+* [Early return](/early-return.html)
 * [Replace multiple if statements with a single switch statement](/replace-multiple-if-statements-with-a-single-switch-statement.html)
