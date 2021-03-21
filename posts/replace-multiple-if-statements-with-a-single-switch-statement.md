@@ -56,4 +56,5 @@ This trick gives us an idea of using `switch (true)` to make the code more reada
 
 _More_
 
+* [Early return](/early-return.html)
 * [Replace multiple if statements with a lookup table](/replace-multiple-if-statements-with-a-lookup-table.html)
