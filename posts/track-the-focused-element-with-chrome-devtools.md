@@ -21,3 +21,7 @@ Chrome DevTools provides the ability of tracking the focused element.
 This live expression will represent the active element which has the focus currently. You can right click on the expression's result and then choose _Reveal in Elements panel_ to inspect the focused element.
 
 ![Track the focused element](/img/track-focused-element.png)
+
+_More_
+
+* [Watch a variable's value with live expressions](/watch-a-variable-value-with-live-expressions.html)
