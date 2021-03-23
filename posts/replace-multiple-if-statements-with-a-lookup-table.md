@@ -108,3 +108,4 @@ _More_
 
 * [Early return](/early-return.html)
 * [Replace multiple if statements with a single switch statement](/replace-multiple-if-statements-with-a-single-switch-statement.html)
+* [Use Array.includes for multiple conditionals](/use-array-includes-for-multiple-conditionals.html)
