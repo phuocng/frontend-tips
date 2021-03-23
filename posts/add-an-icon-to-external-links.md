@@ -76,3 +76,7 @@ _Demo_
 
 * <a class="demo__link demo__link--icon" href="https://github.com/phuoc-ng/frontend-tips" target="_blank">GitHub</a>
 * <a class="demo__link demo__link--text" href="https://github.com/phuoc-ng/frontend-tips" target="_blank">GitHub</a>
+
+_More_
+
+* [Ignore case sensitivity in a CSS attribute selector](/ignore-case-sensitivity-in-a-css-attribute-selector.html)
