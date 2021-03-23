@@ -58,3 +58,4 @@ _More_
 
 * [Early return](/early-return.html)
 * [Replace multiple if statements with a lookup table](/replace-multiple-if-statements-with-a-lookup-table.html)
+* [Use Array.includes for multiple conditionals](/use-array-includes-for-multiple-conditionals.html)
