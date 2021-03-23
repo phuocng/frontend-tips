@@ -35,7 +35,7 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addPairedShortcode('callout', (content) => (
-		`<div class='post__callout'>${markdownLibrary.renderInline(content.trim())}</div>`
+		`<div class='post__callout'>${markdownLibrary.render(content.trim())}</div>`
     ));
 
     eleventyConfig.addFilter('sitemapDateTimeString', (dateObj) => {
