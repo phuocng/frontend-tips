@@ -1,0 +1,41 @@
+---
+title: Create an one-time event handler
+category: tip
+date: 2021-03-24 10:49:00 +7
+tags:
+  - posts
+layout: layouts/post.njk
+topics: DOM, JavaScript
+---
+
+Sometimes we want a given event of an element to happens once. Usually, it can be done by attaching a handler which removes itself:
+
+```js
+const handler = (e) => {
+    // Do something ...
+    element.removeEventListener('click', handler);
+};
+
+element.addEventListener('click', handler);
+```
+
+We can use a named function expression to shorten the code a little bit:
+
+```js
+element.addEventListener('click', function handler(e) {
+    // Do something ...
+
+    // Remove the handler
+    e.currentTarget.removeEventListener(e.type, handler);
+});
+```
+
+However, the [modern browsers](https://caniuse.com/once-event-listener) provide the new `once` option that makes things easier. We don't have to track the reference of the handler anymore.
+
+```js
+element.addEventListener('click', (e) => {
+    // Do something ...
+}, {
+    once: true
+});
+```
