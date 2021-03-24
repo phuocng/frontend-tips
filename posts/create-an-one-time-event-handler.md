@@ -8,7 +8,7 @@ layout: layouts/post.njk
 topics: DOM, JavaScript
 ---
 
-Sometimes we want a given event of an element to happens once. Usually, it can be done by attaching a handler which removes itself:
+Sometimes we want a given event of an element to happen once. Usually, it can be done by attaching a handler which removes itself:
 
 ```js
 const handler = (e) => {
