@@ -9,7 +9,7 @@ layout: layouts/page.njk
     </div>
     {% endif %}
 
-    <div class="post__content">
+    <main class="post__content">
         <div class="post__index">#{{ index + 1 }}</div>
         <h1 class="post__title">{{ title }}</h1>
         <div class="post__category post__category--{{ category }}">
@@ -62,7 +62,7 @@ layout: layouts/page.njk
             </svg>
             Fix a typo or suggest an improvement
         </a>
-    </div>
+    </main>
 
     {% if nextPost %}
     <div class="post__next">

@@ -1,12 +1,13 @@
 @import './prism.css';
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     margin: 0;
 }
 * {
     box-sizing: border-box;
 }
+
 .message {
     background: #2e2b74;
     border-radius: 0.5rem;
@@ -40,14 +41,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 2rem;
+    padding: 2rem 1rem 3rem 1rem;
 }
-.hero__logo {
-    text-decoration: none;
-}
-.hero__github {
-    color: #ee4044;
-    text-decoration: none; 
+.hero__heading {
+    text-align: center;
+    font-size: 2rem;
 }
 .container {
     margin: 0 auto;
@@ -75,7 +73,7 @@ body {
 }
 .header__link {
     align-items: center;
-    color: #ee4044;
+    color: #fff;
     display: flex;
     margin-left: 1.5rem;
     text-decoration: none; 
@@ -122,31 +120,6 @@ body {
     margin: 0 0.5rem;
 }
 
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 -0.5rem;
-}
-.grid__col {
-    padding: 0 .5rem;
-    width: 33%;
-}
-
-.feature__list {
-    margin: 4rem 0;
-}
-.feature__item {
-    text-align: center;
-}
-.feature__icon {
-    color: #2e2b74;
-}
-.feature__title {
-    font-family: Sacramento;
-    font-size: 2.5rem;
-    font-weight: 500;
-}
-
 /* Home page */
 .home__placeholder-title {
     color: #2e2b74;
@@ -163,7 +136,6 @@ body {
 
 /* Post page */
 .post__index {
-    font-family: Sacramento;
     font-size: 3rem;
     font-weight: 500;
     margin: 1rem;
@@ -187,7 +159,6 @@ body {
 }
 .post__title {
     border-bottom: 1px solid #D1D5DB;
-    font-family: Sacramento;
     font-size: 3rem;
     font-weight: 500;
     margin: 1rem 0;
