@@ -25,6 +25,16 @@ module.exports = [
         description: 'A collection of popular layouts and patterns made with CSS',
     },
     {
+        name: 'HTML DOM',
+        url: 'https://htmldom.dev',
+        description: 'How to manage HTML DOM with vanilla JavaScript',
+    },
+    {
+        name: 'Responsive Design Patterns',
+        url: 'https://responsive.page',
+        description: 'A collection of patterns to create a responsive web page',
+    },
+    {
         name: 'this VS that',
         url: 'https://thisthat.dev',
         description: 'The differences between _ and _ in the front-end development',
