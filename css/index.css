@@ -103,6 +103,10 @@ body {
 }
 
 /* Sidebar */
+.sidebar__inner {
+    position: sticky;
+    top: 1rem;
+}
 .sidebar__card {
     border: 1px solid rgba(0, 0, 0, .3);
     border-radius: 0.5rem;
