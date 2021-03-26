@@ -8,32 +8,6 @@ body {
     box-sizing: border-box;
 }
 
-.message {
-    background: #2e2b74;
-    border-radius: 0.5rem;
-    bottom: 0;
-    color: #fff;
-    position: fixed;
-    right: 0;
-    text-align: center;
-    width: 100%;
-}
-.message__code {
-    background: #ee4044;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-    font-size: 1.5rem;
-    padding: 0.5rem 1rem;
-}
-.message__content {
-    border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
-    padding: 0.5rem 1rem;
-}
-.message__link {
-    color: #fff;
-}
-
 .hero {
     align-items: center;
     background: #2e2b74;
@@ -367,16 +341,6 @@ body {
 @media (min-width: 640px) {
     .header__link-label {
         display: inline-block;
-    }
-}
-@media (min-width: 1024px) {
-    .footer {
-        margin-bottom: 4rem;
-    }
-    .message {
-        bottom: 1rem;
-        max-width: 12rem;
-        right: 1rem;
     }
 }
 @media (min-width: 1280px) {
