@@ -20,7 +20,9 @@ layout: layouts/page.njk
 
         <div class="sidebar">
             <div class="sidebar__inner">
-                {% include "_sidebar.njk" %}
+                {%- for product in products %}
+                {% include "_product.njk" %}
+                {%- endfor %}
             </div>
         </div>
     </div>

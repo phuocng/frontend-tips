@@ -9,7 +9,7 @@ layout: layouts/page.njk
     </div>
     {% endif %}
 
-    <main class="post__content">
+    <div class="card">
         <div class="post__index">#{{ index + 1 }}</div>
         <h1 class="post__title">{{ title }}</h1>
         <div class="post__category post__category--{{ category }}">
@@ -48,7 +48,19 @@ layout: layouts/page.njk
         {% if topics %}
         <div class="post__topics">Topics: {{ topics }}</div>
         {% endif %}
-        {{ content | safe }}
+        <div class="content">
+            <main class="main">
+                <div class="post__content">
+                    {{ content | safe }}
+                </div>
+            </main>
+            <div class="sidebar">
+                <div class="sidebar__inner">
+                    {% set product = products | random %}
+                    {% include "_product.njk" %}
+                </div>
+            </div>
+        </div>
         <a href="https://github.com/phuoc-ng/frontend-tips/blob/main/posts/{{ page.fileSlug }}.md" class="post__edit">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24" width="24" height="24">
                 <path d="M13.514 23.5L10.514 23.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -62,7 +74,7 @@ layout: layouts/page.njk
             </svg>
             Fix a typo or suggest an improvement
         </a>
-    </main>
+    </div>
 
     {% if nextPost %}
     <div class="post__next">
