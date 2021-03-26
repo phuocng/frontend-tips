@@ -1,0 +1,8 @@
+{%- for product in products %}
+<div class="sidebar__card">
+    <a href="{{ product.url }}">
+        <img class="sidebar__card-logo" src="/img/{{ product.name | slug }}.png" alt="{{ product.name }} - {{ product.description }}" />
+        <div class="sidebar__card-desc">{{ product.description }}</div>
+    </a>
+</div>
+{%- endfor %}
