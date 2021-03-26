@@ -49,8 +49,18 @@ body {
 }
 .container {
     margin: 0 auto;
-    max-width: 48rem;
+    max-width: 64rem;
     padding: 0 1rem;
+}
+.content {
+    display: flex;
+}
+.main {
+    flex: 1;
+}
+.sidebar {
+    margin-left: 1rem;
+    width: 16rem;
 }
 
 /* Header */
@@ -88,8 +98,6 @@ body {
 /* Footer */
 .footer {
     margin: 4rem auto 6rem auto;
-    max-width: 48rem;
-    padding: 0 1rem;
 }
 .footer__copyright {
     align-items: center;
@@ -118,6 +126,25 @@ body {
     display: inline-flex;
     content: " • ";
     margin: 0 0.5rem;
+}
+
+/* Sidebar */
+.sidebar__card {
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    overflow: hidden;
+}
+.sidebar__card a {
+    text-decoration: none;
+}
+.sidebar__card-logo {
+    height: auto;
+    width: 100%;
+}
+.sidebar__card-desc {
+    padding: 0.5rem;
+    text-align: center;
 }
 
 /* Home page */
