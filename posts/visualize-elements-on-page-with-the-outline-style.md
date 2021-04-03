@@ -17,7 +17,7 @@ const randomColor = () => (
 
 [].forEach.call(
     document.querySelectorAll('*'),
-    ele => ele.style.outline = `1px solid ${randomColor()}`;
+    ele => ele.style.outline = `1px solid ${randomColor()}`,
 );
 ```
 
