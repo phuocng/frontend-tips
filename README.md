@@ -74,13 +74,17 @@ Be my friend on
 
 You might be interested in my products:
 
-1. [1LOC - Favorite JavaScript utilities in single line of code](https://1loc.dev)
-2. [Blur Page - A browser extension to hide sensitive information on a web page](https://blur.page)
-3. [Check Browsers Support - A browser extension to check browser compatibility without leaving your tab](https://checkbrowsers.support")
-4. [CSS Layout - A collection of popular layouts and patterns made with CSS](https://csslayout.io)
-5. [Fake Numbers - Generate fake and valid numbers](https://fakenumbers.io)
-6. [Form Validation - The best validation library for JavaScript](https://formvalidation.io)
-7. [HTML DOM - How to manage HTML DOM with vanilla JavaScript](https://htmldom.dev)
-8. [React PDF Viewer - A React component to view a PDF document](https://react-pdf-viewer.dev)
-9. [Responsive Design Patterns - A collection of patterns to create a responsive web page](https://responsive.page)
-10. [this VS that - The differences between ___ and ___ in the front-end development](https://thisthat.dev)
+_Products_
+* [Blur Page - A browser extension to hide sensitive information on a web page](https://blur.page)
+* [Check Browsers Support - A browser extension to check browser compatibility without leaving your tab](https://checkbrowsers.support")
+* [Fake Numbers - Generate fake and valid numbers](https://fakenumbers.io)
+* [Form Validation - The best validation library for JavaScript](https://formvalidation.io)
+* [React PDF Viewer - A React component to view a PDF document](https://react-pdf-viewer.dev)
+
+_Resources_
+* [1LOC - Favorite JavaScript utilities in single line of code](https://1loc.dev)
+* [CSS Layout - A collection of popular layouts and patterns made with CSS](https://csslayout.io)
+* [HTML DOM - How to manage HTML DOM with vanilla JavaScript](https://htmldom.dev)
+* [Responsive Design Patterns - A collection of patterns to create a responsive web page](https://responsive.page)
+* [Super tiny, quick tips, tricks and best practices of front-end development](https://getfrontend.tips)
+* [this VS that - The differences between ___ and ___ in the front-end development](https://thisthat.dev)
