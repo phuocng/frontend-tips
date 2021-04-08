@@ -47,3 +47,4 @@ JSON.stringify(person, null, '\t');
 _More_
 
 * [Log the full object in NodeJS](/log-the-full-object-in-nodejs.html)
+* [Transform values from a JSON representation](/transform-values-from-a-json-representation.html)
