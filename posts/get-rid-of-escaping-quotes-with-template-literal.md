@@ -20,4 +20,6 @@ const message = `It's a message`;
 
 _More_
 
+* [Create a multiline strings](/create-a-multiline-strings.html)
+* [Prevent a string from being escaped](/prevent-a-string-from-being-escaped.html)
 * [Use template literal to concatenate strings](/use-template-literal-to-concatenate-strings.html)
