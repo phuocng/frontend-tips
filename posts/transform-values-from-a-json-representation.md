@@ -61,4 +61,5 @@ JSON.stringify(person, (key, value) => (
 _More_
 
 * [Log the full object in NodeJS](/log-the-full-object-in-nodejs.html)
+* [Pick given properties from a JSON representation](/pick-given-properties-from-a-json-representation.html)
 * [Pretty format JSON](/pretty-format-json.html)
