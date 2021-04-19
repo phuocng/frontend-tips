@@ -108,17 +108,26 @@ body {
     top: 1rem;
 }
 .sidebar__card {
-    border: 1px solid rgba(0, 0, 0, .3);
     border-radius: 0.5rem;
     margin: 1rem 0;
     overflow: hidden;
+    padding: 1rem;
 }
 .sidebar__card a {
+    color: #FFF;
     text-decoration: none;
 }
 .sidebar__card-logo {
+    display: flex;
     height: auto;
-    width: 100%;
+    margin: 0 auto;
+    width: 6rem;
+}
+.sidebar__card-title {
+    font-size: 1.25rem;
+    margin: 0.5rem;    
+    padding: 0;
+    text-align: center;
 }
 .sidebar__card-desc {
     padding: 0.5rem;
