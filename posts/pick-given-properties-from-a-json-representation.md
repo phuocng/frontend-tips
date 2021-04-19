@@ -1,14 +1,16 @@
 ---
-title: Log an array to the Console
+title: Pick given properties from a JSON representation
 category: tip
-date: 2021-02-27 16:55:00 +7
+date: 2021-04-19 13:18:00 +7
 tags:
   - posts
 layout: layouts/post.njk
 topics: JavaScript
+metadata:
+  image: pick-given-properties.png
 ---
 
-Instead of using the `console.log` function, `console.table` produces a better output. It works pretty well with an array or object.
+By default, `JSON.stringify(value)` will pull all serializable properties of `value`.
 
 ```js
 const resources = [
@@ -44,27 +46,43 @@ const resources = [
     },
 ];
 
-console.table(resources);
+JSON.stringify(resources);
+/*
+[
+	{
+		"name": "1 LOC",
+		"description": "...",
+		"link": "..."
+	},
+	{
+		"name": "CSS Layout",
+		"description": "...",
+		"link": "..."
+	},
+	{
+		"name": "HTML DOM",
+		"description": "...",
+		"link": "..."
+	},
+    ...
+]
+*/
 ```
 
-Here is the screenshot compares the output of two methods above:
-
-![console.table](/img/console-table.png)
-
-If you don't want to see all the columns, then you can indicate the columns explicitly:
+If you want to receive some particular properties, then pass them to the second parameter:
 
 ```js
-// Show `name` and `link` properties 
-console.table(resources, ['name', 'link']);
+// Only pick the `name` property
+JSON.stringify(resources, ['name']);
+
+// Pick the `name` and `link` properties
+JSON.stringify(resources, ['name', 'link']);
 ```
 
-![console.table](/img/console-table-columns.png)
-
-This tip also has effect when you want to [pick some particular properties from a JSON representation](/pick-given-properties-from-a-json-representation.html).
+You can use the same tip when [logging an array to the Console](/log-an-array-to-the-console.html).
 
 _More_
 
-* [Conditional logging in the Console](/conditional-logging-in-the-console.html)
-* [Log a value to the Console](/log-a-value-to-the-console.html)
-* [Log a variable in an arrow function](/log-a-variable-in-an-arrow-function.html)
-* [Log a variable to the console using conditional breakpoints](/log-a-variable-to-the-console-using-conditional-breakpoints.html)
+* [Log the full object in NodeJS](/log-the-full-object-in-nodejs.html)
+* [Pretty format JSON](/pretty-format-json.html)
+* [Transform values from a JSON representation](/transform-values-from-a-json-representation.html)

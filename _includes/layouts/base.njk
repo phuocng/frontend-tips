@@ -3,20 +3,30 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title or metadata.title | escape }}</title>
-    <meta name="description" content="Super tiny, quick tips, tricks and best practices of front-end development" />
+    <title>Front-End Tips - {{ title or metadata.title | escape }}</title>
+    <meta name="title" content="Front-End Tips - {{ title or metadata.title | escape }}" />
+    <meta name="description" content="{{ title or metadata.description | escape }}" />
 
-    <meta name="twitter:site" content="@nghuuphuoc" />
-    <meta name="twitter:title" content="Super tiny, quick tips, tricks and best practices of front-end development" />
-    <meta name="twitter:description" content="Super tiny, quick tips, tricks and best practices of front-end development" />
-    <meta name="twitter:creator" content="@nghuuphuoc" />
-    <meta name="twitter:image" content="https://getfrontend.tips/img/screenshot.png" />
-
+    <meta property="og:description" content="{{ title or metadata.description | escape }}" />
     <meta property="og:site_name" content="Front-End Tips" />
-    <meta property="og:title" content="Super tiny, quick tips, tricks and best practices of front-end development" />
-    <meta property="og:description" content="Super tiny, quick tips, tricks and best practices of front-end development" />
-    <meta property="og:url" content="https://getfrontend.tips" />
+    <meta property="og:title" content="Front-End Tips - {{ title or metadata.title | escape }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://getfrontend.tips{{ page.url }}" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:creator" content="@nghuuphuoc" />
+    <meta property="twitter:description" content="{{ title or metadata.description | escape }}" />
+    <meta property="twitter:site" content="@nghuuphuoc" />
+    <meta property="twitter:title" content="Front-End Tips - {{ title or metadata.title | escape }}" />
+    <meta property="twitter:url" content="https://getfrontend.tips{{ page.url }}" />
+
+    {% if metadata.image %}
+    <meta property="og:image" content="https://getfrontend.tips/img/{{ metadata.image }}" />
+    <meta property="twitter:image" content="https://getfrontend.tips/img/{{ metadata.image }}" />
+    {% else %}
     <meta property="og:image" content="https://getfrontend.tips/img/screenshot.png" />
+    <meta property="twitter:image" content="https://getfrontend.tips/img/screenshot.png" />
+    {% endif %}
 
     <link rel="icon" href="/img/favicon.png">
     <link rel="stylesheet" href="/css/index.css">
