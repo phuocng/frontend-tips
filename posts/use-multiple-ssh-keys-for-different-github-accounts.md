@@ -6,7 +6,8 @@ tags:
   - posts
 layout: layouts/post.njk
 topics: Git
-image: /img/multiple-ssh-keys.png
+metadata:
+  image: multiple-ssh-keys.png
 ---
 
 Rather than entering the username and password, you often use SSH keys to access GitHub repositories. It's a more secured and recommended way to communicate with remote GitHub servers.
