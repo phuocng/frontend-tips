@@ -1,5 +1,11 @@
 module.exports = [
     {
+        name: 'Intersection Observer Examples',
+        url: 'https://intersectionobserver.io',
+        description: 'Practical, real world examples of Intersection Observer',
+        themeColor: '#024ca9',
+    },
+    {
         name: 'Blur Page',
         url: 'https://blur.page',
         description: 'A browser extension to hide sensitive information on a web page',
