@@ -37,7 +37,8 @@ body {
     display: none;
 }
 
-/* Header */
+/* === Header === */
+/* #region */
 .header {
     background: #2e2b74;
     color: #fff;
@@ -68,8 +69,10 @@ body {
 .header__link-label {
     display: none;
 }
+/* #endregion */
 
-/* Footer */
+/* === Footer === */
+/* #region */
 .footer {
     margin: 4rem auto 6rem auto;
 }
@@ -101,8 +104,10 @@ body {
     content: " • ";
     margin: 0 0.5rem;
 }
+/* #endregion */
 
-/* Sidebar */
+/* === Sidebar === */
+/* #region */
 .sidebar__inner {
     position: sticky;
     top: 1rem;
@@ -133,8 +138,10 @@ body {
     padding: 0.5rem;
     text-align: center;
 }
+/* #endregion */
 
-/* Home page */
+/* === Home page === */
+/* #region */
 .home__placeholder-title {
     color: #2e2b74;
 }
@@ -164,8 +171,10 @@ body {
     top: 0;
     width: 100%;
 }
+/* #endregion */
 
-/* Post page */
+/* === Post page === */
+/* #region */
 .post__index {
     font-size: 3rem;
     font-weight: 500;
@@ -292,8 +301,10 @@ body {
     margin: 1rem 0;
     padding: 0.5rem;
 }
+/* #endregion */
 
-/* Collection */
+/* === Collection === */
+/* #region */
 .collection__item {
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, .3);
@@ -349,8 +360,10 @@ body {
 .collection__category--practice {
     background: url(/img/practice.svg) no-repeat center center;
 }
+/* #endregion */
 
-/* Responsive */
+/* === Responsive === */
+/* #region */
 @media (min-width: 640px) {
     .header__link-label {
         display: inline-block;
@@ -387,3 +400,4 @@ body {
         z-index: -1;
     }
 }
+/* #endregion */
