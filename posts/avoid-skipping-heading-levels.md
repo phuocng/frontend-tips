@@ -28,3 +28,7 @@ It's recommended to keep the heading elements in the order, so the users won't b
 <h2>Heading level 2</h2>
 <h3>Heading level 3</h3>
 ```
+
+_More_
+
+* [Avoid using multiple `<h1>` tags per page](/avoid-using-multiple-h1-tags-per-page.html)
