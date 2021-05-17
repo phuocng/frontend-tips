@@ -36,3 +36,8 @@ decapitalize = ([first, ...rest]) => (
 
 capitalize('hello world');  // 'Hello world'
 ```
+
+_More_
+
+* [Ignore items from array destructuring](/ignore-items-from-array-destructuring.html)
+* [Pick the first and last items of an array](/pick-the-first-and-last-items-of-an-array.html)
