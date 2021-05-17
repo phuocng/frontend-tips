@@ -23,3 +23,7 @@ For example, the following command produces an empty file named `big-file.ext` w
 ```shell
 $ mkfile 2g big-file.ext
 ```
+
+_More_
+
+* [Create a big file on Linux](/create-a-big-file-on-linux.html)
