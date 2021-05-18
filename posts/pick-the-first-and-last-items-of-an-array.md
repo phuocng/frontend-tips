@@ -15,7 +15,7 @@ If you want to receive the first and last items of a given array, you might thin
 ```js
 const length = arr.length;
 const first = arr[0];
-const last = arr[length - 1];
+const last = arr[arr.length - 1];
 ```
 
 Because an array is also an object, the `length` property can be accessed with the destructuring syntax:
