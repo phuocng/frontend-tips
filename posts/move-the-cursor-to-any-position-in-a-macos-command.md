@@ -1,10 +1,7 @@
 ---
 title: Move the cursor to any position in a macOS command
-category: tip
-date: 2021-03-27 13:06:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-27 13:06:00 +7'
 topics: Command Line, macOS
 ---
 

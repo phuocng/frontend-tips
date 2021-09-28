@@ -1,10 +1,7 @@
 ---
 title: Write CSS rules for Firefox only
-category: trick
-date: 2021-03-04 08:50:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Trick
+date: '2021-03-04 08:50:00 +7'
 topics: CSS
 ---
 
@@ -19,7 +16,7 @@ It introduces two ways to detect Firefox:
 }
 
 /* Or use `@support` */
-@supports (-moz-appearance:none) {
+@supports (-moz-appearance: none) {
     h1 {
         color: blue;
     }

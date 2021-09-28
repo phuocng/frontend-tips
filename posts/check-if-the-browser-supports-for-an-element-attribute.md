@@ -1,10 +1,7 @@
 ---
 title: Check if the browser supports for an element attribute
-category: trick
-date: 2021-02-24 14:00:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Trick
+date: '2021-02-24 14:00:00 +7'
 topics: DOM, JavaScript
 ---
 
@@ -34,5 +31,5 @@ const isDateInputSupported = () => {
 ```
 
 If the browser supports the date input, invoking `setAttribute` with an invalid date won't have effect on the `value` attribute. As a result, `ele.value` will be an empty string.
-    
+
 Otherwise, the input is treated as normal text input and `ele.value` returns the original value.

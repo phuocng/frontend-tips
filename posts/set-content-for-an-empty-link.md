@@ -1,27 +1,18 @@
 ---
 title: Set content for an empty link
-category: tip
-date: 2021-02-24 10:20:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-02-24 10:20:00 +7'
 topics: CSS
 ---
 
 For a link whose content is empty, we can replace the content with the `href` attribute:
 
 ```css
-a[href^="http"]:empty:before {
-  content: attr(href);
+a[href^='http']:empty:before {
+    content: attr(href);
 }
 ```
 
-_Demo_
+### Demo
 
-<style>
-.demo__link[href^="http"]:empty:before {
-  content: attr(href);
-}
-</style>
-
-<a class="demo__link" href="https://github.com/phuoc-ng/frontend-tips"></a>
+:demo[]{title="Set content for an empty link" url="/demo/set-content-for-an-empty-link/index.html"}

@@ -1,13 +1,10 @@
 ---
 title: Access local webpack dev servers from external devices
-category: tip
-date: 2021-04-26 09:18:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-04-26 09:18:00 +7'
 topics: Webpack
 metadata:
-  image: webpack-dev-server-host-option.png
+    image: webpack-dev-server-host-option.png
 ---
 
 Sometimes we would like to access a local development server externally. It happens when we want to see how our web application works on mobile phones. Or co-workers want to see how it looks on their browsers.

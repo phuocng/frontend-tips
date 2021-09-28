@@ -1,10 +1,7 @@
 ---
 title: Persist Console logs between page refreshes
-category: tip
-date: 2021-04-13 11:01:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-04-13 11:01:00 +7'
 topics: DevTools
 ---
 

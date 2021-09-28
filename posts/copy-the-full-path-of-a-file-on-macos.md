@@ -1,10 +1,7 @@
 ---
 title: Copy the full path of a file on macOS
-category: tip
-date: 2021-03-06 14:24:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-06 14:24:00 +7'
 topics: macOS
 ---
 

@@ -1,10 +1,7 @@
 ---
 title: Use Array.includes for multiple conditionals
-category: tip
-date: 2021-03-23 12:21:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-23 12:21:00 +7'
 topics: JavaScript
 ---
 
@@ -34,26 +31,16 @@ if ([3, 5, 8, 10].includes(month)) {
 ...
 ```
 
-{% callout %}
-For this specific function, we can use a [lookup table](/replace-multiple-if-statements-with-a-lookup-table.html):
+For this specific function, we also can use a [lookup table](/replace-multiple-if-statements-with-a-lookup-table.html):
 
 ```js
-const isLeapYear = year => (
-  (year % 4) === 0 && ((year % 100) !== 0 || (year % 400) === 0)
-);
+const isLeapYear = (year) => year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0);
 
-const getDays = (month, year) => (
-  [
-    31,
-    (isLeapYear(year) ? 29 : 28),
-    31, 30, 31, 30, 31, 31, 30, 31, 30, 31
-  ][month]
-);
+const getDays = (month, year) => [31, isLeapYear(year) ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][month];
 ```
-{% endcallout %}
 
-_More_
+### See also
 
-* [Early return](/early-return.html)
-* [Replace multiple if statements with a lookup table](/replace-multiple-if-statements-with-a-lookup-table.html)
-* [Replace multiple if statements with a single switch statement](/replace-multiple-if-statements-with-a-single-switch-statement.html)
+-   [Early return](/early-return.html)
+-   [Replace multiple if statements with a lookup table](/replace-multiple-if-statements-with-a-lookup-table.html)
+-   [Replace multiple if statements with a single switch statement](/replace-multiple-if-statements-with-a-single-switch-statement.html)

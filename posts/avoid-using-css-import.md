@@ -1,10 +1,7 @@
 ---
 title: Avoid using CSS @import
-category: practice
-date: 2021-03-21 14:50:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-03-21 14:50:00 +7'
 topics: CSS
 ---
 
@@ -34,13 +31,12 @@ Each CSS can be downloaded by a separate `link` tag as following:
 
 ```html
 <head>
-    <link rel="stylesheet" type="text/css" href="common.css">
-    <link rel="stylesheet" type="text/css" href="components.css">
+    <link rel="stylesheet" type="text/css" href="common.css" />
+    <link rel="stylesheet" type="text/css" href="components.css" />
     ...
 </head>
 ```
 
-{% callout %}
-_Good to know_
-In the old versions of Internet Explorer, the `@import` function behaves the same as the target CSS is inserted at the bottom of the page.
-{% endcallout %}
+> **Good to know**
+>
+> In the old versions of Internet Explorer, the `@import` function behaves the same as the target CSS is inserted at the bottom of the page

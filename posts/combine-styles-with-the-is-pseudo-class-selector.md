@@ -1,10 +1,7 @@
 ---
 title: Combine styles with the :is pseudo-class selector
-category: tip
-date: 2021-03-23 16:19:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-23 16:19:00 +7'
 topics: CSS
 ---
 

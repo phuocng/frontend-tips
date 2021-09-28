@@ -1,10 +1,7 @@
 ---
 title: Use string literals for the TypeScript enum values
-category: practice
-date: 2021-02-22 23:28:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-02-22 23:28:00 +7'
 topics: TypeScript
 ---
 
@@ -23,7 +20,7 @@ If you don't set the values for enum, they will be set to incremental numbers by
 So `Theme.DEFAULT`, `Theme.LIGHT` and `Theme.DARK` will take the value of 0, 1, 2, respectively. It is more hard to debug:
 
 ```js
-console.log(Theme.DARK);    // 2
+console.log(Theme.DARK); // 2
 ```
 
 Even if we set the number for enum values, it is still possible for us to set an invalid value for a variable whose type is the enum:

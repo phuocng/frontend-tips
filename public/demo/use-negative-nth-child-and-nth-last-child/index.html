@@ -1,0 +1,35 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Use negative nth-child and nth-last-child</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="stylesheet" href="/css/demo.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter&family=Source+Code+Pro&display=swap"
+        />
+        <style>
+            .demo__item:nth-child(-n + 3) {
+                text-decoration: underline;
+            }
+            .demo__item:nth-child(n + 2):nth-child(-n + 5) {
+                color: #2563eb;
+            }
+            .demo__item:nth-last-child(-n + 2) {
+                text-decoration-line: line-through;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li class="demo__item">First</li>
+            <li class="demo__item">Second</li>
+            <li class="demo__item">Third</li>
+            <li class="demo__item">Fourth</li>
+            <li class="demo__item">Fifth</li>
+            <li class="demo__item">Sixth</li>
+            <li class="demo__item">Seventh</li>
+        </ul>
+    </body>
+</html>

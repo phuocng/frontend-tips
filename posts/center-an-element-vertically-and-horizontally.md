@@ -1,16 +1,13 @@
 ---
 title: Center an element vertically and horizontally
-category: tip
-date: 2021-03-17 14:25:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-17 14:25:00 +7'
 topics: CSS
 ---
 
 There're different ways to [center](https://csslayout.io/patterns/centering) a given element in both directions.
 
-## Using flexbox
+### Using flexbox
 
 ```css
 .container {
@@ -21,7 +18,7 @@ There're different ways to [center](https://csslayout.io/patterns/centering) a g
 }
 ```
 
-## Using grid
+### Using grid
 
 ```css
 .container {
@@ -30,7 +27,7 @@ There're different ways to [center](https://csslayout.io/patterns/centering) a g
 }
 ```
 
-## Using positions
+### Using positions
 
 We position the child element absolutely to the parent element.
 

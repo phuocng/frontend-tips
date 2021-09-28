@@ -1,10 +1,7 @@
 ---
 title: Smooth scrolling with pure CSS
-category: tip
-date: 2021-03-24 12:07:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-24 12:07:00 +7'
 topics: CSS
 ---
 
@@ -26,6 +23,6 @@ We can also apply the style for a given scrollable container:
 }
 ```
 
-_More_
+### See also
 
-* [Prevent anchor links from disappearing behind a sticky header](/prevent-anchor-links-from-disappearing-behind-a-sticky-header.html)
+-   [Prevent anchor links from disappearing behind a sticky header](/prevent-anchor-links-from-disappearing-behind-a-sticky-header.html)

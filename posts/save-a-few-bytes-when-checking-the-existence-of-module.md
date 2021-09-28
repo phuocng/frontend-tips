@@ -1,10 +1,7 @@
 ---
 title: Save a few bytes when checking the existence of module
-category: trick
-date: 2021-03-15 12:25:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Trick
+date: '2021-03-15 12:25:00 +7'
 topics: JavaScript
 ---
 
@@ -12,7 +9,7 @@ Say we are creating a library and want to export our APIs to the consumers. In o
 
 ```js
 if (typeof module !== 'undefined') {
-  module.exports = ourFunction;
+    module.exports = ourFunction;
 }
 ```
 
@@ -20,7 +17,7 @@ However, it can be shorten and saved a few bytes when being minified:
 
 ```js
 if (typeof module < 'u') {
-  // ...
+    // ...
 }
 ```
 

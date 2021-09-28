@@ -1,10 +1,7 @@
 ---
 title: Use an underscore to name unused argument
-category: practice
-date: 2021-02-23 10:14:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-02-23 10:14:00 +7'
 topics: JavaScript
 ---
 
@@ -19,6 +16,6 @@ const range = (min, max) => (
 );
 ```
 
-_More_
+### See also
 
-* [Ignore items from array destructuring](/ignore-items-from-array-destructuring.html)
+-   [Ignore items from array destructuring](/ignore-items-from-array-destructuring.html)

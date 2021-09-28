@@ -1,10 +1,7 @@
 ---
 title: Keep the calculation of a magic number
-category: practice
-date: 2021-03-11 19:34:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-03-11 19:34:00 +7'
 topics: JavaScript
 ---
 
@@ -27,9 +24,7 @@ To make the code more readable and easy to maintain, we should replace the magic
 
 ```js
 // Better version
-const diffDays = (date, otherDate) => (
-    Math.ceil(Math.abs(date - otherDate) / 1000 * 60 * 60 * 24)
-);
+const diffDays = (date, otherDate) => Math.ceil((Math.abs(date - otherDate) / 1000) * 60 * 60 * 24);
 ```
 
 If the number is used across different places, for example when we create a library for manipulating dates, then it's recommended to declare the magic number as a constant:
@@ -46,11 +41,9 @@ Then reuse it later:
 ```js
 import { MILLISECOND_DAY } from './constants';
 
-const diffDays = (date, otherDate) => (
-    Math.ceil(Math.abs(date - otherDate) / MILLISECOND_DAY)
-);
+const diffDays = (date, otherDate) => Math.ceil(Math.abs(date - otherDate) / MILLISECOND_DAY);
 ```
 
-_More_
+### See also
 
-* [Do not use magic numbers when manipulating strings](/do-not-use-magic-numbers-when-manipulating-strings.html)
+-   [Do not use magic numbers when manipulating strings](/do-not-use-magic-numbers-when-manipulating-strings.html)

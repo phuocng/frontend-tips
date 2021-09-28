@@ -1,10 +1,7 @@
 ---
 title: Return an object in an arrow function quickly
-category: tip
-date: 2021-02-25 10:53:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-02-25 10:53:00 +7'
 topics: JavaScript
 ---
 

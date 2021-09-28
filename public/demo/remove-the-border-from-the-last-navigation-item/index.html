@@ -1,0 +1,40 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Remove the border from the last navigation item</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="stylesheet" href="/css/demo.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter&family=Source+Code+Pro&display=swap"
+        />
+        <style>
+            .demo__list {
+                border: 1px solid #e5e7eb;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: 16rem;
+            }
+            .demo__list li {
+                padding: 0.25rem 0.5rem;
+            }
+            .demo__list li:not(:last-child) {
+                border-bottom: 1px solid #e5e7eb;
+            }
+            .demo__list a {
+                display: block;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="demo__list">
+            <li><a href="https://1loc.dev">1LOC</a></li>
+            <li><a href="https://csslayout.io">CSS Layout</a></li>
+            <li><a href="https://htmldom.dev">HTML DOM</a></li>
+            <li><a href="https://thisthat.dev">this VS that</a></li>
+        </ul>
+    </body>
+</html>

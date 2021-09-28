@@ -1,10 +1,7 @@
 ---
 title: Open a package's homepage or repo
-category: tip
-date: 2021-03-17 12:14:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-17 12:14:00 +7'
 topics: NPM
 ---
 

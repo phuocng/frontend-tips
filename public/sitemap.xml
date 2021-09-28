@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+    <loc>https://getfrontend.tips/get-characters-of-a-string</loc>
+    <lastmod>2021-02-22T07:07:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/convert-string-to-number</loc>
+    <lastmod>2021-02-22T09:29:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/merge-different-arrays</loc>
+    <lastmod>2021-02-22T12:46:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/do-not-add-custom-methods-to-primitive-objects</loc>
+    <lastmod>2021-02-22T15:54:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/wrap-arrow-function-body-in-parentheses</loc>
+    <lastmod>2021-02-22T16:00:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/indicate-img-elements-that-miss-alt-attribute</loc>
+    <lastmod>2021-02-22T16:12:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/use-underscores-to-represent-a-number</loc>
+    <lastmod>2021-02-22T16:16:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/use-string-literals-for-the-typescript-enum-values</loc>
+    <lastmod>2021-02-22T16:28:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/remove-a-property-from-an-object</loc>
+    <lastmod>2021-02-22T16:31:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/always-pass-the-radix-to-parseint</loc>
+    <lastmod>2021-02-23T01:15:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/put-special-operators-at-the-beginning-of-a-function</loc>
+    <lastmod>2021-02-23T01:19:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/prefix-class-name-with-js-to-manipulate-with-javascript</loc>
+    <lastmod>2021-02-23T01:23:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/use-the-wbr-tags-to-represent-path</loc>
+    <lastmod>2021-02-23T02:45:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/override-the-behavior-of-instanceof</loc>
+    <lastmod>2021-02-23T02:47:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/trim-the-spaces-before-parsing-a-number</loc>
+    <lastmod>2021-02-23T02:49:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/prevent-the-default-behavior-with-jquery-event-handler</loc>
+    <lastmod>2021-02-23T02:51:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/avoid-to-use-colons-and-periods-in-the-id-attribute</loc>
+    <lastmod>2021-02-23T02:54:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/visualize-elements-on-page-with-the-outline-style</loc>
+    <lastmod>2021-02-23T02:59:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/get-rid-of-escaping-quotes-with-template-literal</loc>
+    <lastmod>2021-02-23T03:02:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/track-the-focused-element-with-chrome-devtools</loc>
+    <lastmod>2021-02-23T03:06:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/swap-two-variables</loc>
+    <lastmod>2021-02-23T03:09:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/use-an-underscore-to-name-unused-argument</loc>
+    <lastmod>2021-02-23T03:14:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/style-broken-images</loc>
+    <lastmod>2021-02-23T10:06:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/add-an-icon-to-external-links</loc>
+    <lastmod>2021-02-23T13:42:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/copy-a-long-variable-from-the-console</loc>
+    <lastmod>2021-02-23T15:30:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/use-template-literal-to-concatenate-strings</loc>
+    <lastmod>2021-02-23T15:50:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/use-negative-nth-child-and-nth-last-child</loc>
+    <lastmod>2021-02-24T03:17:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/set-content-for-an-empty-link</loc>
+    <lastmod>2021-02-24T03:20:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/separate-list-items</loc>
+    <lastmod>2021-02-24T05:19:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/remove-the-border-from-the-last-navigation-item</loc>
+    <lastmod>2021-02-24T06:30:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/check-if-the-browser-supports-for-an-element-attribute</loc>
+    <lastmod>2021-02-24T07:00:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/create-a-descending-list-of-numbered-items</loc>
+    <lastmod>2021-02-24T07:29:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/create-an-autocomplete-list-with-the-datalist-element</loc>
+    <lastmod>2021-02-24T08:33:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/show-a-placeholder-for-an-empty-list</loc>
+    <lastmod>2021-02-24T09:00:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/conditional-logging-in-the-console</loc>
+    <lastmod>2021-02-24T10:15:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/enforce-required-parameters</loc>
+    <lastmod>2021-02-24T14:05:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/create-an-object-with-dynamic-keys</loc>
+    <lastmod>2021-02-25T03:33:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/return-an-object-in-an-arrow-function-quickly</loc>
+    <lastmod>2021-02-25T03:53:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/log-a-variable-in-an-arrow-function</loc>
+    <lastmod>2021-02-25T04:57:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/use-the-strict-equality-operator-when-comparing-variables</loc>
+    <lastmod>2021-02-25T06:42:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/manage-multiple-boolean-flags</loc>
+    <lastmod>2021-02-25T07:36:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/sitemap.xml</loc>
+    <lastmod>2021-02-26T04:00:49.553Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/replace-multiple-if-statements-with-a-single-switch-statement</loc>
+    <lastmod>2021-02-26T04:35:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/log-a-value-to-the-console</loc>
+    <lastmod>2021-02-27T02:50:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/use-short-circuits-conditionals</loc>
+    <lastmod>2021-02-27T03:00:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/get-the-current-timestamp</loc>
+    <lastmod>2021-02-27T09:43:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/log-an-array-to-the-console</loc>
+    <lastmod>2021-02-27T09:55:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/format-a-list</loc>
+    <lastmod>2021-02-27T11:59:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/pretty-format-json</loc>
+    <lastmod>2021-02-27T14:02:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/ignore-items-from-array-destructuring</loc>
+    <lastmod>2021-02-28T07:57:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/accept-any-numbers-of-parameters</loc>
+    <lastmod>2021-03-01T05:01:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/filter-file-types-of-a-file-input</loc>
+    <lastmod>2021-03-01T06:28:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/create-a-download-link</loc>
+    <lastmod>2021-03-01T07:13:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/inspect-an-element-shown-on-hover</loc>
+    <lastmod>2021-03-01T09:49:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/log-a-variable-to-the-console-using-conditional-breakpoints</loc>
+    <lastmod>2021-03-01T13:56:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/prevent-a-string-from-being-escaped</loc>
+    <lastmod>2021-03-01T14:55:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/make-a-table-with-equal-column-widths</loc>
+    <lastmod>2021-03-02T11:54:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/find-scrollable-elements</loc>
+    <lastmod>2021-03-03T01:10:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/format-a-number-as-a-currency-string</loc>
+    <lastmod>2021-03-03T01:35:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/pass-an-array-as-function-arguments</loc>
+    <lastmod>2021-03-03T02:48:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/use-css-fallback-properties</loc>
+    <lastmod>2021-03-03T07:45:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/reuse-the-current-color</loc>
+    <lastmod>2021-03-03T08:35:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/create-a-line-on-sides-heading</loc>
+    <lastmod>2021-03-03T09:16:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/access-the-selected-node-in-the-console</loc>
+    <lastmod>2021-03-04T01:10:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/write-css-rules-for-firefox-only</loc>
+    <lastmod>2021-03-04T01:50:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/show-the-first-letter-only</loc>
+    <lastmod>2021-03-04T02:00:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/do-not-use-submit-to-name-a-submit-button</loc>
+    <lastmod>2021-03-04T13:00:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/</loc>
+    <lastmod>2021-03-04T14:22:54.886Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/all</loc>
+    <lastmod>2021-03-05T11:50:29.051Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/add-a-line-break-between-inline-elements</loc>
+    <lastmod>2021-03-05T16:09:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/log-the-full-object-in-nodejs</loc>
+    <lastmod>2021-03-06T02:12:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/copy-the-full-path-of-a-file-on-macos</loc>
+    <lastmod>2021-03-06T07:24:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/shorten-codes-with-the-comma-operator</loc>
+    <lastmod>2021-03-06T08:19:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/quick-query-elements-in-the-console</loc>
+    <lastmod>2021-03-06T09:40:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/pure-collapsible-element</loc>
+    <lastmod>2021-03-06T09:55:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/always-put-the-footer-at-the-bottom</loc>
+    <lastmod>2021-03-06T10:21:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/toggle-hidden-files-on-macos</loc>
+    <lastmod>2021-03-06T10:59:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/unpack-a-property-of-an-object-with-different-name</loc>
+    <lastmod>2021-03-07T01:30:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/run-the-last-command-as-the-root-user</loc>
+    <lastmod>2021-03-07T01:46:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/checkout-the-previous-branch</loc>
+    <lastmod>2021-03-07T02:25:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/replace-multiple-if-statements-with-a-lookup-table</loc>
+    <lastmod>2021-03-08T15:10:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/do-not-use-magic-numbers-when-manipulating-strings</loc>
+    <lastmod>2021-03-09T01:34:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/create-a-polyfill</loc>
+    <lastmod>2021-03-10T13:00:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/keep-the-calculation-of-a-magic-number</loc>
+    <lastmod>2021-03-11T12:34:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/create-an-array-with-conditional-elements</loc>
+    <lastmod>2021-03-12T06:33:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/copy-screenshots-to-the-clipboard-on-macos</loc>
+    <lastmod>2021-03-14T07:34:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/add-keyboard-shortcuts</loc>
+    <lastmod>2021-03-14T09:55:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/number-headings-and-subheadings-automatically</loc>
+    <lastmod>2021-03-14T10:56:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/style-list-items-with-special-characters</loc>
+    <lastmod>2021-03-14T12:39:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/create-a-function-that-accepts-a-single-parameter</loc>
+    <lastmod>2021-03-15T04:56:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/save-a-few-bytes-when-checking-the-existence-of-module</loc>
+    <lastmod>2021-03-15T05:25:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/truncate-long-text</loc>
+    <lastmod>2021-03-15T07:32:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/view-a-file-in-a-different-branch-without-switching-the-branch</loc>
+    <lastmod>2021-03-15T09:18:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/move-the-screenshot-area-on-macos</loc>
+    <lastmod>2021-03-15T13:39:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/hide-an-element-with-chrome-devtools</loc>
+    <lastmod>2021-03-15T14:28:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/shorten-import-paths-in-typescript</loc>
+    <lastmod>2021-03-16T01:37:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/append-leading-zeros-to-ordered-list-items</loc>
+    <lastmod>2021-03-16T05:41:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/always-use-noopener-or-noreferrer-for-links-opened-in-new-tabs</loc>
+    <lastmod>2021-03-16T08:36:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/increase-or-decrease-css-values-with-chrome-devtools</loc>
+    <lastmod>2021-03-16T11:59:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/shorten-import-paths-in-webpack</loc>
+    <lastmod>2021-03-17T04:04:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/open-a-package-s-homepage-or-repo</loc>
+    <lastmod>2021-03-17T05:14:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/center-an-element-vertically-and-horizontally</loc>
+    <lastmod>2021-03-17T07:25:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/style-index-numbers-of-list-items</loc>
+    <lastmod>2021-03-17T07:46:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/view-print-stylesheets-with-chrome-devtools</loc>
+    <lastmod>2021-03-18T13:13:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/capture-a-screenshot-without-shadow-on-macos</loc>
+    <lastmod>2021-03-18T14:13:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/create-a-file-of-any-size</loc>
+    <lastmod>2021-03-19T13:07:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/early-return</loc>
+    <lastmod>2021-03-21T06:42:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/avoid-using-css-import</loc>
+    <lastmod>2021-03-21T07:50:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/load-given-characters-in-a-google-font-request</loc>
+    <lastmod>2021-03-21T09:22:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/watch-a-variable-value-with-live-expressions</loc>
+    <lastmod>2021-03-21T14:36:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/prevent-macos-from-going-to-sleep</loc>
+    <lastmod>2021-03-22T13:40:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/combine-google-font-requests</loc>
+    <lastmod>2021-03-22T14:25:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/use-array-includes-for-multiple-conditionals</loc>
+    <lastmod>2021-03-23T05:21:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/ignore-case-sensitivity-in-a-css-attribute-selector</loc>
+    <lastmod>2021-03-23T07:24:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/combine-styles-with-the-is-pseudo-class-selector</loc>
+    <lastmod>2021-03-23T09:19:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/create-an-one-time-event-handler</loc>
+    <lastmod>2021-03-24T03:49:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/start-a-simple-web-server-on-macos</loc>
+    <lastmod>2021-03-24T04:17:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/smooth-scrolling-with-pure-css</loc>
+    <lastmod>2021-03-24T05:07:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/prevent-anchor-links-from-disappearing-behind-a-sticky-header</loc>
+    <lastmod>2021-03-24T06:56:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/avoid-invisible-text-when-loading-a-font</loc>
+    <lastmod>2021-03-25T03:54:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/display-links-in-the-print-mode</loc>
+    <lastmod>2021-03-25T05:25:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/add-a-subject-to-a-mailto-link</loc>
+    <lastmod>2021-03-25T06:21:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/locate-an-element-with-a-given-selector</loc>
+    <lastmod>2021-03-27T04:35:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/move-the-cursor-to-any-position-in-a-macos-command</loc>
+    <lastmod>2021-03-27T06:06:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/copy-the-base64-data-of-an-image</loc>
+    <lastmod>2021-04-04T06:09:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/prevent-browsers-from-asking-to-translate</loc>
+    <lastmod>2021-04-06T06:00:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/validate-an-input-value-with-the-pattern-attribute</loc>
+    <lastmod>2021-04-06T06:27:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/transform-values-from-a-json-representation</loc>
+    <lastmod>2021-04-08T03:12:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/create-shapes-with-the-clip-path-property</loc>
+    <lastmod>2021-04-08T04:38:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/lazy-loading-images-with-the-loading-attribute</loc>
+    <lastmod>2021-04-12T03:28:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/force-the-browsers-to-download-new-favicon</loc>
+    <lastmod>2021-04-12T04:05:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/highlight-text-with-the-mark-element</loc>
+    <lastmod>2021-04-12T04:22:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/create-a-custom-emoji-cursor</loc>
+    <lastmod>2021-04-12T05:26:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/create-a-multiline-strings</loc>
+    <lastmod>2021-04-13T02:03:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/persist-console-logs-between-page-refreshes</loc>
+    <lastmod>2021-04-13T04:01:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/open-all-links-in-new-tabs</loc>
+    <lastmod>2021-04-13T06:39:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/use-the-datetime-attribute-when-displaying-dates-times</loc>
+    <lastmod>2021-04-13T07:02:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/use-multiple-ssh-keys-for-different-github-accounts</loc>
+    <lastmod>2021-04-19T02:57:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/pick-given-properties-from-a-json-representation</loc>
+    <lastmod>2021-04-19T06:18:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/omit-values-of-html-boolean-attributes</loc>
+    <lastmod>2021-04-19T08:24:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/access-local-webpack-dev-servers-from-external-devices</loc>
+    <lastmod>2021-04-26T02:18:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/use-documentfragments-when-adding-a-big-list-of-elements</loc>
+    <lastmod>2021-04-28T02:25:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/specify-the-doctype</loc>
+    <lastmod>2021-04-29T02:29:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/list-branches-sorted-by-most-recent-commit-date</loc>
+    <lastmod>2021-05-12T12:22:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/do-not-mix-styles-of-an-element-with-its-container</loc>
+    <lastmod>2021-05-12T12:26:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/skip-questions-when-creating-a-package-json-file</loc>
+    <lastmod>2021-05-12T12:42:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/quickly-type-color-variables</loc>
+    <lastmod>2021-05-12T13:29:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/fold-css-declarations-with-region-markers</loc>
+    <lastmod>2021-05-12T13:56:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/avoid-skipping-heading-levels</loc>
+    <lastmod>2021-05-13T12:46:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/avoid-using-the-b-i-s-and-u-tags</loc>
+    <lastmod>2021-05-13T13:01:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/avoid-boolean-parameters</loc>
+    <lastmod>2021-05-13T13:17:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/avoid-using-multiple-h1-tags-per-page</loc>
+    <lastmod>2021-05-13T13:27:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/compose-multiple-react-providers</loc>
+    <lastmod>2021-05-13T13:36:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/create-a-big-file-on-linux</loc>
+    <lastmod>2021-05-17T13:03:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/find-the-root-npm-package-to-update</loc>
+    <lastmod>2021-05-17T13:10:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/escape-css-class-names</loc>
+    <lastmod>2021-05-17T13:25:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/pick-the-first-and-last-items-of-an-array</loc>
+    <lastmod>2021-05-17T13:37:00.000Z</lastmod>
+</url>
+<url>
+    <loc>https://getfrontend.tips/share-recommendation-visual-studio-code-extensions</loc>
+    <lastmod>2021-05-17T13:56:00.000Z</lastmod>
+</url>
+</urlset>

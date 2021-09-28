@@ -1,10 +1,7 @@
 ---
 title: Force the browsers to download new favicon
-category: tip
-date: 2021-04-12 11:05:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-04-12 11:05:00 +7'
 topics: HTML
 ---
 
@@ -17,7 +14,7 @@ When we replace the favicon with a new one, our visitors probably still see the 
 To prevent this from happening, we can always force the browsers to download the new favicon by adding a query parameter:
 
 ```html
-<link rel="icon" href="/favicon.png?ver=2">
+<link rel="icon" href="/favicon.png?ver=2" />
 ```
 
 Of course, it's up to you to pick another name and value of parameter.

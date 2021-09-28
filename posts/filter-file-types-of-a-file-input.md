@@ -1,10 +1,7 @@
 ---
 title: Filter file types of a file input
-category: tip
-date: 2021-03-01 13:28:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-01 13:28:00 +7'
 topics: HTML
 ---
 
@@ -15,18 +12,10 @@ The file input provides the [accept attribute](https://developer.mozilla.org/en-
 For example, the input asking users for choosing an avatar looks like:
 
 ```html
-<input
-    type="file"
-    accept=".png, .jpg, .jpeg"
-/>
+<input type="file" accept=".png, .jpg, .jpeg" />
 
 <!-- Or -->
-<input
-    type="file"
-    accept="image/png, image/jpeg"
-/>
+<input type="file" accept="image/png, image/jpeg" />
 ```
 
-{% callout %}
-The `accept` attribute does NOT prevent user from selecting a file whose type isn't in the list. Do NOT use it to validate the selected file.
-{% endcallout %}
+> The `accept` attribute does NOT prevent user from selecting a file whose type isn't in the list. Do NOT use it to validate the selected file

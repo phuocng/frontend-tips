@@ -1,10 +1,7 @@
 ---
 title: Checkout the previous branch
-category: tip
-date: 2021-03-07 09:25:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-07 09:25:00 +7'
 topics: Git
 ---
 

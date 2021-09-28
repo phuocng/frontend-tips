@@ -1,10 +1,7 @@
 ---
 title: Create a polyfill
-category: tip
-date: 2021-03-10 20:00:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-10 20:00:00 +7'
 topics: JavaScript
 ---
 
@@ -17,10 +14,10 @@ The following sample code provides a patch for the `startsWith` method which doe
 
 ```js
 if (!String.prototype.startsWith) {
-    String.prototype.startsWith = function(searchString) {
+    String.prototype.startsWith = function (searchString) {
         // The implementation
         // return `true` or `false`
-    }
+    };
 }
 ```
 
@@ -28,7 +25,7 @@ If we provide a polyfill as a library, then we can use the following approach:
 
 ```js
 // The polyfill implementation
-const startsWithPolyfill = function(searchString) {
+const startsWithPolyfill = function (searchString) {
     // ...
     // return `true` or `false`
 };

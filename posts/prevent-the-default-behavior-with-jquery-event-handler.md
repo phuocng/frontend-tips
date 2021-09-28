@@ -1,17 +1,14 @@
 ---
 title: Prevent the default behavior with jQuery event handler
-category: practice
-date: 2021-02-23 09:51:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-02-23 09:51:00 +7'
 topics: DOM, JavaScript
 ---
 
 If you're using jQuery to manage the events, then you're able to use `return false` within the event handler:
 
 ```js
-$(element).on('click', function(e) {
+$(element).on('click', function (e) {
     return false;
 });
 ```
@@ -21,7 +18,7 @@ Before returning the value of `false`, the handler would do something else. The 
 In that case, the default behavior will be taken:
 
 ```js
-$(element).on('click', function(e) {
+$(element).on('click', function (e) {
     // Do something here, but if there's error at runtime
     // ...
     return false;
@@ -31,7 +28,7 @@ $(element).on('click', function(e) {
 We can avoid this situation by using the `preventDefault` method before performing any custom handler:
 
 ```js
-$(element).on('click', function(e) {
+$(element).on('click', function (e) {
     e.preventDefault();
 
     // Do something here

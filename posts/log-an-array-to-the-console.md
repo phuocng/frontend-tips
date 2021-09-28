@@ -1,10 +1,7 @@
 ---
 title: Log an array to the Console
-category: tip
-date: 2021-02-27 16:55:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-02-27 16:55:00 +7'
 topics: JavaScript
 ---
 
@@ -15,7 +12,7 @@ const resources = [
     {
         name: '1 LOC',
         description: 'Favorite JavaScript utilities in single line of code',
-        link: 'https://1loc.dev'
+        link: 'https://1loc.dev',
     },
     {
         name: 'CSS Layout',
@@ -54,7 +51,7 @@ Here is the screenshot compares the output of two methods above:
 If you don't want to see all the columns, then you can indicate the columns explicitly:
 
 ```js
-// Show `name` and `link` properties 
+// Show `name` and `link` properties
 console.table(resources, ['name', 'link']);
 ```
 
@@ -62,9 +59,9 @@ console.table(resources, ['name', 'link']);
 
 This tip also has effect when you want to [pick some particular properties from a JSON representation](/pick-given-properties-from-a-json-representation.html).
 
-_More_
+### See also
 
-* [Conditional logging in the Console](/conditional-logging-in-the-console.html)
-* [Log a value to the Console](/log-a-value-to-the-console.html)
-* [Log a variable in an arrow function](/log-a-variable-in-an-arrow-function.html)
-* [Log a variable to the console using conditional breakpoints](/log-a-variable-to-the-console-using-conditional-breakpoints.html)
+-   [Conditional logging in the Console](/conditional-logging-in-the-console.html)
+-   [Log a value to the Console](/log-a-value-to-the-console.html)
+-   [Log a variable in an arrow function](/log-a-variable-in-an-arrow-function.html)
+-   [Log a variable to the console using conditional breakpoints](/log-a-variable-to-the-console-using-conditional-breakpoints.html)

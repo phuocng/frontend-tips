@@ -1,10 +1,7 @@
 ---
 title: Open all links in new tabs
-category: trick
-date: 2021-04-13 13:39:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Trick
+date: '2021-04-13 13:39:00 +7'
 topics: HTML
 ---
 
@@ -16,7 +13,7 @@ In that case, rather than adding the attribute to all links, you just set it to 
 
 ```html
 <head>
-  <base target="_blank">
-  ...
+    <base target="_blank" />
+    ...
 </head>
 ```

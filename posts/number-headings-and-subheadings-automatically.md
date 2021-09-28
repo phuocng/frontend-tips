@@ -1,10 +1,7 @@
 ---
 title: Number headings and subheadings automatically
-category: tip
-date: 2021-03-14 17:56:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-14 17:56:00 +7'
 topics: CSS
 ---
 
@@ -16,7 +13,7 @@ Given the following markup:
 
 ```html
 <h2>Chapter 1</h2>
-    
+
 <h3>Section 1</h3>
 <h4>Sub section A</h4>
 
@@ -30,29 +27,21 @@ Given the following markup:
 It should produce the content as below:
 
 ```html
-1. Chapter 1
-    
-1.1. Section 1
-1.1.1. Sub section A
-
-1.2. Section 2
-1.2.1. Sub section A
-1.2.2. Sub section B
-
-2. Chapter 2
+1. Chapter 1 1.1. Section 1 1.1.1. Sub section A 1.2. Section 2 1.2.1. Sub section A 1.2.2. Sub section B 2. Chapter 2
 ```
 
-We can archive it by using the CSS counter. 
+We can archive it by using the CSS counter.
 
 Going down from the `body` element, we will reset the counter for the first `h2`. The numbers are inserted before the content via the `::before` pseudo element:
 
 ```css
-body, h1 {
+body,
+h1 {
     counter-reset: h2;
 }
 h2::before {
     counter-increment: h2;
-    content: counter(h2) ". ";
+    content: counter(h2) '. ';
 }
 ```
 
@@ -66,7 +55,7 @@ h2 {
 }
 h3::before {
     counter-increment: h3;
-    content: counter(h2) "." counter(h3) ". ";
+    content: counter(h2) '.' counter(h3) '. ';
 }
 ```
 
@@ -81,14 +70,14 @@ h4 {
 }
 h4::before {
     counter-increment: h4;
-    content: counter(h2) "." counter(h3) "." counter(h4) ". ";
+    content: counter(h2) '.' counter(h3) '.' counter(h4) '. ';
 }
 h5::before {
     counter-increment: h5;
-    content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) ". ";
+    content: counter(h2) '.' counter(h3) '.' counter(h4) '.' counter(h5) '. ';
 }
 ```
 
-_More_
+### See also
 
-* [Style index numbers of list items](/style-index-numbers-of-list-items.html)
+-   [Style index numbers of list items](/style-index-numbers-of-list-items.html)

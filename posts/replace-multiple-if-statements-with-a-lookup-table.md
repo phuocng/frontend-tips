@@ -1,10 +1,7 @@
 ---
 title: Replace multiple if statements with a lookup table
-category: practice
-date: 2021-03-08 22:10:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-03-08 22:10:00 +7'
 topics: JavaScript
 ---
 
@@ -36,7 +33,7 @@ Since all the `if` statements above have the same left-hand side expression, we 
 // Better version
 let weekDay = '';
 switch (day) {
-    case 0: 
+    case 0:
         weekDay = 'Sunday';
         break;
     case 1:
@@ -56,10 +53,7 @@ In pure English, we map _0_ with _Sunday_, _1_ with _Monday_, and so forth. Why 
 
 ```js
 // The best version
-const lookup = [
-    'Sunday', 'Monday', 'Tuesday', 'Wednesday',
-    'Thursday', 'Friday', 'Saturday',
-];
+const lookup = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 const weekDay = lookup[day];
 ```
 
@@ -86,26 +80,22 @@ const lookup = [
     ['I', 1],
 ];
 
-const convertToRoman = number => lookup.reduce(
-    (curr, [key, value]) => {
+const convertToRoman = (number) =>
+    lookup.reduce((curr, [key, value]) => {
         curr += key.repeat(Math.floor(number / value));
         number = number % value;
         return curr;
-    },
-    ''
-);
+    }, '');
 
-convertToRoman(20);     // 'XX'
-convertToRoman(21);     // 'XXI'
-convertToRoman(2021);   // 'MMXXI'
+convertToRoman(20); // 'XX'
+convertToRoman(21); // 'XXI'
+convertToRoman(2021); // 'MMXXI'
 ```
 
-{% callout %}
-If a function uses a fixed lookup table, it's recommended to move the lookup to outside of the function
-{% endcallout %}
+> If a function uses a fixed lookup table, it's recommended to move the lookup to outside of the function
 
-_More_
+### See also
 
-* [Early return](/early-return.html)
-* [Replace multiple if statements with a single switch statement](/replace-multiple-if-statements-with-a-single-switch-statement.html)
-* [Use Array.includes for multiple conditionals](/use-array-includes-for-multiple-conditionals.html)
+-   [Early return](/early-return.html)
+-   [Replace multiple if statements with a single switch statement](/replace-multiple-if-statements-with-a-single-switch-statement.html)
+-   [Use Array.includes for multiple conditionals](/use-array-includes-for-multiple-conditionals.html)

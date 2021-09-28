@@ -1,10 +1,7 @@
 ---
 title: Copy a long variable from the Console
-category: tip
-date: 2021-02-23 22:30:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-02-23 22:30:00 +7'
 topics: DevTools
 ---
 
@@ -14,9 +11,9 @@ The Chrome DevTools' Console will collapse and split a long variable into smalle
 
 It's not easy to see the full value or copy the content to clipboard. Here is the tip to do that with ease:
 
-* In the _Console_, right click the output and click _Store object as global variable_
-* _Console_ creates a temporary variable, `temp1` for example, that holds the variable value
-* Type `temp1 + ''` in the _Console_, and press the _Enter_ key
+-   In the _Console_, right click the output and click _Store object as global variable_
+-   _Console_ creates a temporary variable, `temp1` for example, that holds the variable value
+-   Type `temp1 + ''` in the _Console_, and press the _Enter_ key
 
 _Console_ will try to convert the result to `String`. As a result, you get the full content of original variable.
 

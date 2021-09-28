@@ -1,13 +1,10 @@
 ---
 title: Use DocumentFragments when adding a big list of elements
-category: practice
-date: 2021-04-28 09:25:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-04-28 09:25:00 +7'
 topics: DOM, JavaScript
 metadata:
-  image: use-documentfragments.png
+    image: use-documentfragments.png
 ---
 
 We often use the `appendChild` method to [add a new element](https://htmldom.dev/append-to-an-element) to a given element:
@@ -27,9 +24,9 @@ Adding a big list of elements to the document might affect the performance of pa
 
 ```js
 for (let i = 0; i < 100; i++) {
-    const li = document.createElement('li');
-    li.innerHTML = `List item ${i}`;
-    ul.appendChild(li);
+    const li = document.createElement('li');
+    li.innerHTML = `List item ${i}`;
+    ul.appendChild(li);
 }
 ```
 
@@ -40,9 +37,9 @@ We create a minimal document without parent, and append our elements to it. It d
 const fragment = document.createDocumentFragment();
 
 for (let i = 0; i < 100; i++) {
-    const li = document.createElement('li');
-    li.innerHTML = `List item ${i}`;
-    fragment.appendChild(li);
+    const li = document.createElement('li');
+    li.innerHTML = `List item ${i}`;
+    fragment.appendChild(li);
 }
 ```
 

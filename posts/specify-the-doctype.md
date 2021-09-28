@@ -1,13 +1,10 @@
 ---
 title: Specify the doctype
-category: practice
-date: 2021-04-29 09:29:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-04-29 09:29:00 +7'
 topics: HTML
 metadata:
-  image: specify-doctype.png
+    image: specify-doctype.png
 ---
 
 In the old days of the Internet, Netscape Navigator and Microsoft Internet Explorer were popular browsers. They had different sets of rules so that web pages have two different versions to serve them.
@@ -18,7 +15,7 @@ These two modes are distinguished by the doctype which refers to _Document Type 
 
 ```html
 <!-- HTML 4.01 -->
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 
 <!-- HTML 5 -->
 <!DOCTYPE html>
@@ -35,7 +32,7 @@ Since HTML5 was introduced, we just simply add its doctype to the top of page:
 </html>
 
 <!-- Or -->
-<!doctype html>
+<!DOCTYPE html>
 <html>
     ...
 </html>

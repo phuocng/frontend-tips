@@ -1,10 +1,7 @@
 ---
 title: Create a function that accepts a single parameter
-category: tip
-date: 2021-03-15 11:56:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-15 11:56:00 +7'
 topics: JavaScript
 ---
 
@@ -13,7 +10,7 @@ Quite often, we use the `map` function to transform each item of an array into a
 For example, the following code converts each item of array into a number:
 
 ```js
-['1', '2', '3', '4', '5'].map(v => parseInt(v));
+['1', '2', '3', '4', '5'].map((v) => parseInt(v));
 
 // [1, 2, 3, 4, 5]
 ```
@@ -32,7 +29,7 @@ Calling `.map(parseInt)` means that we pass the item index to `parseInt` as the 
 This leads to a requirement of building a function that [accepts only the first parameter](https://1loc.dev/#create-a-function-that-accepts-a-single-argument), and ignore the remaining parameters.
 
 ```js
-const unary = fn => params => fn(params);
+const unary = (fn) => (params) => fn(params);
 ```
 
 The `unary` function creates a wrapper of a function, and ignores all parameters except the first one. With that function in our hand, we can pass the mapper to the `map` function like this:
@@ -43,6 +40,6 @@ The `unary` function creates a wrapper of a function, and ignores all parameters
 // [1, 2, 3, 4, 5]
 ```
 
-_More_
+### See also
 
-* [Accept any numbers of parameters](/accept-any-numbers-of-parameters.html)
+-   [Accept any numbers of parameters](/accept-any-numbers-of-parameters.html)

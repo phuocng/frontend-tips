@@ -1,10 +1,7 @@
 ---
 title: Do not use submit to name a submit button
-category: practice
-date: 2021-03-04 20:00:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-03-04 20:00:00 +7'
 topics: HTML
 ---
 
@@ -24,6 +21,6 @@ We can face the similar issue when using special properties of form such as `res
 <button type="submit" name="submitButton">Submit</button>
 ```
 
-_More_
+### See also
 
-* [Avoid to use colons and periods in the id attribute](/avoid-to-use-colons-and-periods-in-the-id-attribute.html)
+-   [Avoid to use colons and periods in the id attribute](/avoid-to-use-colons-and-periods-in-the-id-attribute.html)

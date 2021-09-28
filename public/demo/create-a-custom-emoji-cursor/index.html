@@ -1,0 +1,33 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Create a custom emoji cursor</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="stylesheet" href="/css/demo.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter&family=Source+Code+Pro&display=swap"
+        />
+        <style>
+            .demo__cursor {
+                /* Custom cursor */
+                cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewport="0 0 48 48" style="fill:black;font-size:24px"><text y="50%">🚀</text></svg>')
+                        16 0,
+                    auto;
+                /* Center the content */
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                /* Size */
+                height: 16rem;
+                width: 16rem;
+                /* Misc */
+                border: 1px solid rgba(0, 0, 0, 0.2);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="demo__cursor">Let's fly!</div>
+    </body>
+</html>

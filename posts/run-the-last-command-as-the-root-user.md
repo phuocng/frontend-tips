@@ -1,10 +1,7 @@
 ---
 title: Run the last command as the root user
-category: tip
-date: 2021-03-07 08:46:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-07 08:46:00 +7'
 topics: Command Line
 ---
 

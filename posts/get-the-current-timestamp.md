@@ -1,10 +1,7 @@
 ---
 title: Get the current timestamp
-category: tip
-date: 2021-02-27 16:43:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-02-27 16:43:00 +7'
 topics: JavaScript
 ---
 
@@ -21,6 +18,4 @@ Date.now();
 new Date().valueOf();
 ```
 
-{% callout %}
-Take a look at this [snippet](https://1loc.dev/#get-the-current-timestamp-in-seconds) if you want to get the current time in seconds.
-{% endcallout %}
+> Take a look at this [snippet](https://1loc.dev/#get-the-current-timestamp-in-seconds) if you want to get the current time in seconds

@@ -1,10 +1,7 @@
 ---
 title: Format a number as a currency string
-category: tip
-date: 2021-03-03 08:35:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-03 08:35:00 +7'
 topics: JavaScript
 ---
 
@@ -23,7 +20,7 @@ const formatter = new Intl.NumberFormat('en-US', {
 The optional `minimumFractionDigits` parameter indicates the minium number of digits in the fraction part. Calling the `format` function will format the input, and prefix or suffix the currency depending on the country.
 
 ```js
-formatter.format(2345);         // '$2,345.00'
-formatter.format('2345');       // '$2,345.00'
-formatter.format('10000000');   // '$10,000,000.00'
+formatter.format(2345); // '$2,345.00'
+formatter.format('2345'); // '$2,345.00'
+formatter.format('10000000'); // '$10,000,000.00'
 ```

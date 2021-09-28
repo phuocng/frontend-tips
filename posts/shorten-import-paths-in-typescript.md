@@ -1,10 +1,7 @@
 ---
 title: Shorten import paths in TypeScript
-category: tip
-date: 2021-03-16 08:37:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-16 08:37:00 +7'
 topics: TypeScript
 ---
 
@@ -23,16 +20,16 @@ For example, the following settings will find all imports starting with `@` in t
 
 ```json
 {
-    "paths": {
-       "@/*": ["src/*"]
-    },
+    "paths": {
+        "@/*": ["src/*"]
+    }
 }
 ```
 
-| Import path               | Identical absolute path       |
-|---------------------------|-------------------------------|
-| `@/helpers/validator`     | `src/helpers/validator`       |
-| `@/services/authService`  | `src/services/authService`    |
+| Import path                | Identical absolute path       |
+| -------------------------- | ----------------------------- |
+| `@/helpers/validator`      | `src/helpers/validator`       |
+| `@/services/authService`   | `src/services/authService`    |
 
 Our imports can be shorten as following:
 
@@ -45,11 +42,11 @@ Some libraries, Angular for instance, follows a specific pattern of directory st
 
 ```json
 {
-    "paths": {
-       "@helpers/*": ["src/helpers/*"],
-       "@models/*": ["src/models/*"],
-       "@services/*": ["src/services/*"]
-    },
+    "paths": {
+        "@helpers/*": ["src/helpers/*"],
+        "@models/*": ["src/models/*"],
+        "@services/*": ["src/services/*"]
+    }
 }
 ```
 
@@ -61,6 +58,6 @@ import { userModel } from '@models/user';
 import { authService } from '@services/authService';
 ```
 
-_More_
+### See also
 
-* [Shorten import paths in Webpack](/shorten-import-paths-in-webpack.html)
+-   [Shorten import paths in Webpack](/shorten-import-paths-in-webpack.html)

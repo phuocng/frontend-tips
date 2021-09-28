@@ -1,10 +1,7 @@
 ---
 title: Add a line break between inline elements
-category: tip
-date: 2021-03-05 23:09:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-05 23:09:00 +7'
 topics: CSS
 ---
 
@@ -30,20 +27,6 @@ By using the `::after` pseudo element, we are able to add a line break after the
 
 Where `\A` represents the line break character.
 
-_Demo_
+### Demo
 
-<style>
-.demo__heading {
-    font-weight: 500;
-    text-align: center;
-}
-.demo__heading--primary::after {
-    content: '\A';
-    white-space: pre;
-}
-</style>
-
-<h2 class="demo__heading">
-    <span class="demo__heading--primary">Tip, tricks, best practices</span>
-    <span>of front-end development</span>
-</h2>
+:demo[]{title="Add a line break between inline elements" url="/demo/add-a-line-break-between-inline-elements/index.html"}

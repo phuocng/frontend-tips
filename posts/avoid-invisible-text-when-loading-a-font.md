@@ -1,10 +1,7 @@
 ---
 title: Avoid invisible text when loading a font
-category: practice
-date: 2021-03-25 10:54:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-03-25 10:54:00 +7'
 topics: CSS, Google Font
 ---
 
@@ -25,12 +22,10 @@ In order to archive it, we can use the `font-display` style:
 If you are using [Google fonts](https://fonts.google.com), then putting the `display=swap` parameter is the equivalent way:
 
 ```html
-<link
-    href="https://fonts.googleapis.com/css2?family=Roboto:400,700&display=swap"
-    rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:400,700&display=swap" rel="stylesheet" />
 ```
 
-_More_
+### See also
 
-* [Combine Google font requests](/combine-google-font-requests.html)
-* [Load given characters in a Google font request](/load-given-characters-in-a-google-font-request.html)
+-   [Combine Google font requests](/combine-google-font-requests.html)
+-   [Load given characters in a Google font request](/load-given-characters-in-a-google-font-request.html)

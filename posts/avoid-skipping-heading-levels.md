@@ -1,13 +1,10 @@
 ---
 title: Avoid skipping heading levels
-category: practice
-date: 2021-05-13 19:46:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-05-13 19:46:00 +7'
 topics: Accessibility, HTML
 metadata:
-  image: avoid-skip-headings.png
+    image: avoid-skip-headings.png
 ---
 
 It's common to use the heading elements, `<h1>` to `<h6>`, to represent the heading of sections.
@@ -29,6 +26,6 @@ It's recommended to keep the heading elements in the order, so the users won't b
 <h3>Heading level 3</h3>
 ```
 
-_More_
+### See also
 
-* [Avoid using multiple `<h1>` tags per page](/avoid-using-multiple-h1-tags-per-page.html)
+-   [Avoid using multiple `<h1>` tags per page](/avoid-using-multiple-h1-tags-per-page.html)

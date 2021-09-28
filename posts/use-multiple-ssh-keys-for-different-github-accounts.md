@@ -1,13 +1,10 @@
 ---
 title: Use multiple SSH keys for different GitHub accounts
-category: tip
-date: 2021-04-19 09:57:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-04-19 09:57:00 +7'
 topics: Git
 metadata:
-  image: multiple-ssh-keys.png
+    image: multiple-ssh-keys.png
 ---
 
 Rather than entering the username and password, you often use SSH keys to access GitHub repositories. It's a more secured and recommended way to communicate with remote GitHub servers.
@@ -16,7 +13,7 @@ Sometimes you have more than one GitHub account. For example, one for accessing 
 
 The question is how your local Git recogranizes a repository that comes with which GitHub account. This tip will help you.
 
-## Creating different keys
+### Creating different keys
 
 Assume that `foo` and `bar` are two GitHub usernames that you would like to use in the same computer. You can follow the official GitHub guide to [generate SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
@@ -28,13 +25,13 @@ $ ssh-keygen -t ed25519 -C "foo@domain.com"
 When you're asked to indicate the file to save the key, don't use the default key. Change the name of file to something associate with the account, for example:
 
 ```shell
-Enter a file in which to save the key (/home/you/.ssh/id_ed25519): 
+Enter a file in which to save the key (/home/you/.ssh/id_ed25519):
 `/home/you/.ssh/id_foo`
 ```
 
 Repeat the same steps for the `bar` account. Now, we have two private keys, `id_foo` and `id_bar` located at the `~/.ssh` folder.
 
-## Adding keys to SSH agent
+### Adding keys to SSH agent
 
 ```shell
 // Delete cached keys
@@ -48,7 +45,7 @@ $ ssh-add ~/.ssh/id_foo
 $ ssh-add ~/.ssh/id_bar
 ```
 
-## Mapping keys to GitHub repos
+### Mapping keys to GitHub repos
 
 This step lets SSH know which private key should be used for particular hosts.
 
@@ -75,7 +72,7 @@ Host github.com-bar
 
 You'll realize that `github.com-foo` and `github.com-bar` look invalid hosts, but actually they are treated as aliases. SSH maps it with the `HostName` option and uses the private key in the `IdentityFile` option.
 
-## Changing GitHub settings
+### Changing GitHub settings
 
 Let's say that the `foo` account accesses a GitHub repose whose URL is `github.com/foo/a-foo-repos`. Go to its cloned folder, and change the `.git/config` file as below.
 

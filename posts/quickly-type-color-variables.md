@@ -1,13 +1,10 @@
 ---
 title: Quickly type color variables
-category: tip
-date: 2021-05-12 20:29:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-05-12 20:29:00 +7'
 topics: Visual Studio Code
 metadata:
-  image: quickly-type-colors.png
+    image: quickly-type-colors.png
 ---
 
 We often declare variables for colors, mostly at the top of file, as following:

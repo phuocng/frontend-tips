@@ -1,10 +1,7 @@
 ---
 title: Enforce required parameters
-category: trick
-date: 2021-02-24 21:05:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Trick
+date: '2021-02-24 21:05:00 +7'
 topics: JavaScript
 ---
 
@@ -15,9 +12,7 @@ const required = () => {
     throw new Error('Missing parameter');
 };
 
-const getAges = (yearOfBirth = required()) => (
-    new Date().getFullYear() - yearOfBirth
-);
+const getAges = (yearOfBirth = required()) => new Date().getFullYear() - yearOfBirth;
 ```
 
 Calling `getAges()` without parameter will throw the exception `Missing parameter`.

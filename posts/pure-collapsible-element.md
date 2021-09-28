@@ -1,10 +1,7 @@
 ---
 title: Pure collapsible element
-category: tip
-date: 2021-03-06 16:55:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-06 16:55:00 +7'
 topics: HTML
 ---
 
@@ -29,14 +26,6 @@ I often use the tags when including a long error log on GitHub:
 </details>
 ```
 
-_Demo_
+### Demo
 
-<details>
-    <summary>TLDR</summary>
-    <div>TLDR stands for "too long, don't read". But it's too short, isn't it?</div>
-</details>
-
-<details>
-    <summary>A question?</summary>
-    <div>The answer is hidden initially</div>
-</details>
+:demo[]{title="Pure collapsible element" url="/demo/pure-collapsible-element/index.html"}

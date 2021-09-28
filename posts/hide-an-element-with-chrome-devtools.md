@@ -1,10 +1,7 @@
 ---
 title: Hide an element with Chrome DevTools
-category: tip
-date: 2021-03-15 21:28:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-15 21:28:00 +7'
 topics: DevTools
 ---
 
@@ -26,6 +23,4 @@ Both ways add a specical CSS class named `__web-inspector-hide-shortcut__` to th
 }
 ```
 
-{% callout %}
-Setting `display: none`, `opacity: 0`, and `visibility: hidden` are the common ways to hide an element with CSS. If you want to see the differences between them, take a look at this [post](https://thisthat.dev/display-none-vs-opacity-0-vs-visibility-hidden)
-{% endcallout %}
+> Setting `display: none`, `opacity: 0`, and `visibility: hidden` are the common ways to hide an element with CSS. If you want to see the differences between them, take a look at this [post](https://thisthat.dev/display-none-vs-opacity-0-vs-visibility-hidden)

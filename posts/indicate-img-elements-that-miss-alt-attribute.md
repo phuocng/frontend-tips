@@ -1,10 +1,7 @@
 ---
 title: Indicate img elements that miss alt attribute
-category: tip
-date: 2021-02-22 23:12:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-02-22 23:12:00 +7'
 topics: A11y, Accessibility, CSS
 ---
 
@@ -12,7 +9,7 @@ The following CSS gives a red outline to any img having a missing or blank alt a
 
 ```css
 img:not([alt]),
-img[alt=""] {
+img[alt=''] {
     outline: 8px solid red;
 }
 ```
