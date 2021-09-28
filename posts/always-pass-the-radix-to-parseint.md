@@ -1,10 +1,7 @@
 ---
 title: Always pass the radix to parseInt
-category: practice
-date: 2021-02-23 08:15:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-02-23 08:15:00 +7'
 topics: JavaScript
 ---
 
@@ -20,11 +17,11 @@ If the value starts with `0x` or `0X`, then the radix is 16 (hexadecimal). In ot
 In the older versions of JavaScript, if the string starts with `0` then the radix is set as 8 (octal).
 
 ```js
-parseInt('0xF');        // 15
-parseInt('0XF');        // 15
-parseInt('0xF', 16);    // 15
+parseInt('0xF'); // 15
+parseInt('0XF'); // 15
+parseInt('0xF', 16); // 15
 
-parseInt('0xF', 10);    // 0
+parseInt('0xF', 10); // 0
 ```
 
 Since the method could be implemented differently in different versions of JavaScript and browsers, it's recommended to pass the radix number.

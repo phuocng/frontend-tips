@@ -1,13 +1,10 @@
 ---
 title: Omit values of HTML boolean attributes
-category: practice
-date: 2021-04-19 15:24:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-04-19 15:24:00 +7'
 topics: HTML
 metadata:
-  image: omit-boolean-attribute-value.png
+    image: omit-boolean-attribute-value.png
 ---
 
 There are some HTML boolean attributes such as `checked`, `disabled`, `readonly`, `required`, `selected`, etc.

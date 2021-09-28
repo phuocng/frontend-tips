@@ -1,10 +1,7 @@
 ---
 title: Always use "noopener" or "noreferrer" for links opened in new tabs
-category: practice
-date: 2021-03-16 15:36:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-03-16 15:36:00 +7'
 topics: HTML
 ---
 
@@ -35,7 +32,5 @@ It's good to know that there is the `rel="noreferrer"` attribute. It not only fi
 <a target="_blank" rel="noopener noreferrer">...</a>
 ```
 
-{% callout %}
-Some modern browsers, such as Chrome 88+, automatically adds the `noopener` behavior if it's missing.
-However, it's still recommended to add `rel="noopener"` or `rel="noreferrer"` to avoid the security and performance issues in old legacy browsers.
-{% endcallout %}
+> Some modern browsers, such as Chrome 88+, automatically adds the `noopener` behavior if it's missing.
+> However, it's still recommended to add `rel="noopener"` or `rel="noreferrer"` to avoid the security and performance issues in old legacy browsers.

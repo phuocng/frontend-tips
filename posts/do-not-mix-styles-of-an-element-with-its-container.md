@@ -1,13 +1,10 @@
 ---
 title: Don't mix styles of an element with its container
-category: practice
-date: 2021-05-12 19:26:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-05-12 19:26:00 +7'
 topics: CSS
 metadata:
-  image: do-not-mix-styles.png
+    image: do-not-mix-styles.png
 ---
 
 When developing a reusable component, we should follow the rule: the component should look like the same regardless where it's placed.
@@ -19,7 +16,7 @@ For example, the `margin` style in the following CSS is used for a specific use 
     margin: 1rem 0;
 
     /* Other styles */
-    ...
+    ...;
 }
 ```
 
@@ -35,15 +32,11 @@ The `item` class can be reused in different places without breaking the look and
 
 ```html
 <div class="item-wrapper">
-    <div class="item">
-        ...
-    </div>
+    <div class="item">...</div>
 </div>
 
 <!-- Used in another wrapper -->
 <div class="other-wrapper">
-    <div class="item">
-        ...
-    </div>
+    <div class="item">...</div>
 </div>
 ```

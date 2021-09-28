@@ -1,10 +1,7 @@
 ---
 title: Shorten codes with the comma operator
-category: trick
-date: 2021-03-06 15:19:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Trick
+date: '2021-03-06 15:19:00 +7'
 topics: JavaScript
 ---
 
@@ -16,7 +13,7 @@ const c = (a, b);
 
 We can use it to shorten codes in some cases.
 
-## Shorten an if statement
+### Shorten an if statement
 
 ```js
 let result;
@@ -31,30 +28,30 @@ if (condition) {
 const result = condition ? (doSomething(), value) : other;
 ```
 
-## Shorten an arrow function
+### Shorten an arrow function
 
 ```js
-const arrowFn = arg => {
+const arrowFn = (arg) => {
     doSomething();
     return result;
 };
 
 // Shorten version
-const arrowFn = arg => (doSomething(), result);
+const arrowFn = (arg) => (doSomething(), result);
 ```
 
 Here is a few examples of using the comma operator to [shorten](https://1loc.dev) arrow functions:
 
-* [Count the occurrences of array elements](https://1loc.dev/#count-the-occurrences-of-array-elements)
+-   [Count the occurrences of array elements](https://1loc.dev/#count-the-occurrences-of-array-elements)
 
 ```js
-const countOccurrences = arr => arr.reduce((p, c) => (p[c] = ++p[c] || 1, p), {});
+const countOccurrences = (arr) => arr.reduce((p, c) => ((p[c] = ++p[c] || 1), p), {});
 
 countOccurrences([2, 1, 3, 3, 2, 3]);
 // { '1': 1, '2': 2, '3': 3 }
 ```
 
-* [Split an array into chunks](https://1loc.dev/#split-an-array-into-chunks)
+-   [Split an array into chunks](https://1loc.dev/#split-an-array-into-chunks)
 
 ```js
 const chunk = (arr, s) => arr.reduce((a, e, i) => (i % s ? a[a.length - 1].push(e) : a.push([e]), a), []);
@@ -63,6 +60,6 @@ chunk([1, 2, 3, 4, 5, 6, 7, 8], 3);
 // [[1, 2, 3], [4, 5, 6], [7, 8]]
 ```
 
-_More_
+### See also
 
-* [Log a variable in an arrow function](/log-a-variable-in-an-arrow-function.html)
+-   [Log a variable in an arrow function](/log-a-variable-in-an-arrow-function.html)

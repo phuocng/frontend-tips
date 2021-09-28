@@ -1,10 +1,7 @@
 ---
 title: Inspect an element shown on hover
-category: tip
-date: 2021-03-01 16:49:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-01 16:49:00 +7'
 topics: DevTools
 ---
 
@@ -13,41 +10,41 @@ However, it doesn't work with a dynamic element that is displayed when we hover 
 
 There are a few ways to inspect that kind of elements.
 
-## Trigger the mouseover event
+### Trigger the mouseover event
 
-* Right-click the original element, and choose the _Inspect_ menu item
-* Click the _Console_ tab
-* Fire the `mouseover` event by excuting the following code in the _Console_:
+-   Right-click the original element, and choose the _Inspect_ menu item
+-   Click the _Console_ tab
+-   Fire the `mouseover` event by excuting the following code in the _Console_:
 
 ```js
-$0.dispatchEvent(new MouseEvent('mouseover', {
-    view: window,
-    bubbles: true,
-    cancelable: true,
-}));
+$0.dispatchEvent(
+    new MouseEvent('mouseover', {
+        view: window,
+        bubbles: true,
+        cancelable: true,
+    })
+);
 ```
 
-{% callout %}
-`$0` represents the current inspected element
-{% endcallout %}
+> `$0` represents the current inspected element
 
 It simulates the `mouseover` event that is supposed to happen when we hover on the original element.
 
-## Pause the script execution
+### Pause the script execution
 
-* Open the _Chrome Developer Tools_, and click the _Sources_ tab
-* Hover on the target element, and click the _F8_ key
-* Move the mouse over the target element
-* Activate the _Elements_ tab, and you will see the dynamic element shown up here
+-   Open the _Chrome Developer Tools_, and click the _Sources_ tab
+-   Hover on the target element, and click the _F8_ key
+-   Move the mouse over the target element
+-   Activate the _Elements_ tab, and you will see the dynamic element shown up here
 
-## Use debugger
+### Use debugger
 
 It's similar to the previous way.
 
-* In the _Console_, execute the following code:
+-   In the _Console_, execute the following code:
 
 ```js
-handler = e => {
+handler = (e) => {
     if (e.key === 'Enter') debugger;
 };
 document.addEventListener('keydown', handler);
@@ -55,8 +52,8 @@ document.addEventListener('keydown', handler);
 
 Running `debugger` here will pause the script execution when we press the _Enter_ key. Of course, you can replace it with other key.
 
-* Hover on the target element, and click the _Enter_ key
-* The dynamic element is displayed and visible under the _Elements_ tab
+-   Hover on the target element, and click the _Enter_ key
+-   The dynamic element is displayed and visible under the _Elements_ tab
 
 Once you don't want to monitor the dynamic element anymore, you can [stop listening](https://htmldom.dev/attach-or-detach-an-event-handler) to the `keydown` event:
 
@@ -64,16 +61,14 @@ Once you don't want to monitor the dynamic element anymore, you can [stop listen
 document.removeEventListener('keydown', handler);
 ```
 
-## Track subtree modifications
+### Track subtree modifications
 
-* Open the _Chrome Developer Tools_, and click the _Elements_ tab
-* Right-click the `body` element, and choose _Break on > subtree modifications_ from the context menu
+-   Open the _Chrome Developer Tools_, and click the _Elements_ tab
+-   Right-click the `body` element, and choose _Break on > subtree modifications_ from the context menu
 
 ![Break on subtree modifications](/img/subtree-modifications.png)
 
-{% callout %}
-If the dynamic element, a tooltip for example, is generated in the parent element of the target element, then you should choose the parent instead of the `body` element
-{% endcallout %}
+> If the dynamic element, a tooltip for example, is generated in the parent element of the target element, then you should choose the parent instead of the `body` element
 
-* Move the mouse over the target element
-* You will see the dynamic element shown in the _Elements_ tab
+-   Move the mouse over the target element
+-   You will see the dynamic element shown in the _Elements_ tab

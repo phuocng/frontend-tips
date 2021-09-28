@@ -1,0 +1,39 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Add an icon to external links</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="stylesheet" href="/css/demo.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter&family=Source+Code+Pro&display=swap"
+        />
+        <style>
+            .demo__link {
+                align-items: center;
+                display: flex;
+            }
+            .demo__link--icon[target='_blank']:after {
+                content: url(/img/link.svg);
+                margin-left: 0.25rem;
+            }
+            .demo__link--text[target='_blank']:after {
+                content: ' (external)';
+                margin-left: 0.25rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <a class="demo__link demo__link--icon" href="https://github.com/phuoc-ng/frontend-tips" target="_blank"
+                >GitHub</a
+            >
+        </div>
+        <div>
+            <a class="demo__link demo__link--text" href="https://github.com/phuoc-ng/frontend-tips" target="_blank"
+                >GitHub</a
+            >
+        </div>
+    </body>
+</html>

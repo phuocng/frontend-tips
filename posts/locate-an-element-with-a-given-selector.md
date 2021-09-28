@@ -1,10 +1,7 @@
 ---
 title: Locate an element with a given selector
-category: tip
-date: 2021-03-27 11:35:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-27 11:35:00 +7'
 topics: DevTools
 ---
 
@@ -15,17 +12,15 @@ You probably see the problem when you're working on a unit of page (a component 
 Fortunately, DevTools gives us the `inspect` function to locate an element if we know its selector. The following code finds an element that has the `.rpv-default-layout-main` class and reveals it under the _Elements_ tab if there's any.
 
 ```js
-inspect($('.rpv-default-layout-main'))
+inspect($('.rpv-default-layout-main'));
 ```
 
-{% callout %}
-The `$` function is equivalent to the [`document.querySelector`](/quick-query-elements-in-the-console.html) function.
-{% endcallout %}
+> The `$` function is equivalent to the [`document.querySelector`](/quick-query-elements-in-the-console.html) function
 
 <video loop muted controls>
     <source src="/img/inspect-function.mp4" type="video/mp4">
 </video>
 
-_More_
+### See also
 
-* [Quick query elements in the Console](/quick-query-elements-in-the-console.html)
+-   [Quick query elements in the Console](/quick-query-elements-in-the-console.html)

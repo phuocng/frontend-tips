@@ -1,10 +1,7 @@
 ---
 title: Use template literal to concatenate strings
-category: practice
-date: 2021-02-23 22:50:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-02-23 22:50:00 +7'
 topics: JavaScript
 ---
 
@@ -16,18 +13,18 @@ const bar = 2;
 const fuzz = 'Fuzz';
 
 // Bad: Use + operator
-foo + bar + fuzz;   // '6Fuzz'
+foo + bar + fuzz; // '6Fuzz'
 
 // Better: Use concat
-''.concat(foo, bar, fuzz);      // 42Fuzz
-[foo, bar, fuzz].join('');      // 42Fuzz
+''.concat(foo, bar, fuzz); // 42Fuzz
+[foo, bar, fuzz].join(''); // 42Fuzz
 
 // Best: Use template literal
-`${foo}${bar}${fuzz}`;          // 42Fuzz
+`${foo}${bar}${fuzz}`; // 42Fuzz
 ```
 
-_More_
+### See also
 
-* [Create a multiline strings](/create-a-multiline-strings.html)
-* [Get rid of escaping quotes with template literal](/get-rid-of-escaping-quotes-with-template-literal.html)
-* [Prevent a string from being escaped](/prevent-a-string-from-being-escaped.html)
+-   [Create a multiline strings](/create-a-multiline-strings.html)
+-   [Get rid of escaping quotes with template literal](/get-rid-of-escaping-quotes-with-template-literal.html)
+-   [Prevent a string from being escaped](/prevent-a-string-from-being-escaped.html)

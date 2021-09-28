@@ -1,10 +1,7 @@
 ---
 title: Move the screenshot area on macOS
-category: tip
-date: 2021-03-15 20:39:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-15 20:39:00 +7'
 topics: macOS
 ---
 
@@ -18,7 +15,7 @@ In that case, rather than pressing the <kbd>escape</kbd> key and try again, you 
     <source src="/img/move-screenshot-area.mp4" type="video/mp4">
 </video>
 
-_More_
+### See also
 
-* [Capture a screenshot without shadow on macOS](/capture-a-screenshot-without-shadow-on-macos.html)
-* [Copy screenshots to the clipboard on macOS](/copy-screenshots-to-the-clipboard-on-macos.html)
+-   [Capture a screenshot without shadow on macOS](/capture-a-screenshot-without-shadow-on-macos.html)
+-   [Copy screenshots to the clipboard on macOS](/copy-screenshots-to-the-clipboard-on-macos.html)

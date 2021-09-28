@@ -1,13 +1,10 @@
 ---
 title: Find the root NPM package to update
-category: tip
-date: 2021-05-17 20:10:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-05-17 20:10:00 +7'
 topics: NPM
 metadata:
-  image: find-root-package.png
+    image: find-root-package.png
 ---
 
 If your repositories are stored on GitHub, you probably often receive notifications from GitHub asking to update a given npm package.

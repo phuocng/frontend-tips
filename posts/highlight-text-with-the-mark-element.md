@@ -1,10 +1,7 @@
 ---
 title: Highlight text with the mark element
-category: tip
-date: 2021-04-12 11:22:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-04-12 11:22:00 +7'
 topics: HTML
 ---
 
@@ -14,11 +11,6 @@ The semantic `<mark>` element provides the ability of highlighting text inside a
 Smooth <mark>scrolling</mark> with pure CSS
 ```
 
-_Demo_
+### Demo
 
-Search results for _scroll_:
-
-<ul>
-    <li>Smooth <mark>scrolling</mark> with pure CSS</li>
-    <li>Find <mark>scrollable</mark> elements</li>
-</ul>
+:demo[]{title="Highlight text with the mark element" url="/demo/highlight-text-with-the-mark-element/index.html"}

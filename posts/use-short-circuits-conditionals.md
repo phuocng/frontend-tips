@@ -1,10 +1,7 @@
 ---
 title: Use short-circuits conditionals
-category: tip
-date: 2021-02-27 10:00:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-02-27 10:00:00 +7'
 topics: JavaScript
 ---
 
@@ -30,8 +27,6 @@ The following sample code gives you the idea of [conditional rendering](https://
 
 ```jsx
 {
-    unreadMessages.length > 0 && (
-        <div>You have {unreadMessages.length} unread messages.</div>
-    )
+    unreadMessages.length > 0 && <div>You have {unreadMessages.length} unread messages.</div>;
 }
 ```

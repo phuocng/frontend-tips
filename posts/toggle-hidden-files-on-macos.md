@@ -1,10 +1,7 @@
 ---
 title: Toggle hidden files on macOS
-category: tip
-date: 2021-03-06 17:59:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-06 17:59:00 +7'
 topics: macOS
 ---
 

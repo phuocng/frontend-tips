@@ -1,10 +1,7 @@
 ---
 title: Prefix class name with js to manipulate with javascript
-category: practice
-date: 2021-02-23 08:23:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-02-23 08:23:00 +7'
 topics: DOM, HTML
 ---
 
@@ -13,8 +10,7 @@ Have you ever seen a class name starting with `js-`?
 If the answer is not, then you can visit the [GitHub repository](https://github.com/phuoc-ng/frontend-tips) and see the source of generated HTML. There are bunch of elements whose class are prefixed with `js-` such as:
 
 ```html
-<meta class="js-ga-set" name="userId" content="...">
-<meta class="js-ga-set" name="dimension1" content="...">
+<meta class="js-ga-set" name="userId" content="..." /> <meta class="js-ga-set" name="dimension1" content="..." />
 ```
 
 They are often used to manage the list of elements that we don't want to set id for (dynamic elements, for example). In these cases, we use the `document.querySelectorAll('js-xxx')` method to retrieve the elements list.

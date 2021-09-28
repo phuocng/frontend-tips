@@ -1,10 +1,7 @@
 ---
 title: Create an one-time event handler
-category: tip
-date: 2021-03-24 10:49:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-24 10:49:00 +7'
 topics: DOM, JavaScript
 ---
 
@@ -33,9 +30,13 @@ element.addEventListener('click', function handler(e) {
 However, the [modern browsers](https://caniuse.com/once-event-listener) provide the new `once` option that makes things easier. We don't have to track the reference of the handler anymore.
 
 ```js
-element.addEventListener('click', (e) => {
-    // Do something ...
-}, {
-    once: true
-});
+element.addEventListener(
+    'click',
+    (e) => {
+        // Do something ...
+    },
+    {
+        once: true,
+    }
+);
 ```

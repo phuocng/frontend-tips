@@ -1,13 +1,10 @@
 ---
 title: List branches sorted by most recent commit date
-category: tip
-date: 2021-05-12 19:22:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-05-12 19:22:00 +7'
 topics: Git
 metadata:
-  image: sort-git-branches.png
+    image: sort-git-branches.png
 ---
 
 If you're working on multiple projects or multiple features in the same project, you probably have different branches locally.

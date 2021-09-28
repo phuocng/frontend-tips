@@ -1,10 +1,7 @@
 ---
 title: Create a descending list of numbered items
-category: tip
-date: 2021-02-24 14:29:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-02-24 14:29:00 +7'
 topics: HTML
 ---
 
@@ -18,29 +15,16 @@ To do that, we just simply add the `reversed` attribute:
 
 ```html
 <ol reversed>
-  <li>...</li>
-  <li>...</li>
-  <li>...</li>
+    <li>...</li>
+    <li>...</li>
+    <li>...</li>
 </ol>
 ```
 
-{% callout %}
-You can use the `start` attribute which indicates the start number.
-{% endcallout %}
+> You can use the `start` attribute which indicates the start number
 
-_Demo_
+### Demo
 
 _Top 10 movies rated on [IMDB](https://www.imdb.com/chart/top/)_
 
-<ol reversed>
-  <li>The Lord of the Rings: The Fellowship of the Ring (2001)</li>
-  <li>The Good, the Bad and the Ugly (1966)</li>
-  <li>Pulp Fiction (1994)</li>
-  <li>The Lord of the Rings: The Return of the King (2003)</li>
-  <li>Schindler's List (1993)</li>
-  <li>12 Angry Men (1957)</li>
-  <li>The Dark Knight (2008)</li>
-  <li>The Godfather: Part II (1974)</li>
-  <li>The Godfather (1972)</li>
-  <li>The Shawshank Redemption (1994)</li>
-</ol>
+:demo[]{title="Create a descending list of numbered items" url="/demo/create-a-descending-list-of-numbered-items/index.html"}

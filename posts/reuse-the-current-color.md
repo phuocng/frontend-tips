@@ -1,10 +1,7 @@
 ---
 title: Reuse the current color
-category: practice
-date: 2021-03-03 15:35:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-03-03 15:35:00 +7'
 topics: CSS
 ---
 
@@ -13,13 +10,13 @@ Instead of repeating colors in a few places, we can define a value for the `colo
 ```css
 /* Bad */
 div {
-    color: #D1D5DB;
-    background-image: linear-gradient(to bottom, #D1D5DB, #fff);
+    color: #d1d5db;
+    background-image: linear-gradient(to bottom, #d1d5db, #fff);
 }
 
 /* Good */
 div {
-    color: #D1D5DB;
+    color: #d1d5db;
     background-image: linear-gradient(to bottom, currentColor, #fff);
 }
 ```
@@ -50,6 +47,4 @@ div a {
 }
 ```
 
-{% callout %}
-We often use the `currentColor` keyword in the _camelCase_ format. However, CSS is case-insensitive meaning that `CurrentColor`, `currentcolor` or even `cUrReNtCoLoR` are valid keywords and have the same effect as `currentColor`.
-{% endcallout %}
+> We often use the `currentColor` keyword in the _camelCase_ format. However, CSS is case-insensitive meaning that `CurrentColor`, `currentcolor` or even `cUrReNtCoLoR` are valid keywords and have the same effect as `currentColor`

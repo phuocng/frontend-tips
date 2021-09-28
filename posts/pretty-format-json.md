@@ -1,10 +1,7 @@
 ---
 title: Pretty format JSON
-category: tip
-date: 2021-02-27 21:02:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-02-27 21:02:00 +7'
 topics: JavaScript
 ---
 
@@ -44,8 +41,8 @@ JSON.stringify(person, null, '\t');
 */
 ```
 
-_More_
+### See also
 
-* [Log the full object in NodeJS](/log-the-full-object-in-nodejs.html)
-* [Pick given properties from a JSON representation](/pick-given-properties-from-a-json-representation.html)
-* [Transform values from a JSON representation](/transform-values-from-a-json-representation.html)
+-   [Log the full object in NodeJS](/log-the-full-object-in-nodejs.html)
+-   [Pick given properties from a JSON representation](/pick-given-properties-from-a-json-representation.html)
+-   [Transform values from a JSON representation](/transform-values-from-a-json-representation.html)

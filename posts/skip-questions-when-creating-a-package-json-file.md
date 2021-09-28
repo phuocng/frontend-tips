@@ -1,13 +1,10 @@
 ---
 title: Skip questions when creating a package.json file
-category: tip
-date: 2021-05-12 19:42:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-05-12 19:42:00 +7'
 topics: NPM
 metadata:
-  image: skip-questions-npm.png
+    image: skip-questions-npm.png
 ---
 
 We often use the `npm init` command to initialize a `package.json` file. The command will ask you some questions that are used to fill the content of `package.json` later.
@@ -32,15 +29,15 @@ Then it will create a `package.json` file with the default value for basic optio
 
 ```json
 {
-  "name": "dev",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "dev",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
 }
 ```

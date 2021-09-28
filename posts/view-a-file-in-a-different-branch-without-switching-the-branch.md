@@ -1,10 +1,7 @@
 ---
 title: View a file in a different branch without switching the branch
-category: tip
-date: 2021-03-15 16:18:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-15 16:18:00 +7'
 topics: Git
 ---
 
@@ -14,8 +11,8 @@ We can use the following command to see the content of a particular file on anot
 $ git show branch:file
 ```
 
-* `branch` represents the name of destination branch
-* `file` represents the relative path of the file
+-   `branch` represents the name of destination branch
+-   `file` represents the relative path of the file
 
 For example, `git show feature/tip:css/styles.css` shows the content of the file located at `css/styles.css` in the `feature/tip` branch.
 

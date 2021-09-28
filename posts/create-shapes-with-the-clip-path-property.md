@@ -1,10 +1,7 @@
 ---
 title: Create shapes with the clip path property
-category: tip
-date: 2021-04-08 11:38:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-04-08 11:38:00 +7'
 topics: CSS
 ---
 
@@ -12,9 +9,7 @@ In the old days, we often used the `:before` and `:after` pseudo elements to cre
 
 Nowadays, it can be accomplished with a single CSS property named `clip-path`. As the name implies, it creates a clipping region from the original element.
 
-{% callout %}
-If you're looking for a complex shape, then check this amazing [CSS clip-path maker](https://bennettfeely.com/clippy)
-{% endcallout %}
+> If you're looking for a complex shape, then check this amazing [CSS clip-path maker](https://bennettfeely.com/clippy)
 
 <style>
 .demo__shape {
@@ -100,20 +95,14 @@ If you're looking for a complex shape, then check this amazing [CSS clip-path ma
 }
 </style>
 
-## Arrow
+### Arrow
 
 ```css
 .arrow-left {
-    clip-path: polygon(
-        40% 0%, 40% 20%, 100% 20%, 100% 80%,
-        40% 80%, 40% 100%, 0% 50%
-    );
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
 }
 .arrow-right {
-    clip-path: polygon(
-        0% 20%, 60% 20%, 60% 0%, 100% 50%,
-        60% 100%, 60% 80%, 0% 80%
-    );
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
 }
 ```
 
@@ -122,20 +111,17 @@ If you're looking for a complex shape, then check this amazing [CSS clip-path ma
     <div class="demo__shape demo__shape--arrow-right"></div>
 </div>
 
-## Bubble
+### Bubble
 
 ```css
 .bubble {
-    clip-path: polygon(
-        0% 50%, 15% 60%, 15% 85%, 85% 85%,
-        85% 15%, 15% 15%, 15% 40%
-    );
+    clip-path: polygon(0% 50%, 15% 60%, 15% 85%, 85% 85%, 85% 15%, 15% 15%, 15% 40%);
 }
 ```
 
 <div class="demo__shape demo__shape--bubble"></div>
 
-## Circle
+### Circle
 
 ```css
 .circle {
@@ -145,20 +131,17 @@ If you're looking for a complex shape, then check this amazing [CSS clip-path ma
 
 <div class="demo__shape demo__shape--circle"></div>
 
-## Decagon
+### Decagon
 
 ```css
 .decagon {
-    clip-path: polygon(
-        50% 0%, 80% 10%, 100% 35%, 100% 70%,
-        80% 90%, 50% 100%, 20% 90%, 0% 70%,
-        0% 35%, 20% 10%
-    );
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
 }
 ```
+
 <div class="demo__shape demo__shape--decagon"></div>
 
-## Diamond
+### Diamond
 
 ```css
 .diamond {
@@ -168,33 +151,27 @@ If you're looking for a complex shape, then check this amazing [CSS clip-path ma
 
 <div class="demo__shape demo__shape--diamond"></div>
 
-## Heptagon 
+### Heptagon
 
 ```css
 .heptagon {
-    clip-path: polygon(
-        50% 0%, 90% 20%, 100% 60%, 75% 100%,
-        25% 100%, 0% 60%, 10% 20%
-    );
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
 }
 ```
 
 <div class="demo__shape demo__shape--heptagon"></div>
 
-## Hexagon
+### Hexagon
 
 ```css
 .hexagon {
-    clip-path: polygon(
-        25% 0%, 75% 0%, 100% 50%,
-        75% 100%, 25% 100%, 0% 50%
-    );
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 ```
 
 <div class="demo__shape demo__shape--hexagon"></div>
 
-## Ellipse
+### Ellipse
 
 ```css
 .ellipse {
@@ -204,62 +181,47 @@ If you're looking for a complex shape, then check this amazing [CSS clip-path ma
 
 <div class="demo__shape demo__shape--ellipse"></div>
 
-## Nonagon
+### Nonagon
 
 ```css
 .nonagon {
-    clip-path: polygon(
-        50% 0%, 83% 12%, 100% 43%, 94% 78%,
-        68% 100%, 32% 100%, 6% 78%, 0% 43%,
-        17% 12%
-    );
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
 }
 ```
 
 <div class="demo__shape demo__shape--nonagon"></div>
 
-## Octagon
+### Octagon
 
 ```css
 .octagon {
-    clip-path: polygon(
-        30% 0%, 70% 0%, 100% 30%, 100% 70%,
-        70% 100%, 30% 100%, 0% 70%, 0% 30%
-    );
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
 }
 ```
 
 <div class="demo__shape demo__shape--octagon"></div>
 
-## Parallelogram
+### Parallelogram
 
 ```css
 .parallelogram {
-    clip-path: polygon(
-        5% 20%, 25% 80%, 95% 80%, 75% 20%
-    );
+    clip-path: polygon(5% 20%, 25% 80%, 95% 80%, 75% 20%);
 }
 ```
 
 <div class="demo__shape demo__shape--parallelogram"></div>
 
-## Pentagon
+### Pentagon
 
 ```css
 .pentagon {
-    clip-path: polygon(
-        50% 0%, 
-        100% 38%,
-        82% 100%,
-        18% 100%,
-        0% 38%
-    );
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
 }
 ```
 
 <div class="demo__shape demo__shape--pentagon"></div>
 
-## Rectangle
+### Rectangle
 
 ```css
 .rectangle {
@@ -269,7 +231,7 @@ If you're looking for a complex shape, then check this amazing [CSS clip-path ma
 
 <div class="demo__shape demo__shape--rectangle"></div>
 
-## Square
+### Square
 
 ```css
 .square {
@@ -279,21 +241,17 @@ If you're looking for a complex shape, then check this amazing [CSS clip-path ma
 
 <div class="demo__shape demo__shape--square"></div>
 
-## Star
+### Star
 
 ```css
 .star {
-    clip-path: polygon(
-        50% 0%, 61% 35%, 98% 35%, 68% 57%,
-        79% 91%, 50% 70%, 21% 91%, 32% 57%,
-        2% 35%, 39% 35%
-    );
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
 ```
 
 <div class="demo__shape demo__shape--star"></div>
 
-## Trapezoid
+### Trapezoid
 
 ```css
 .trapezoid {
@@ -303,7 +261,7 @@ If you're looking for a complex shape, then check this amazing [CSS clip-path ma
 
 <div class="demo__shape demo__shape--trapezoid"></div>
 
-## Triangle
+### Triangle
 
 ```css
 .triangle-up {

@@ -1,10 +1,7 @@
 ---
 title: Create a file of any size
-category: tip
-date: 2021-03-19 20:07:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-19 20:07:00 +7'
 topics: macOS
 ---
 
@@ -24,6 +21,6 @@ For example, the following command produces an empty file named `big-file.ext` w
 $ mkfile 2g big-file.ext
 ```
 
-_More_
+### See also
 
-* [Create a big file on Linux](/create-a-big-file-on-linux.html)
+-   [Create a big file on Linux](/create-a-big-file-on-linux.html)

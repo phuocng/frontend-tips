@@ -1,10 +1,7 @@
 ---
 title: Validate an input value with the pattern attribute
-category: tip
-date: 2021-04-06 13:27:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-04-06 13:27:00 +7'
 topics: HTML
 ---
 
@@ -12,14 +9,14 @@ Validating user input against specific rules is a common thing when we work with
 
 Specifically, the following input types force user to enter valid characters:
 
-| Input type      | Description                                                                                     |
-|-----------------|-------------------------------------------------------------------------------------------------|
-| `type="color"`  | Only accepts a [color](https://formvalidation.io/guide/validators/color)                        |
-| `type="date"`   | Only accepts a [date](https://formvalidation.io/guide/validators/date)                          |
-| `type="email"`  | Only accepts a valid [email address](https://formvalidation.io/guide/validators/email-address)  |
-| `type="number"` | Only accepts a [number](https://formvalidation.io/guide/validators/integer)                     |
-| `type="tel"`    | Only accepts a [phone number](https://formvalidation.io/guide/validators/phone)                 |
-| `type="url"`    | Only accepts a [URL](https://formvalidation.io/guide/validators/uri)                            |
+| Input type      | Description                                                                                    |
+| --------------- | ---------------------------------------------------------------------------------------------- |
+| `type="color"`  | Only accepts a [color](https://formvalidation.io/guide/validators/color)                       |
+| `type="date"`   | Only accepts a [date](https://formvalidation.io/guide/validators/date)                         |
+| `type="email"`  | Only accepts a valid [email address](https://formvalidation.io/guide/validators/email-address) |
+| `type="number"` | Only accepts a [number](https://formvalidation.io/guide/validators/integer)                    |
+| `type="tel"`    | Only accepts a [phone number](https://formvalidation.io/guide/validators/phone)                |
+| `type="url"`    | Only accepts a [URL](https://formvalidation.io/guide/validators/uri)                           |
 
 Although these input types are useful, they can't serve the cases that the input must match a given regular expression.
 
@@ -28,11 +25,7 @@ For example, how we can force user to enter exactly 10 digits of a phone number 
 The sample code below solves the issue mentioned earlier:
 
 ```html
-<input
-  type="tel"
-  pattern="^\d{10}$"
-  title="Please enter 10 digits"
-/>
+<input type="tel" pattern="^\d{10}$" title="Please enter 10 digits" />
 ```
 
 It's recommended to use the `title` attribute, so users know what the correct value is.

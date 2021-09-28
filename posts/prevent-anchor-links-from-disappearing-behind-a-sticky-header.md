@@ -1,10 +1,7 @@
 ---
 title: Prevent anchor links from disappearing behind a sticky header
-category: tip
-date: 2021-03-24 13:56:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-24 13:56:00 +7'
 topics: CSS
 ---
 
@@ -26,6 +23,6 @@ section {
 }
 ```
 
-_More_
+### See also
 
-* [Smooth scrolling with pure CSS](/smooth-scrolling-with-pure-css.html)
+-   [Smooth scrolling with pure CSS](/smooth-scrolling-with-pure-css.html)

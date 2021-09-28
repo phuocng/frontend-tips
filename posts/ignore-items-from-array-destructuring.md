@@ -1,10 +1,7 @@
 ---
 title: Ignore items from array destructuring
-category: tip
-date: 2021-02-28 14:57:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-02-28 14:57:00 +7'
 topics: JavaScript
 ---
 
@@ -17,25 +14,26 @@ const dateTime = '2021-02-28T14:57:00';
 const [, time] = dateTime.split('T');
 
 // Ignore the seconds
-const [hours, minutes, ] = time.split(':');
+const [hours, minutes] = time.split(':');
 
-hours;      // '14'
-minutes;    // '57'
+hours; // '14'
+minutes; // '57'
 ```
 
 If you are working in a team, then it's a good idea to add comments for skipped items. It also makes the code more readable:
 
 ```js
 const [
-    ,   // date
-    time
+    ,
+    // date
+    time,
 ] = dateTime.split('T');
 
-const [hours, minutes, /* seconds */] = time.split(':');
+const [hours, minutes /* seconds */] = time.split(':');
 ```
 
-_More_
+### See also
 
-* [Get characters of a string](/get-characters-of-a-string.html)
-* [Pick the first and last items of an array](/pick-the-first-and-last-items-of-an-array.html)
-* [Use an underscore to name unused argument](/use-an-underscore-to-name-unused-argument.html)
+-   [Get characters of a string](/get-characters-of-a-string.html)
+-   [Pick the first and last items of an array](/pick-the-first-and-last-items-of-an-array.html)
+-   [Use an underscore to name unused argument](/use-an-underscore-to-name-unused-argument.html)

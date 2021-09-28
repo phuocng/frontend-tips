@@ -1,10 +1,7 @@
 ---
 title: Remove the border from the last navigation item
-category: tip
-date: 2021-02-24 13:30:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-02-24 13:30:00 +7'
 topics: CSS
 ---
 
@@ -13,7 +10,7 @@ Creating a navigation that each item has a bottom border usually looks like:
 
 ```css
 li {
-    border-bottom: 1px solid #E5E7EB;
+    border-bottom: 1px solid #e5e7eb;
 }
 
 /* Don't add border to the last item */
@@ -27,7 +24,7 @@ Using the `:not` pseudo-class, we can make the code shorter and more easy to mai
 ```css
 /* Add the border to all items except the last one */
 li:not(:last-child) {
-    border-bottom: 1px solid #E5E7EB;
+    border-bottom: 1px solid #e5e7eb;
 }
 ```
 
@@ -35,36 +32,10 @@ Another approach is to use the `+` selector:
 
 ```css
 li + li {
-    border-top: 1px solid #E5E7EB;
+    border-top: 1px solid #e5e7eb;
 }
 ```
 
-_Demo_
+### Demo
 
-<style>
-.demo__list {
-    border: 1px solid #E5E7EB;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 16rem;
-}
-.demo__list li {
-    padding: 0.25rem 0.5rem;
-}
-.demo__list li:not(:last-child) {
-    border-bottom: 1px solid #E5E7EB;
-}
-.demo__list a {
-    display: block;
-    text-decoration: none;
-}
-</style>
-
-<ul class="demo__list">
-    <li><a href="https://1loc.dev">1LOC</a></li>
-    <li><a href="https://csslayout.io">CSS Layout</a></li>
-    <li><a href="https://htmldom.dev">HTML DOM</a></li>
-    <li><a href="https://responsive.page">Responsive Design Patterns</a></li>
-    <li><a href="https://thisthat.dev">this VS that</a></li>
-</ul>
+:demo[]{title="Remove the border from the last navigation item" url="/demo/remove-the-border-from-the-last-navigation-item/index.html"}

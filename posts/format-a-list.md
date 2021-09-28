@@ -1,10 +1,7 @@
 ---
 title: Format a list
-category: tip
-date: 2021-02-27 18:59:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-02-27 18:59:00 +7'
 topics: JavaScript
 ---
 

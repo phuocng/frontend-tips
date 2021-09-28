@@ -1,10 +1,7 @@
 ---
 title: Transform values from a JSON representation
-category: tip
-date: 2021-04-08 10:12:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-04-08 10:12:00 +7'
 topics: JavaScript
 ---
 
@@ -33,7 +30,7 @@ We can solve the issue by passing the second parameter to the `stringify` functi
 ```js
 JSON.stringify(variable, (key, value) => {
     // The return value will be used in final output
-    
+
     // If the function returns `undefined`,
     // the item will be excluded from the output
     return ...;
@@ -43,9 +40,7 @@ JSON.stringify(variable, (key, value) => {
 Here is how the phone numbers are transformed when we see the `phones` key:
 
 ```js
-JSON.stringify(person, (key, value) => (
-    (key === 'phones') ? [...value.values()] : value
-));
+JSON.stringify(person, (key, value) => (key === 'phones' ? [...value.values()] : value));
 
 // "{"name":"John Doe","ages":42,"phones":["123","456","789"]}"
 ```
@@ -53,13 +48,11 @@ JSON.stringify(person, (key, value) => (
 Want to transform all `Set` values? No problem!
 
 ```js
-JSON.stringify(person, (key, value) => (
-    (value instanceof Set) ? [...value.values()] : value
-));
+JSON.stringify(person, (key, value) => (value instanceof Set ? [...value.values()] : value));
 ```
 
-_More_
+### See also
 
-* [Log the full object in NodeJS](/log-the-full-object-in-nodejs.html)
-* [Pick given properties from a JSON representation](/pick-given-properties-from-a-json-representation.html)
-* [Pretty format JSON](/pretty-format-json.html)
+-   [Log the full object in NodeJS](/log-the-full-object-in-nodejs.html)
+-   [Pick given properties from a JSON representation](/pick-given-properties-from-a-json-representation.html)
+-   [Pretty format JSON](/pretty-format-json.html)

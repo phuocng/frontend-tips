@@ -1,15 +1,12 @@
 ---
 title: Replace multiple if statements with a single switch statement
-category: trick
-date: 2021-02-26 11:35:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Trick
+date: '2021-02-26 11:35:00 +7'
 topics: JavaScript
 ---
 
 We demonstrate the trick with a simple issue: Determine the quarter of a given date.
-Since the month in JavaScript is zero-based, the month of a given `date` can be determined as 
+Since the month in JavaScript is zero-based, the month of a given `date` can be determined as
 
 ```js
 // `date` is the input date
@@ -35,13 +32,13 @@ It is not easy for us to scan multiple `if` statements above. We can make it mor
 
 ```js
 switch (true) {
-    case (month <= 3): 
+    case month <= 3:
         quarter = 1;
         break;
-    case (month <= 6):
+    case month <= 6:
         quarter = 2;
         break;
-    case (month <= 9):
+    case month <= 9:
         quarter = 3;
         break;
     default:
@@ -50,12 +47,10 @@ switch (true) {
 }
 ```
 
-{% callout %}
-This trick gives us an idea of using `switch (true)` to make the code more readable. The specific issue in this post, calculating the [quarter of a given date](https://1loc.dev/#get-the-current-quarter-of-a-date), can be done with a [single line-of-code](https://1loc.dev).
-{% endcallout %}
+> This trick gives us an idea of using `switch (true)` to make the code more readable. The specific issue in this post, calculating the [quarter of a given date](https://1loc.dev/#get-the-current-quarter-of-a-date), can be done with a [single line-of-code](https://1loc.dev).
 
-_More_
+### See also
 
-* [Early return](/early-return.html)
-* [Replace multiple if statements with a lookup table](/replace-multiple-if-statements-with-a-lookup-table.html)
-* [Use Array.includes for multiple conditionals](/use-array-includes-for-multiple-conditionals.html)
+-   [Early return](/early-return.html)
+-   [Replace multiple if statements with a lookup table](/replace-multiple-if-statements-with-a-lookup-table.html)
+-   [Use Array.includes for multiple conditionals](/use-array-includes-for-multiple-conditionals.html)

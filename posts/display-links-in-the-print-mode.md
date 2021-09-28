@@ -1,10 +1,7 @@
 ---
 title: Display links in the print mode
-category: tip
-date: 2021-03-25 12:25:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-25 12:25:00 +7'
 topics: CSS
 ---
 
@@ -14,8 +11,8 @@ We can do it by including the link in the `:after` element:
 
 ```css
 @media print {
-    a::after{
-        content: " (" attr(href) ") ";
+    a::after {
+        content: ' (' attr(href) ') ';
     }
 }
 ```

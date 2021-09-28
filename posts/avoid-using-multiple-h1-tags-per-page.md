@@ -1,13 +1,10 @@
 ---
 title: Avoid using multiple <h1> tags per page
-category: practice
-date: 2021-05-13 20:27:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-05-13 20:27:00 +7'
 topics: HTML
 metadata:
-  image: avoid-multiple-h1.png
+    image: avoid-multiple-h1.png
 ---
 
 The `<h1>` tag is often used at the top of the page to indicate the overall purpose of the page's content.
@@ -41,6 +38,6 @@ It means that using multiple `<h1>` tags is valid in terms of HTML syntax, but i
 </section>
 ```
 
-_More_
+### See also
 
-* [Avoid skipping heading levels](/avoid-skipping-heading-levels.html)
+-   [Avoid skipping heading levels](/avoid-skipping-heading-levels.html)

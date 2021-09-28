@@ -1,10 +1,7 @@
 ---
 title: Override the behavior of instanceof
-category: trick
-date: 2021-02-23 09:47:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Trick
+date: '2021-02-23 09:47:00 +7'
 topics: JavaScript
 ---
 
@@ -20,6 +17,6 @@ class PrimitiveNumber {
     }
 }
 
-12345 instanceof PrimitiveNumber;           // true
-'helloworld' instanceof PrimitiveNumber;    // false
+12345 instanceof PrimitiveNumber; // true
+'helloworld' instanceof PrimitiveNumber; // false
 ```

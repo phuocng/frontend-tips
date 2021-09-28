@@ -1,0 +1,57 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Make a table with equal column widths</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="stylesheet" href="/css/demo.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter&family=Source+Code+Pro&display=swap"
+        />
+        <script type="module" src="https://unpkg.com/@placeholders/core@0.0.4/dist/esm/placeholders.js"></script>
+        <style>
+            .demo__table {
+                table-layout: fixed;
+            }
+            .demo__table td {
+                vertical-align: top;
+            }
+            .demo__table td:nth-of-type(3n) {
+                color: #6b7280;
+            }
+            .demo__table td:nth-of-type(3n + 1) {
+                color: #ef4444;
+            }
+            .demo__table td:nth-of-type(3n + 2) {
+                color: #3b82f6;
+            }
+        </style>
+    </head>
+    <body>
+        <table class="demo__table">
+            <tbody>
+                <tr>
+                    <td><placeholder-lines size="2" /></td>
+                    <td><placeholder-lines size="4" /></td>
+                    <td><placeholder-lines size="3" /></td>
+                </tr>
+                <tr>
+                    <td><placeholder-lines size="4" /></td>
+                    <td><placeholder-lines size="2" /></td>
+                    <td><placeholder-lines size="3" /></td>
+                </tr>
+                <tr>
+                    <td><placeholder-lines size="3" /></td>
+                    <td><placeholder-lines size="2" /></td>
+                    <td><placeholder-lines size="4" /></td>
+                </tr>
+                <tr>
+                    <td><placeholder-lines size="2" /></td>
+                    <td><placeholder-lines size="4" /></td>
+                    <td><placeholder-lines size="3" /></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

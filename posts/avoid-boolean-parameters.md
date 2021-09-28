@@ -1,13 +1,10 @@
 ---
 title: Avoid boolean parameters
-category: practice
-date: 2021-05-13 20:17:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Best practice
+date: '2021-05-13 20:17:00 +7'
 topics: JavaScript
 metadata:
-  image: avoid-boolean-parameters.png
+    image: avoid-boolean-parameters.png
 ---
 
 Let's consider a situation where we have a function that writes a string to a file. It allows user to append the content to file, or override the content via the `override` parameter:
@@ -30,25 +27,24 @@ writeToFile(content, file, false);
 
 If you are not the one who creates the function, you have to question what the boolean value represents until looking at the implementation.
 
-It is worse if the function has a lot of boolean flags. Using boolean flags makes the core harder to read and maintain. 
+It is worse if the function has a lot of boolean flags. Using boolean flags makes the core harder to read and maintain.
 
 There are a few ways to get rid of the issue.
 
-## Provide explicit methods
+### Provide explicit methods
 
 ```js
 appendToFile(content, file);
 overrideFile(content, file);
 ```
 
-
-## Use an object parameter
+### Use an object parameter
 
 ```js
 writeToFile(content, file, { override });
 ```
 
-## Use an enum
+### Use an enum
 
 If you're using TypeScript, then you can use `enum` to represent the possible values of a boolean flag.
 
@@ -70,6 +66,6 @@ writeToFile(content, file, SaveMode.Append);
 writeToFile(content, file, SaveMode.Override);
 ```
 
-_More_
+### See also
 
-* [Manage multiple boolean flags](/manage-multiple-boolean-flags.html)
+-   [Manage multiple boolean flags](/manage-multiple-boolean-flags.html)

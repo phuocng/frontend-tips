@@ -1,13 +1,10 @@
 ---
 title: Compose multiple React providers
-category: tip
-date: 2021-05-13 20:36:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-05-13 20:36:00 +7'
 topics: React
 metadata:
-  image: compose-react-providers.png
+    image: compose-react-providers.png
 ---
 
 Nowadays, it is common to use React's context at the root of an application to manage a shared state between any components.
@@ -45,11 +42,12 @@ const App = () => {
 The providers can be composed together by using the `reduce` function:
 
 ```js
-const compose = (providers) => providers.reduce((Prev, Curr) => ({ children }) => (
-    <Prev>
-        <Curr>{children}</Curr>
-    </Prev>
-));
+const compose = (providers) =>
+    providers.reduce((Prev, Curr) => ({ children }) => (
+        <Prev>
+            <Curr>{children}</Curr>
+        </Prev>
+    ));
 ```
 
 The provider declarations in the root can be shorten as below:

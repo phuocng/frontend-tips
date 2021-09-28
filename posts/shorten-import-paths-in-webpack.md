@@ -1,10 +1,7 @@
 ---
 title: Shorten import paths in Webpack
-category: tip
-date: 2021-03-17 11:04:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-17 11:04:00 +7'
 topics: Webpack
 ---
 
@@ -24,12 +21,12 @@ The Webpack config looks like:
 const path = require('path');
 
 module.exports = {
-  resolve: {
-    alias: {
-      // Assume that the `src` folder is located at the root folder
-      '@': path.join(__dirname, 'src'),
-    }
-  },
+    resolve: {
+        alias: {
+            // Assume that the `src` folder is located at the root folder
+            '@': path.join(__dirname, 'src'),
+        },
+    },
 };
 ```
 
@@ -41,6 +38,6 @@ import { formatDate } from '@/helpers/formatDate';
 
 Webpack will be looking for the helper in the `src/helpers/formatDate` file.
 
-_More_
+### See also
 
-* [Shorten import paths in TypeScript](/shorten-import-paths-in-typescript.html)
+-   [Shorten import paths in TypeScript](/shorten-import-paths-in-typescript.html)

@@ -1,10 +1,7 @@
 ---
 title: Prevent macOS from going to sleep
-category: tip
-date: 2021-03-22 20:40:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-22 20:40:00 +7'
 topics: macOS
 ---
 

@@ -1,10 +1,7 @@
 ---
 title: Unpack a property of an object with different name
-category: tip
-date: 2021-03-07 08:30:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-07 08:30:00 +7'
 topics: JavaScript
 ---
 

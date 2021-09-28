@@ -1,10 +1,7 @@
 ---
 title: Create a line-on-sides heading
-category: tip
-date: 2021-03-03 16:16:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-03 16:16:00 +7'
 topics: CSS
 ---
 
@@ -27,25 +24,11 @@ We can use the `::before` and `::after` pseudo elements to represent the left an
 .heading::before,
 .heading::after {
     align-self: center;
-    border-top: 0.25rem double #E5E7EB;
+    border-top: 0.25rem double #e5e7eb;
     content: '';
 }
 ```
-_Demo_
 
-<style>
-.demo__heading {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    grid-gap: 1rem;
-    text-align: center;
-}
-.demo__heading::before,
-.demo__heading::after {
-    align-self: center;
-    border-top: 0.25rem double #E5E7EB;
-    content: '';
-}
-</style>
+### Demo
 
-<h2 class="demo__heading">Front-end Tips</h2>
+:demo[]{title="Create a line-on-sides heading" url="/demo/create-a-line-on-sides-heading/index.html"}

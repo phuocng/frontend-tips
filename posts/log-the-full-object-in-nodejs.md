@@ -1,10 +1,7 @@
 ---
 title: Log the full object in NodeJS
-category: tip
-date: 2021-03-06 09:12:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-03-06 09:12:00 +7'
 topics: NodeJS
 ---
 
@@ -43,6 +40,6 @@ console.dir(person, { depth: null });
 
 It's also possible to use the same technique mentioned in the [_Pretty format JSON_](/pretty-format-json.html) tip which works in both NodeJS and browser environments.
 
-_More_
+### See also
 
-* [Transform values from a JSON representation](/transform-values-from-a-json-representation.html)
+-   [Transform values from a JSON representation](/transform-values-from-a-json-representation.html)

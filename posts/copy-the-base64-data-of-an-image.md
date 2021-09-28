@@ -1,10 +1,7 @@
 ---
 title: Copy the base64 data of an image
-category: tip
-date: 2021-04-04 13:09:00 +7
-tags:
-  - posts
-layout: layouts/post.njk
+category: Tip
+date: '2021-04-04 13:09:00 +7'
 topics: DevTools
 ---
 
