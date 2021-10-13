@@ -50,7 +50,7 @@ The content of post
 ```
 
 -   `title`: Must match with the file name
--   `category`: Can be one of `tip`, `trick` or `practice`
+-   `category`: Can be one of `tip`, `trick` or `Best practice`
 -   `date`: The date that post is created
 -   `topics`: The list of topic(s), separated by a comma
 
