@@ -5,8 +5,10 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <link href="/favicon.png" rel="icon" />
                     <meta charSet="utf-8" />
+                    <link rel="icon" href="/favicon.png" type="image/png" />
+                    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+                    <link rel="mask-icon" href="/mask-favicon.svg" color="#1975FF" />
 
                     <meta content="Tiny tips, tricks & best practices for front-end development" name="description" />
                     <meta content="Nguyen Huu Phuoc" name="author" />
@@ -17,7 +19,6 @@ class MyDocument extends Document {
                         name="twitter:description"
                     />
                     <meta content="Tiny tips, tricks & best practices for front-end development" name="twitter:title" />
-                    <meta content="/img/logo.png" name="twitter:image" />
 
                     <meta content="Tiny tips, tricks & best practices for front-end development" property="og:title" />
                     <meta
@@ -26,10 +27,8 @@ class MyDocument extends Document {
                     />
                     <meta content="article" property="og:type" />
                     <meta content="https://getfrontend.tips" property="og:url" />
-                    <meta content="/img/logo.png" property="og:image" />
                     <meta content="this vs that" property="og:site_name" />
 
-                    <link rel="icon" href="/img/favicon.png" />
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
                     <link
