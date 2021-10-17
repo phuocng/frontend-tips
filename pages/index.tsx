@@ -14,7 +14,7 @@ const HomePage: React.FC<{
             <div className="block-container">
                 <div className="block-home__hero">
                     <Spacer size="extraLarge" />
-                    <Heading level={1}>Tips, Tricks, Best Practices</Heading>
+                    <h1 className="block-home__heading">Tips, Tricks, Best Practices</h1>
                     <Heading level={4}>for front-end development</Heading>
                     <Spacer size="large" />
                 </div>
