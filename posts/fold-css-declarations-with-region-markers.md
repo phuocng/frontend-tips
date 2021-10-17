@@ -33,6 +33,22 @@ SCSS and Less also accept `//` as a valid CSS comment, hence you can use `// #re
 
 /* === Footer === */
 /* #region */
+/* #endregion */
+
+/* === Footer === */
+/* #region */
+/* #endregion */
+
+/* === Footer === */
+/* #region */
+/* #endregion */
+
+/* === Footer === */
+/* #region */
+/* #endregion */
+
+/* === Footer === */
+/* #region */
 ...
 /* #endregion */
 
