@@ -14,7 +14,7 @@ const HomePage: React.FC<{
             <div className="block-container">
                 <div className="block-home__hero">
                     <Spacer size="extraLarge" />
-                    <Heading level={1}>Tips, Tricks, Best Practices</Heading>
+                    <h1 className="block-home__heading">Tips, Tricks, Best Practices</h1>
                     <Heading level={4}>for front-end development</Heading>
                     <Spacer size="large" />
                 </div>
@@ -26,12 +26,7 @@ const HomePage: React.FC<{
                                 src={`/img/${post.category.toLowerCase().replace(' ', '-')}.svg`}
                             />
                             <h3 className="block-home__title">{post.title}</h3>
-                            <div className="block-home__topics">
-                                {post.topics
-                                    .split(' ')
-                                    .map((v) => `#${v}`)
-                                    .join(', ')}
-                            </div>
+                            <div className="block-home__topics">{post.topics}</div>
                         </a>
                     </Link>
                 ))}

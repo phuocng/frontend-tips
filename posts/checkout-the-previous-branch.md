@@ -18,3 +18,7 @@ Without specifying the branch name, we can quickly checkout the previous branch 
 ```shell
 $ git checkout -
 ```
+
+### See also
+
+-   [Go to the previous directory](/go-to-the-previous-directory)
