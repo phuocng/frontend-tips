@@ -26,12 +26,7 @@ const HomePage: React.FC<{
                                 src={`/img/${post.category.toLowerCase().replace(' ', '-')}.svg`}
                             />
                             <h3 className="block-home__title">{post.title}</h3>
-                            <div className="block-home__topics">
-                                {post.topics
-                                    .split(' ')
-                                    .map((v) => `#${v}`)
-                                    .join(', ')}
-                            </div>
+                            <div className="block-home__topics">{post.topics}</div>
                         </a>
                     </Link>
                 ))}
