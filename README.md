@@ -22,7 +22,7 @@ $ git clone https://github.com/1milligram/frontend-tips
 
 ```shell
 $ cd frontend-tips
-$ npm install
+$ npm install --legacy-peer-deps
 ```
 
 3. Run it on the local:

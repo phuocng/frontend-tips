@@ -16,77 +16,24 @@ SCSS and Less also accept `//` as a valid CSS comment, hence you can use `// #re
 ```css
 /* === Header === */
 /* #region */
-...
+
+/* The CSS styles for header go here */
+
 /* #endregion */
 
 /* === Footer === */
 /* #region */
-/* #endregion */
 
-/* === Footer === */
-/* #region */
-/* #endregion */
+/* The CSS styles for footer go here */
 
-/* === Footer === */
-/* #region */
-/* #endregion */
-
-/* === Footer === */
-/* #region */
-/* #endregion */
-
-/* === Footer === */
-/* #region */
-/* #endregion */
-
-/* === Footer === */
-/* #region */
-/* #endregion */
-
-/* === Footer === */
-/* #region */
-/* #endregion */
-
-/* === Footer === */
-/* #region */
-/* #endregion */
-
-/* === Footer === */
-/* #region */
-/* #endregion */
-
-/* === Footer === */
-/* #region */
-/* #endregion */
-
-/* === Footer === */
-/* #region */
-/* #endregion */
-
-/* === Footer === */
-/* #region */
-/* #endregion */
-
-/* === Footer === */
-/* #region */
-/* #endregion */
-
-/* === Footer === */
-/* #region */
-/* #endregion */
-
-/* === Footer === */
-/* #region */
-/* #endregion */
-
-/* === Footer === */
-/* #region */
-...
 /* #endregion */
 
 /* === Responsive === */
 /* #region */
-...; /* #endregion */
+
+/* The responsive styles go here */
+
+/* #endregion */
 ```
 
 The following screenshot shows how Visual Studio Code helps us organize the [CSS of this site](https://github.com/phuoc-ng/frontend-tips/blob/main/css/index.css):
