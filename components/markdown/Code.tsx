@@ -17,7 +17,7 @@ const Code = (props) => {
     const code = Array.isArray(children) ? children[0].trim() : children.trim();
 
     return inline ? (
-        <code className="block-markdown__code">{code}</code>
+        <code className="block-markdown__code">`{code}`</code>
     ) : (
         <Highlight {...defaultProps} theme={theme} code={code} language={lang as Language}>
             {({ className, style, tokens, getLineProps, getTokenProps }) => (
