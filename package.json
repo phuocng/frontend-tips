@@ -37,20 +37,20 @@
         "@1milligram/design": "^0.4.0",
         "@1milligram/frame": "^1.0.1",
         "gray-matter": "^4.0.3",
-        "next": "^11.1.2",
+        "next": "^12.0.2",
         "prism-react-renderer": "^1.2.1",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
-        "react-markdown": "^7.0.1",
-        "remark-directive": "^2.0.0",
-        "remark-gfm": "^2.0.0"
+        "react-markdown": "^7.1.0",
+        "remark-directive": "^2.0.1",
+        "remark-gfm": "^3.0.0"
     },
     "devDependencies": {
-        "@types/react": "^17.0.20",
-        "@types/react-dom": "^17.0.9",
-        "prettier": "^2.4.0",
-        "sass": "^1.39.2",
+        "@types/react": "^17.0.34",
+        "@types/react-dom": "^17.0.11",
+        "prettier": "^2.4.1",
+        "sass": "^1.43.4",
         "serve": "^12.0.1",
-        "typescript": "^4.4.3"
+        "typescript": "^4.4.4"
     }
 }
