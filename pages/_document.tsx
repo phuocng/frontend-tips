@@ -27,7 +27,7 @@ class MyDocument extends Document {
                     />
                     <meta content="article" property="og:type" />
                     <meta content="https://getfrontend.tips" property="og:url" />
-                    <meta content="this vs that" property="og:site_name" />
+                    <meta content="Front-End Tips" property="og:site_name" />
 
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
