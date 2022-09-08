@@ -5,13 +5,12 @@ date: '2021-03-27 13:06:00 +7'
 topics: Command Line, macOS
 ---
 
-We often use the arrow keys to move the cursor when editing the parameters of a command.
+We often use the arrow keys to move the cursor when editing the command line on the terminal.
 
-Imagine that the target position is somewhere in the middle of the command. Pressing the arrow keys multiple times takes time, and isn't a comfortable process.
+Imagine that the target position is somewhere in the middle of the command text, pressing the arrow keys multiple times takes time and isn't a comfortable process.
 
-Fortunately, there is a shortcut that makes the flow easier. We just simply hold the <kbd>alt</kbd> key, and click the mouse at the destination position.
-
-The following video demonstrates how I fix a typo in a command using this tip.
+Fortunately, there is a shortcut that makes the process easier - holding down the <kbd>alt</kbd> key while clicking the mouse at the desired position.
+The following video demonstrates how to fix a typo in a command using this tip.
 
 <video loop muted controls>
     <source src="/img/move-cursor-terminal.mp4" type="video/mp4">
