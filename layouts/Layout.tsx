@@ -10,11 +10,11 @@ interface LayoutProps {
 export const Layout: React.FC<LayoutProps> = ({ children, title }) => (
     <>
         <Head>
-            <title>{title} - this vs that</title>
+            <title>{title} - Front-End Tips</title>
             <meta name="description" content={title} />
-            <meta name="twitter:title" content={`${title} - this vs that`} />
+            <meta name="twitter:title" content={`${title} - Front-End Tips`} />
             <meta name="twitter:description" content={title} />
-            <meta property="og:title" content={`${title} - this vs that`} />
+            <meta property="og:title" content={`${title} - Front-End Tips`} />
             <meta property="og:description" content={title} />
         </Head>
 
