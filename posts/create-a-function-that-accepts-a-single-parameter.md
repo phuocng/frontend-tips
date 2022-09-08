@@ -26,7 +26,7 @@ However, the result isn't correct if we shorten it as below:
 The issue is caused by the fact that the mapper function accepts three parameters which are the array item, index, and the array.
 Calling `.map(parseInt)` means that we pass the item index to `parseInt` as the second parameter. As a result, we will see `NaN`.
 
-This leads to a requirement of building a function that [accepts only the first parameter](https://1loc.dev/#create-a-function-that-accepts-a-single-argument), and ignore the remaining parameters.
+This leads to a requirement of building a function that [accepts only the first parameter](https://1loc.dev/function/create-a-function-that-accepts-a-single-argument/), and ignore the remaining parameters.
 
 ```js
 const unary = (fn) => (params) => fn(params);
