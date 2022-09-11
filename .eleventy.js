@@ -1,5 +1,6 @@
 const fs = require('fs');
 const markdownIt = require('markdown-it');
+const pluginRss = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const htmlmin = require('html-minifier');
 
@@ -7,6 +8,7 @@ module.exports = function(eleventyConfig) {
     // Copy the `img` and `css` folders to the output
     eleventyConfig.addPassthroughCopy('assets');
 
+    eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(syntaxHighlight);
 
     let markdownLibrary = markdownIt({
@@ -15,7 +17,7 @@ module.exports = function(eleventyConfig) {
     });
     eleventyConfig.setLibrary('md', markdownLibrary);
 
-    eleventyConfig.addCollection('sortByTitle', function(collectionApi) {
+    eleventyConfig.addCollection('sortedByTitle', function(collectionApi) {
         return collectionApi.getAll()
             .filter(function(item) {
                 let extension = item.inputPath.split('.').pop();
@@ -23,6 +25,17 @@ module.exports = function(eleventyConfig) {
             })
             .sort(function(a, b) {
                 return a.data.title - b.data.title;
+            });
+    });
+
+    eleventyConfig.addCollection('sortedByDate', function(collectionApi) {
+        return collectionApi.getAll()
+            .filter(function(item) {
+                let extension = item.inputPath.split('.').pop();
+                return extension === 'md';
+            })
+            .sort(function(a, b) {
+                return a.data.date - b.data.date;
             });
     });
 
