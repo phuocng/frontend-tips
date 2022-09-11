@@ -14,5 +14,5 @@ Fortunately, there is a shortcut that makes the process easier - holding down th
 The following video demonstrates how to fix a typo in a command using this tip.
 
 <video loop muted controls>
-    <source src="/img/move-cursor-terminal.mp4" type="video/mp4">
+    <source src="/assets/img/move-cursor-terminal.mp4" type="video/mp4">
 </video>

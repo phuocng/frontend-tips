@@ -21,4 +21,4 @@ However, we can't see these styles under the _Styles_ panel in Chrome DevTools. 
 
 Under the _Styles_ panel, DevTools will show the print styles for the selected element if there are. In the following screenshot, you will see the print styles of `.rpv-print-page-thumbnail` elements.
 
-![Emulate print CSS](/img/emulate-print-css.png)
+![Emulate print CSS](/assets/img/emulate-print-css.png)

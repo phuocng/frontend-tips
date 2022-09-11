@@ -14,4 +14,4 @@ The Firefox Developer Tools allows us to see all elements causing overflow.
 
 In the following screenshot, the highlighted element is displayed with the `scroll` badge indicating that it produces the scrollbar. Clicking the `scroll` badge will reveal the associate element.
 
-![Find scrollable elements](/img/scrollable-overflow.png)
+![Find scrollable elements](/assets/img/scrollable-overflow.png)

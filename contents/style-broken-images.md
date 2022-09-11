@@ -54,7 +54,7 @@ img::after {
 The demo below shows extra elements for a broken image whose markup is
 
 ```html
-<img src="/img/not-found.png" alt="front-end tips" />
+<img src="/assets/img/not-found.png" alt="front-end tips" />
 ```
 
 :demo[]{title="Style broken images" url="/demo/style-broken-images/index.html"}

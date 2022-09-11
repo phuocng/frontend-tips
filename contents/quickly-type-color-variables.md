@@ -26,4 +26,4 @@ The colors then can be reused with the `var` function:
 
 If you're using Visual Studio Code, then you don't have to type `var(...)` completely. Instead, just type `--` and Visual Studio Code suggests the existing color variables.
 
-![Visual Studio Code completes color variables automatically](/img/vscode-autocomplete-colors.png)
+![Visual Studio Code completes color variables automatically](/assets/img/vscode-autocomplete-colors.png)

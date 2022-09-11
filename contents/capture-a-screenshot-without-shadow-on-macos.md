@@ -13,7 +13,7 @@ Then clicking the target window will produce a screenshot without the shadow.
 
 The shadowless screenshot below is an example when capturing the [1 LOC](https://1loc.dev) website:
 
-![Remove the shadow](/img/remove-shadow.png)
+![Remove the shadow](/assets/img/remove-shadow.png)
 
 ## See also
 

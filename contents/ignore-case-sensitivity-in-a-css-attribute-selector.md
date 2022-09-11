@@ -12,7 +12,7 @@ Imagine that you're building a files management application. It would add an ico
 
 ```css
 a[href$='.png']:after {
-    content: url(/img/png.svg);
+    content: url(/assets/img/png.svg);
 }
 ```
 
@@ -22,7 +22,7 @@ In order to accept all of these variants, we can add `i` right before `]` in the
 
 ```css
 a[href$='.png' i]:after {
-    content: url(/img/png.svg);
+    content: url(/assets/img/png.svg);
 }
 ```
 

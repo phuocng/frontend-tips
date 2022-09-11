@@ -15,7 +15,7 @@ The Chrome DevTools provides two shortcut methods to query the elements in the p
 
 The following screenshot demonstrates how to use them in the _Console_.
 
-![Query elements in the Console](/img/query-selector-shortcuts.png)
+![Query elements in the Console](/assets/img/query-selector-shortcuts.png)
 
 ## See also
 

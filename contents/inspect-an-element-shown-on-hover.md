@@ -67,7 +67,7 @@ document.removeEventListener('keydown', handler);
 -   Open the _Chrome Developer Tools_, and click the _Elements_ tab
 -   Right-click the `body` element, and choose _Break on > subtree modifications_ from the context menu
 
-![Break on subtree modifications](/img/subtree-modifications.png)
+![Break on subtree modifications](/assets/img/subtree-modifications.png)
 
 > If the dynamic element, a tooltip for example, is generated in the parent element of the target element, then you should choose the parent instead of the `body` element
 

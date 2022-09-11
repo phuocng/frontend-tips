@@ -25,7 +25,7 @@ The nice thing is that the script execution on the page is still being processed
 
 In the following screenshot, the `params` variable is logged to the _Console_ when the `sum` function is invoked.
 
-![Log with conditional breakpoints](/img/log-conditional-breakpoints.png)
+![Log with conditional breakpoints](/assets/img/log-conditional-breakpoints.png)
 
 ## See also
 

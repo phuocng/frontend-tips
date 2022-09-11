@@ -12,5 +12,5 @@ Press and hold the _Alt_ key, then the menu item's label turns to _Copy ... as P
 Clicking the menu item will save the full path to the clipboard.
 
 <video loop muted controls>
-  <source src="/img/copy-path.mp4" type="video/mp4">
+  <source src="/assets/img/copy-path.mp4" type="video/mp4">
 </video>

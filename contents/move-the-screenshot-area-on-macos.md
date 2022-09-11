@@ -13,7 +13,7 @@ Even though we can move the mouse to resize the captured area, the top left corn
 In that case, rather than pressing the <kbd>escape</kbd> key and try again, you can hit and hold the <kbd>space</kbd> key. Moving your mouse will also move the screenshot area.
 
 <video loop muted controls>
-    <source src="/img/move-screenshot-area.mp4" type="video/mp4">
+    <source src="/assets/img/move-screenshot-area.mp4" type="video/mp4">
 </video>
 
 ## See also

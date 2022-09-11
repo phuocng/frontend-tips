@@ -23,7 +23,7 @@ window.addEventListener('scroll', (e) => {
 ```
 
 <video loop muted controls>
-  <source src="/img/busy-console.mp4" type="video/mp4">
+  <source src="/assets/img/busy-console.mp4" type="video/mp4">
 </video>
 
 Using live expressions can help us get rid of the issue. To use it, click the eye icon under the _Console_. Enter the variable that you want to watch in the textbox, and click outside of the textbox to save it. You can add as many expressions as you want.
@@ -31,7 +31,7 @@ Using live expressions can help us get rid of the issue. To use it, click the ey
 From now on, you'll see the new value of expression whenever it changes.
 
 <video loop muted controls>
-  <source src="/img/live-expressions.mp4" type="video/mp4">
+  <source src="/assets/img/live-expressions.mp4" type="video/mp4">
 </video>
 
 ## See also

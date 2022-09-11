@@ -17,4 +17,4 @@ img[alt=''] {
 
 If you are using Visual Studio Code, you can install the [webhint extension](https://marketplace.visualstudio.com/items?itemName=webhint.vscode-webhint). It will automatically detect the issue and show the details when you hover on the element.
 
-![webhint image](/img/webhint-img.png)
+![webhint image](/assets/img/webhint-img.png)

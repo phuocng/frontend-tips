@@ -39,4 +39,4 @@ SCSS and Less also accept `//` as a valid CSS comment, hence you can use `// #re
 
 The following screenshot shows how Visual Studio Code helps us organize the [CSS of this site](https://github.com/phuoc-ng/frontend-tips/blob/main/css/index.css):
 
-![Fold CSS declarations with region markers](/img/fold-css-declarations.png)
+![Fold CSS declarations with region markers](/assets/img/fold-css-declarations.png)

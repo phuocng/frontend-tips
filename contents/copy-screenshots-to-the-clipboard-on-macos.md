@@ -15,7 +15,7 @@ As soon as the screenshot is available in the clipboard, we can press <kbd>ctrl<
 It's very helpful when we need the screenshot to report an issue, on GitHub for example, as you see in the following video.
 
 <video loop muted controls>
-    <source src="/img/copy-screenshot-to-clipboard.mp4" type="video/mp4">
+    <source src="/assets/img/copy-screenshot-to-clipboard.mp4" type="video/mp4">
 </video>
 
 ## See also

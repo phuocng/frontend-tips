@@ -9,5 +9,5 @@ topics: macOS
 We can quickly show or hide all hidden files on macOS _Finder_ by compressing <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>.</kbd>
 
 <video loop muted controls>
-  <source src="/img/toggle-hidden-files.mp4" type="video/mp4">
+  <source src="/assets/img/toggle-hidden-files.mp4" type="video/mp4">
 </video>

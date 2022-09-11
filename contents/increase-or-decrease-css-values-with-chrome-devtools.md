@@ -23,5 +23,5 @@ Rather than changing the value manually, we can quickly increase or decrease the
 On Windows and Linux, the <kbd>cmd</kbd> key should be replaced with the <kbd>ctrl</kbd> key.
 
 <video loop muted controls>
-    <source src="/img/increase-decrease-values-devtools.mp4" type="video/mp4">
+    <source src="/assets/img/increase-decrease-values-devtools.mp4" type="video/mp4">
 </video>

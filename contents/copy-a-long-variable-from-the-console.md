@@ -8,7 +8,7 @@ topics: DevTools
 
 The Chrome DevTools' Console will collapse and split a long variable into smaller ranges. The following screenshot shows how you see `console.log(range)` in the _Console_, where `range` is an array of numbers between 0 and 500.
 
-![long variable in the Console](/img/long-variable-in-console.png)
+![long variable in the Console](/assets/img/long-variable-in-console.png)
 
 It's not easy to see the full value or copy the content to clipboard. Here is the tip to do that with ease:
 

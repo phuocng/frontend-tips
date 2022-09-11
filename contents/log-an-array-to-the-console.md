@@ -47,7 +47,7 @@ console.table(resources);
 
 Here is the screenshot compares the output of two methods above:
 
-![console.table](/img/console-table.png)
+![console.table](/assets/img/console-table.png)
 
 If you don't want to see all the columns, then you can indicate the columns explicitly:
 
@@ -56,7 +56,7 @@ If you don't want to see all the columns, then you can indicate the columns expl
 console.table(resources, ['name', 'link']);
 ```
 
-![console.table](/img/console-table-columns.png)
+![console.table](/assets/img/console-table-columns.png)
 
 This tip also has effect when you want to [pick some particular properties from a JSON representation](/pick-given-properties-from-a-json-representation).
 

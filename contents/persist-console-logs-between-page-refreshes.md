@@ -12,6 +12,6 @@ Fortunately, both Chrome DevTools and Firefox Developer Tools give us options to
 
 Under the _Console_ panel of Chrome DevTools, click the cog icon on the right, and turn on the _Preserve log_ option:
 
-![Preserve log in Chrome DevTools](/img/preserve-log.png)
+![Preserve log in Chrome DevTools](/assets/img/preserve-log.png)
 
 In addition to the logs of each page, DevTools also lets you know when you navigate to another page. It's easy for us to determine where a log message comes from.

@@ -19,7 +19,7 @@ inspect($('.rpv-default-layout-main'));
 > The `$` function is equivalent to the [`document.querySelector`](/quick-query-elements-in-the-console) function
 
 <video loop muted controls>
-    <source src="/img/inspect-function.mp4" type="video/mp4">
+    <source src="/assets/img/inspect-function.mp4" type="video/mp4">
 </video>
 
 ## See also

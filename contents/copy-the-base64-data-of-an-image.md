@@ -14,4 +14,4 @@ Under the _Sources_ tab, click the _Page_ tab and you will see all the images of
 
 Clicking an image will show it up on the right side. The _Copy image as data URI_ functionality is available when you right-click the image.
 
-![Copy image URI with DevTools](/img/copy-image-uri.png)
+![Copy image URI with DevTools](/assets/img/copy-image-uri.png)
