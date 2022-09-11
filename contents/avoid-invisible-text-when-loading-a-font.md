@@ -26,7 +26,7 @@ If you are using [Google fonts](https://fonts.google.com), then putting the `dis
 <link href="https://fonts.googleapis.com/css2?family=Roboto:400,700&display=swap" rel="stylesheet" />
 ```
 
-### See also
+## See also
 
--   [Combine Google font requests](/combine-google-font-requests.html)
--   [Load given characters in a Google font request](/load-given-characters-in-a-google-font-request.html)
+-   [Combine Google font requests](/combine-google-font-requests)
+-   [Load given characters in a Google font request](/load-given-characters-in-a-google-font-request)

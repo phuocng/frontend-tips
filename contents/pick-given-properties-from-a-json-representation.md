@@ -77,10 +77,10 @@ JSON.stringify(resources, ['name']);
 JSON.stringify(resources, ['name', 'link']);
 ```
 
-You can use the same tip when [logging an array to the Console](/log-an-array-to-the-console.html).
+You can use the same tip when [logging an array to the Console](/log-an-array-to-the-console).
 
-### See also
+## See also
 
--   [Log the full object in NodeJS](/log-the-full-object-in-nodejs.html)
--   [Pretty format JSON](/pretty-format-json.html)
--   [Transform values from a JSON representation](/transform-values-from-a-json-representation.html)
+-   [Log the full object in NodeJS](/log-the-full-object-in-nodejs)
+-   [Pretty format JSON](/pretty-format-json)
+-   [Transform values from a JSON representation](/transform-values-from-a-json-representation)

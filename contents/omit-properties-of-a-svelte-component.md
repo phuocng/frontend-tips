@@ -36,6 +36,6 @@ The cool thing is that, if you use the same name for both property and the varia
 />
 ```
 
-### See also
+## See also
 
 -   [Omit values of HTML boolean attributes](/omit-values-of-html-boolean-attributes)

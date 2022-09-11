@@ -41,6 +41,6 @@ The `unary` function creates a wrapper of a function, and ignores all parameters
 // [1, 2, 3, 4, 5]
 ```
 
-### See also
+## See also
 
--   [Accept any numbers of parameters](/accept-any-numbers-of-parameters.html)
+-   [Accept any numbers of parameters](/accept-any-numbers-of-parameters)

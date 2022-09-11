@@ -12,6 +12,6 @@ The semantic `<mark>` element provides the ability of highlighting text inside a
 Smooth <mark>scrolling</mark> with pure CSS
 ```
 
-### Demo
+## Demo
 
 :demo[]{title="Highlight text with the mark element" url="/demo/highlight-text-with-the-mark-element/index.html"}

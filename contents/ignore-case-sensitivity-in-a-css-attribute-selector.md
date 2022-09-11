@@ -26,6 +26,6 @@ a[href$='.png' i]:after {
 }
 ```
 
-### See also
+## See also
 
--   [Add an icon to external links](/add-an-icon-to-external-links.html)
+-   [Add an icon to external links](/add-an-icon-to-external-links)

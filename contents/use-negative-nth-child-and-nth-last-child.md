@@ -29,10 +29,10 @@ li:nth-last-child(-n + 2) {
 }
 ```
 
-### Demo
+## Demo
 
 :demo[]{title="Use negative nth-child and nth-last-child" url="/demo/use-negative-nth-child-and-nth-last-child/index.html"}
 
-### See also
+## See also
 
--   [Append leading zeros to ordered list items](/append-leading-zeros-to-ordered-list-items.html)
+-   [Append leading zeros to ordered list items](/append-leading-zeros-to-ordered-list-items)

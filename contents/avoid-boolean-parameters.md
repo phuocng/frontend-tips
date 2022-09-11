@@ -32,20 +32,20 @@ It is worse if the function has a lot of boolean flags. Using boolean flags make
 
 There are a few ways to get rid of the issue.
 
-### Provide explicit methods
+## Provide explicit methods
 
 ```js
 appendToFile(content, file);
 overrideFile(content, file);
 ```
 
-### Use an object parameter
+## Use an object parameter
 
 ```js
 writeToFile(content, file, { override });
 ```
 
-### Use an enum
+## Use an enum
 
 If you're using TypeScript, then you can use `enum` to represent the possible values of a boolean flag.
 
@@ -67,6 +67,6 @@ writeToFile(content, file, SaveMode.Append);
 writeToFile(content, file, SaveMode.Override);
 ```
 
-### See also
+## See also
 
--   [Manage multiple boolean flags](/manage-multiple-boolean-flags.html)
+-   [Manage multiple boolean flags](/manage-multiple-boolean-flags)

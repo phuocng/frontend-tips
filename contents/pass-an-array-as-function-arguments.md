@@ -32,6 +32,6 @@ const max = (arr) => arr.reduce((a, b) => Math.max(a, b));
 max([1, 2, 3, 4]); // 4
 ```
 
-### See also
+## See also
 
--   [Accept any numbers of parameters](/accept-any-numbers-of-parameters.html)
+-   [Accept any numbers of parameters](/accept-any-numbers-of-parameters)

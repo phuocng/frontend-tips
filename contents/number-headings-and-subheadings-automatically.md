@@ -79,6 +79,6 @@ h5::before {
 }
 ```
 
-### See also
+## See also
 
--   [Style index numbers of list items](/style-index-numbers-of-list-items.html)
+-   [Style index numbers of list items](/style-index-numbers-of-list-items)

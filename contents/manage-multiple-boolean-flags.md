@@ -92,6 +92,6 @@ const validatePassword = (password, rule = RULE_DEFAULT) => {
 };
 ```
 
-### See also
+## See also
 
--   [Avoid boolean parameters](/avoid-boolean-parameters.html)
+-   [Avoid boolean parameters](/avoid-boolean-parameters)

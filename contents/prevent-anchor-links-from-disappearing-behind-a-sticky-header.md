@@ -24,6 +24,6 @@ section {
 }
 ```
 
-### See also
+## See also
 
--   [Smooth scrolling with pure CSS](/smooth-scrolling-with-pure-css.html)
+-   [Smooth scrolling with pure CSS](/smooth-scrolling-with-pure-css)

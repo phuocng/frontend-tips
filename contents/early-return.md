@@ -81,8 +81,8 @@ const suffixAmPm = (hour) => {
 };
 ```
 
-### See also
+## See also
 
--   [Replace multiple if statements with a lookup table](/replace-multiple-if-statements-with-a-lookup-table.html)
--   [Replace multiple if statements with a single switch statement](/replace-multiple-if-statements-with-a-single-switch-statement.html)
--   [Use Array.includes for multiple conditionals](/use-array-includes-for-multiple-conditionals.html)
+-   [Replace multiple if statements with a lookup table](/replace-multiple-if-statements-with-a-lookup-table)
+-   [Replace multiple if statements with a single switch statement](/replace-multiple-if-statements-with-a-single-switch-statement)
+-   [Use Array.includes for multiple conditionals](/use-array-includes-for-multiple-conditionals)

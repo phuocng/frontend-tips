@@ -16,7 +16,7 @@ In that case, rather than pressing the <kbd>escape</kbd> key and try again, you 
     <source src="/img/move-screenshot-area.mp4" type="video/mp4">
 </video>
 
-### See also
+## See also
 
--   [Capture a screenshot without shadow on macOS](/capture-a-screenshot-without-shadow-on-macos.html)
--   [Copy screenshots to the clipboard on macOS](/copy-screenshots-to-the-clipboard-on-macos.html)
+-   [Capture a screenshot without shadow on macOS](/capture-a-screenshot-without-shadow-on-macos)
+-   [Copy screenshots to the clipboard on macOS](/copy-screenshots-to-the-clipboard-on-macos)

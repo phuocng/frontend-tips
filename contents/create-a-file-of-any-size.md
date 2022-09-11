@@ -37,6 +37,6 @@ See the man page for `mkfile` for more information.
 $ man mkfile
 ```
 
-### See also
+## See also
 
--   [Create a big file on Linux](/create-a-big-file-on-linux.html)
+-   [Create a big file on Linux](/create-a-big-file-on-linux)

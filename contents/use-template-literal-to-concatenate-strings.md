@@ -24,8 +24,8 @@ foo + bar + fuzz; // '6Fuzz'
 `${foo}${bar}${fuzz}`; // 42Fuzz
 ```
 
-### See also
+## See also
 
--   [Create a multiline strings](/create-a-multiline-strings.html)
--   [Get rid of escaping quotes with template literal](/get-rid-of-escaping-quotes-with-template-literal.html)
--   [Prevent a string from being escaped](/prevent-a-string-from-being-escaped.html)
+-   [Create a multiline strings](/create-a-multiline-strings)
+-   [Get rid of escaping quotes with template literal](/get-rid-of-escaping-quotes-with-template-literal)
+-   [Prevent a string from being escaped](/prevent-a-string-from-being-escaped)

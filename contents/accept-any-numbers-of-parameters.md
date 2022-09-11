@@ -32,7 +32,7 @@ const sum = (...params) => params.reduce((a, b) => a + b, 0);
 sum(1, 2, 3, 4, 5); // 15
 ```
 
-### See also
+## See also
 
--   [Create a function that accepts a single parameter](/create-a-function-that-accepts-a-single-parameter.html)
--   [Pass an array as function arguments](/pass-an-array-as-function-arguments.html)
+-   [Create a function that accepts a single parameter](/create-a-function-that-accepts-a-single-parameter)
+-   [Pass an array as function arguments](/pass-an-array-as-function-arguments)

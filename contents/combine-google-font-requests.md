@@ -30,7 +30,7 @@ Note that the syntax is a little bit different when using the Google Font v2. It
 />
 ```
 
-### See also
+## See also
 
--   [Avoid invisible text when loading a font](/avoid-invisible-text-when-loading-a-font.html)
--   [Load given characters in a Google font request](/load-given-characters-in-a-google-font-request.html)
+-   [Avoid invisible text when loading a font](/avoid-invisible-text-when-loading-a-font)
+-   [Load given characters in a Google font request](/load-given-characters-in-a-google-font-request)

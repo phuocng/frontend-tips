@@ -24,7 +24,7 @@ The logical OR operator `||` is used in a simliar way:
 ```
 
 In the modern web frameworks, we can use the similar syntax to render a given component when a condition satisfies.
-The following sample code gives you the idea of [conditional rendering](https://reactjs.org/docs/conditional-rendering.html) in [React](https://reactjs.org):
+The following sample code gives you the idea of [conditional rendering](https://reactjs.org/docs/conditional-rendering) in [React](https://reactjs.org):
 
 ```jsx
 {

@@ -16,12 +16,12 @@ Fortunately, DevTools gives us the `inspect` function to locate an element if we
 inspect($('.rpv-default-layout-main'));
 ```
 
-> The `$` function is equivalent to the [`document.querySelector`](/quick-query-elements-in-the-console.html) function
+> The `$` function is equivalent to the [`document.querySelector`](/quick-query-elements-in-the-console) function
 
 <video loop muted controls>
     <source src="/img/inspect-function.mp4" type="video/mp4">
 </video>
 
-### See also
+## See also
 
--   [Quick query elements in the Console](/quick-query-elements-in-the-console.html)
+-   [Quick query elements in the Console](/quick-query-elements-in-the-console)

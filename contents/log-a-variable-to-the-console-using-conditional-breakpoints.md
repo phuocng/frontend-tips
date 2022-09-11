@@ -27,9 +27,9 @@ In the following screenshot, the `params` variable is logged to the _Console_ wh
 
 ![Log with conditional breakpoints](/img/log-conditional-breakpoints.png)
 
-### See also
+## See also
 
--   [Conditional logging in the Console](/conditional-logging-in-the-console.html)
--   [Log a value to the Console](/log-a-value-to-the-console.html)
--   [Log a variable in an arrow function](/log-a-variable-in-an-arrow-function.html)
--   [Log an array to the Console](/log-an-array-to-the-console.html)
+-   [Conditional logging in the Console](/conditional-logging-in-the-console)
+-   [Log a value to the Console](/log-a-value-to-the-console)
+-   [Log a variable in an arrow function](/log-a-variable-in-an-arrow-function)
+-   [Log an array to the Console](/log-an-array-to-the-console)

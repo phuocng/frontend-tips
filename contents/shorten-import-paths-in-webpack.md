@@ -39,6 +39,6 @@ import { formatDate } from '@/helpers/formatDate';
 
 Webpack will be looking for the helper in the `src/helpers/formatDate` file.
 
-### See also
+## See also
 
--   [Shorten import paths in TypeScript](/shorten-import-paths-in-typescript.html)
+-   [Shorten import paths in TypeScript](/shorten-import-paths-in-typescript)

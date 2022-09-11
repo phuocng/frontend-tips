@@ -15,7 +15,7 @@ The shadowless screenshot below is an example when capturing the [1 LOC](https:/
 
 ![Remove the shadow](/img/remove-shadow.png)
 
-### See also
+## See also
 
--   [Copy screenshots to the clipboard on macOS](/copy-screenshots-to-the-clipboard-on-macos.html)
--   [Move the screenshot area on macOS](/move-the-screenshot-area-on-macos.html)
+-   [Copy screenshots to the clipboard on macOS](/copy-screenshots-to-the-clipboard-on-macos)
+-   [Move the screenshot area on macOS](/move-the-screenshot-area-on-macos)

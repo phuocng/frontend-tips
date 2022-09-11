@@ -21,6 +21,6 @@ $ dd if=/dev/urandom of=sample.txt bs=1G count=1
 
 The file size is the result of `bs * count` in bytes.
 
-### See also
+## See also
 
--   [Create a file of any size](/create-a-file-of-any-size.html)
+-   [Create a file of any size](/create-a-file-of-any-size)

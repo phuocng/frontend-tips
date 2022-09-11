@@ -50,8 +50,8 @@ switch (true) {
 
 > This trick gives us an idea of using `switch (true)` to make the code more readable. The specific issue in this post, calculating the [quarter of a given date](https://1loc.dev/#get-the-current-quarter-of-a-date), can be done with a [single line-of-code](https://1loc.dev).
 
-### See also
+## See also
 
--   [Early return](/early-return.html)
--   [Replace multiple if statements with a lookup table](/replace-multiple-if-statements-with-a-lookup-table.html)
--   [Use Array.includes for multiple conditionals](/use-array-includes-for-multiple-conditionals.html)
+-   [Early return](/early-return)
+-   [Replace multiple if statements with a lookup table](/replace-multiple-if-statements-with-a-lookup-table)
+-   [Use Array.includes for multiple conditionals](/use-array-includes-for-multiple-conditionals)

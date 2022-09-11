@@ -28,7 +28,7 @@ Also, an array item at any position can be accessed with its index. Hence, we ca
 const { length, 0: first, [length - 1]: last } = arr;
 ```
 
-### See also
+## See also
 
--   [Get characters of a string](/get-characters-of-a-string.html)
--   [Ignore items from array destructuring](/ignore-items-from-array-destructuring.html)
+-   [Get characters of a string](/get-characters-of-a-string)
+-   [Ignore items from array destructuring](/ignore-items-from-array-destructuring)

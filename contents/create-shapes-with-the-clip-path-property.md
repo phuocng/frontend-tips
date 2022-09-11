@@ -96,7 +96,7 @@ Nowadays, it can be accomplished with a single CSS property named `clip-path`. A
 }
 </style>
 
-### Arrow
+## Arrow
 
 ```css
 .arrow-left {
@@ -112,7 +112,7 @@ Nowadays, it can be accomplished with a single CSS property named `clip-path`. A
     <div class="demo__shape demo__shape--arrow-right"></div>
 </div>
 
-### Bubble
+## Bubble
 
 ```css
 .bubble {
@@ -122,7 +122,7 @@ Nowadays, it can be accomplished with a single CSS property named `clip-path`. A
 
 <div class="demo__shape demo__shape--bubble"></div>
 
-### Circle
+## Circle
 
 ```css
 .circle {
@@ -132,7 +132,7 @@ Nowadays, it can be accomplished with a single CSS property named `clip-path`. A
 
 <div class="demo__shape demo__shape--circle"></div>
 
-### Decagon
+## Decagon
 
 ```css
 .decagon {
@@ -142,7 +142,7 @@ Nowadays, it can be accomplished with a single CSS property named `clip-path`. A
 
 <div class="demo__shape demo__shape--decagon"></div>
 
-### Diamond
+## Diamond
 
 ```css
 .diamond {
@@ -152,7 +152,7 @@ Nowadays, it can be accomplished with a single CSS property named `clip-path`. A
 
 <div class="demo__shape demo__shape--diamond"></div>
 
-### Heptagon
+## Heptagon
 
 ```css
 .heptagon {
@@ -162,7 +162,7 @@ Nowadays, it can be accomplished with a single CSS property named `clip-path`. A
 
 <div class="demo__shape demo__shape--heptagon"></div>
 
-### Hexagon
+## Hexagon
 
 ```css
 .hexagon {
@@ -172,7 +172,7 @@ Nowadays, it can be accomplished with a single CSS property named `clip-path`. A
 
 <div class="demo__shape demo__shape--hexagon"></div>
 
-### Ellipse
+## Ellipse
 
 ```css
 .ellipse {
@@ -182,7 +182,7 @@ Nowadays, it can be accomplished with a single CSS property named `clip-path`. A
 
 <div class="demo__shape demo__shape--ellipse"></div>
 
-### Nonagon
+## Nonagon
 
 ```css
 .nonagon {
@@ -192,7 +192,7 @@ Nowadays, it can be accomplished with a single CSS property named `clip-path`. A
 
 <div class="demo__shape demo__shape--nonagon"></div>
 
-### Octagon
+## Octagon
 
 ```css
 .octagon {
@@ -202,7 +202,7 @@ Nowadays, it can be accomplished with a single CSS property named `clip-path`. A
 
 <div class="demo__shape demo__shape--octagon"></div>
 
-### Parallelogram
+## Parallelogram
 
 ```css
 .parallelogram {
@@ -212,7 +212,7 @@ Nowadays, it can be accomplished with a single CSS property named `clip-path`. A
 
 <div class="demo__shape demo__shape--parallelogram"></div>
 
-### Pentagon
+## Pentagon
 
 ```css
 .pentagon {
@@ -222,7 +222,7 @@ Nowadays, it can be accomplished with a single CSS property named `clip-path`. A
 
 <div class="demo__shape demo__shape--pentagon"></div>
 
-### Rectangle
+## Rectangle
 
 ```css
 .rectangle {
@@ -232,7 +232,7 @@ Nowadays, it can be accomplished with a single CSS property named `clip-path`. A
 
 <div class="demo__shape demo__shape--rectangle"></div>
 
-### Square
+## Square
 
 ```css
 .square {
@@ -242,7 +242,7 @@ Nowadays, it can be accomplished with a single CSS property named `clip-path`. A
 
 <div class="demo__shape demo__shape--square"></div>
 
-### Star
+## Star
 
 ```css
 .star {
@@ -252,7 +252,7 @@ Nowadays, it can be accomplished with a single CSS property named `clip-path`. A
 
 <div class="demo__shape demo__shape--star"></div>
 
-### Trapezoid
+## Trapezoid
 
 ```css
 .trapezoid {
@@ -262,7 +262,7 @@ Nowadays, it can be accomplished with a single CSS property named `clip-path`. A
 
 <div class="demo__shape demo__shape--trapezoid"></div>
 
-### Triangle
+## Triangle
 
 ```css
 .triangle-up {

@@ -49,7 +49,7 @@ li:nth-child(n + 100)::before {
 The `:nth-child(n+10)` selector indicates the items whose indices are greater or equal to 10. It will override the styles applied for `li::before` elements.
 In the same way, `:nth-child(n+100)` overrides the styles of `:nth-child(n+10)`.
 
-### See also
+## See also
 
--   [Style index numbers of list items](/style-index-numbers-of-list-items.html)
--   [Use negative nth-child and nth-last-child](/use-negative-nth-child-and-nth-last-child.html)
+-   [Style index numbers of list items](/style-index-numbers-of-list-items)
+-   [Use negative nth-child and nth-last-child](/use-negative-nth-child-and-nth-last-child)

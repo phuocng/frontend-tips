@@ -39,6 +39,6 @@ main {
 
 Setting `flex-grow: 1` to the main content will make it take the available spaces. The footer then [sticks at the bottom](https://csslayout.io/patterns/sticky-footer).
 
-### Demo
+## Demo
 
 :demo[]{title="Always put the footer at the bottom" url="/demo/always-put-the-footer-at-the-bottom/index.html"}

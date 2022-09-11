@@ -39,6 +39,6 @@ It means that using multiple `<h1>` tags is valid in terms of HTML syntax, but i
 </section>
 ```
 
-### See also
+## See also
 
--   [Avoid skipping heading levels](/avoid-skipping-heading-levels.html)
+-   [Avoid skipping heading levels](/avoid-skipping-heading-levels)

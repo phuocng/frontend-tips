@@ -33,6 +33,6 @@ To create a custom emoji cursor, we can use an inline SVG element which displays
 }
 ```
 
-### Demo
+## Demo
 
 :demo[]{title="Create a custom emoji cursor" url="/demo/create-a-custom-emoji-cursor/index.html"}

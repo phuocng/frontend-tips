@@ -27,6 +27,6 @@ It's recommended to keep the heading elements in the order, so the users won't b
 <h3>Heading level 3</h3>
 ```
 
-### See also
+## See also
 
--   [Avoid using multiple `<h1>` tags per page](/avoid-using-multiple-h1-tags-per-page.html)
+-   [Avoid using multiple `<h1>` tags per page](/avoid-using-multiple-h1-tags-per-page)

@@ -33,8 +33,8 @@ const [
 const [hours, minutes /* seconds */] = time.split(':');
 ```
 
-### See also
+## See also
 
--   [Get characters of a string](/get-characters-of-a-string.html)
--   [Pick the first and last items of an array](/pick-the-first-and-last-items-of-an-array.html)
--   [Use an underscore to name unused argument](/use-an-underscore-to-name-unused-argument.html)
+-   [Get characters of a string](/get-characters-of-a-string)
+-   [Pick the first and last items of an array](/pick-the-first-and-last-items-of-an-array)
+-   [Use an underscore to name unused argument](/use-an-underscore-to-name-unused-argument)

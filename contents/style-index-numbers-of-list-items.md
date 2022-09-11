@@ -35,12 +35,12 @@ li::before {
 }
 ```
 
-### Demo
+## Demo
 
 :demo[]{title="Style index numbers of list items" url="/demo/style-index-numbers-of-list-items/index.html"}
 
-### See also
+## See also
 
--   [Append leading zeros to ordered list items](/append-leading-zeros-to-ordered-list-items.html)
--   [Number headings and subheadings automatically](/number-headings-and-subheadings-automatically.html)
--   [Style list items with special characters](/style-list-items-with-special-characters.html)
+-   [Append leading zeros to ordered list items](/append-leading-zeros-to-ordered-list-items)
+-   [Number headings and subheadings automatically](/number-headings-and-subheadings-automatically)
+-   [Style list items with special characters](/style-list-items-with-special-characters)

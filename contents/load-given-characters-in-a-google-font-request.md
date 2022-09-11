@@ -20,7 +20,7 @@ If you want to have Unicode characters, then encode them with their UTF-8 repres
 
 Reducing the size of the font file improves the loading time, especially on devices where the network speed is usually limited.
 
-### See also
+## See also
 
--   [Avoid invisible text when loading a font](/avoid-invisible-text-when-loading-a-font.html)
--   [Combine Google font requests](/combine-google-font-requests.html)
+-   [Avoid invisible text when loading a font](/avoid-invisible-text-when-loading-a-font)
+-   [Combine Google font requests](/combine-google-font-requests)

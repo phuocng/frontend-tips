@@ -8,7 +8,7 @@ topics: CSS
 
 There're different ways to [center](https://csslayout.io/patterns/centering) a given element in both directions.
 
-### Using flexbox
+## Using flexbox
 
 ```css
 .container {
@@ -19,7 +19,7 @@ There're different ways to [center](https://csslayout.io/patterns/centering) a g
 }
 ```
 
-### Using grid
+## Using grid
 
 ```css
 .container {
@@ -28,7 +28,7 @@ There're different ways to [center](https://csslayout.io/patterns/centering) a g
 }
 ```
 
-### Using positions
+## Using positions
 
 We position the child element absolutely to the parent element.
 

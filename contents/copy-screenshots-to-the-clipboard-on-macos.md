@@ -18,7 +18,7 @@ It's very helpful when we need the screenshot to report an issue, on GitHub for 
     <source src="/img/copy-screenshot-to-clipboard.mp4" type="video/mp4">
 </video>
 
-### See also
+## See also
 
--   [Capture a screenshot without shadow on macOS](/capture-a-screenshot-without-shadow-on-macos.html)
--   [Move the screenshot area on macOS](/move-the-screenshot-area-on-macos.html)
+-   [Capture a screenshot without shadow on macOS](/capture-a-screenshot-without-shadow-on-macos)
+-   [Move the screenshot area on macOS](/move-the-screenshot-area-on-macos)

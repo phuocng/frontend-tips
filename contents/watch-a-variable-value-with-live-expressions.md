@@ -11,7 +11,7 @@ _Live expressions_ allows us to watch a JavaScript expression over time. The exp
 It's very useful in some use cases such as
 
 -   Track CSS properties that are changed during an animation
--   Track the [current active element](/track-the-focused-element-with-chrome-devtools.html)
+-   Track the [current active element](/track-the-focused-element-with-chrome-devtools)
 -   See the values of variables in real time without logging them
 
 For example, when using the `console.log` function inside the handlers of the `mousemove`, `scroll` events, we can see a lot of logged values in the Console. It's not easy for us to scan the values when the event occurs.
@@ -34,6 +34,6 @@ From now on, you'll see the new value of expression whenever it changes.
   <source src="/img/live-expressions.mp4" type="video/mp4">
 </video>
 
-### See also
+## See also
 
--   [Track the focused element with Chrome DevTools](/track-the-focused-element-with-chrome-devtools.html)
+-   [Track the focused element with Chrome DevTools](/track-the-focused-element-with-chrome-devtools)

@@ -22,6 +22,6 @@ The following command will bring you to the previous working directory:
 $ cd -
 ```
 
-### See also
+## See also
 
 -   [Checkout the previous branch](/checkout-the-previous-branch)

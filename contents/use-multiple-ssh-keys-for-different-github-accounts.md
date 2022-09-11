@@ -14,7 +14,7 @@ Sometimes you have more than one GitHub account. For example, one for accessing 
 
 The question is how your local Git recogranizes a repository that comes with which GitHub account. This tip will help you.
 
-### Creating different keys
+## Creating different keys
 
 Assume that `foo` and `bar` are two GitHub usernames that you would like to use in the same computer. You can follow the official GitHub guide to [generate SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
@@ -32,7 +32,7 @@ Enter a file in which to save the key (/home/you/.ssh/id_ed25519):
 
 Repeat the same steps for the `bar` account. Now, we have two private keys, `id_foo` and `id_bar` located at the `~/.ssh` folder.
 
-### Adding keys to SSH agent
+## Adding keys to SSH agent
 
 ```shell
 // Delete cached keys
@@ -46,7 +46,7 @@ $ ssh-add ~/.ssh/id_foo
 $ ssh-add ~/.ssh/id_bar
 ```
 
-### Mapping keys to GitHub repos
+## Mapping keys to GitHub repos
 
 This step lets SSH know which private key should be used for particular hosts.
 
@@ -73,7 +73,7 @@ Host github.com-bar
 
 You'll realize that `github.com-foo` and `github.com-bar` look invalid hosts, but actually they are treated as aliases. SSH maps it with the `HostName` option and uses the private key in the `IdentityFile` option.
 
-### Changing GitHub settings
+## Changing GitHub settings
 
 Let's say that the `foo` account accesses a GitHub repose whose URL is `github.com/foo/a-foo-repos`. Go to its cloned folder, and change the `.git/config` file as below.
 

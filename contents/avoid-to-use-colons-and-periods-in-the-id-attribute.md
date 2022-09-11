@@ -61,6 +61,6 @@ Note that it has a lower specificity than the `id` selector:
 }
 ```
 
-### See also
+## See also
 
--   [Do not use submit to name a submit button](/do-not-use-submit-to-name-a-submit-button.html)
+-   [Do not use submit to name a submit button](/do-not-use-submit-to-name-a-submit-button)

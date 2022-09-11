@@ -17,6 +17,6 @@ const range = (min, max) => (
 );
 ```
 
-### See also
+## See also
 
--   [Ignore items from array destructuring](/ignore-items-from-array-destructuring.html)
+-   [Ignore items from array destructuring](/ignore-items-from-array-destructuring)

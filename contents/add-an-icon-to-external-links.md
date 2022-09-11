@@ -8,7 +8,7 @@ topics: CSS
 
 If you want to add an icon to `a` element that links to an external website, then you can depend on the `href` or `[target="_blank"]` attribute.
 
-### The target attribute
+## The target attribute
 
 ```css
 a[target='_blank'] {
@@ -39,7 +39,7 @@ a[target='_blank']:after {
 }
 ```
 
-### The href attribute
+## The href attribute
 
 This approach relies on the `href` attribute. A link is treated as external if
 
@@ -55,10 +55,10 @@ a:not([href*='domain.com']):not([href^='#']):not([href^='/']):after {
 }
 ```
 
-### Demo
+## Demo
 
 :demo[]{title="Add an icon to external links" url="/demo/add-an-icon-to-external-links/index.html"}
 
-### See also
+## See also
 
--   [Ignore case sensitivity in a CSS attribute selector](/ignore-case-sensitivity-in-a-css-attribute-selector.html)
+-   [Ignore case sensitivity in a CSS attribute selector](/ignore-case-sensitivity-in-a-css-attribute-selector)

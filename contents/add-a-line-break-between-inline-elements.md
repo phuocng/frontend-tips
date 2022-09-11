@@ -28,6 +28,6 @@ By using the `::after` pseudo element, we are able to add a line break after the
 
 Where `\A` represents the line break character.
 
-### Demo
+## Demo
 
 :demo[]{title="Add a line break between inline elements" url="/demo/add-a-line-break-between-inline-elements/index.html"}

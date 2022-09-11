@@ -49,7 +49,7 @@ img::after {
 }
 ```
 
-### Demo
+## Demo
 
 The demo below shows extra elements for a broken image whose markup is
 

@@ -24,6 +24,6 @@ We can also apply the style for a given scrollable container:
 }
 ```
 
-### See also
+## See also
 
--   [Prevent anchor links from disappearing behind a sticky header](/prevent-anchor-links-from-disappearing-behind-a-sticky-header.html)
+-   [Prevent anchor links from disappearing behind a sticky header](/prevent-anchor-links-from-disappearing-behind-a-sticky-header)

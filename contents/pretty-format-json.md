@@ -42,8 +42,8 @@ JSON.stringify(person, null, '\t');
 */
 ```
 
-### See also
+## See also
 
--   [Log the full object in NodeJS](/log-the-full-object-in-nodejs.html)
--   [Pick given properties from a JSON representation](/pick-given-properties-from-a-json-representation.html)
--   [Transform values from a JSON representation](/transform-values-from-a-json-representation.html)
+-   [Log the full object in NodeJS](/log-the-full-object-in-nodejs)
+-   [Pick given properties from a JSON representation](/pick-given-properties-from-a-json-representation)
+-   [Transform values from a JSON representation](/transform-values-from-a-json-representation)

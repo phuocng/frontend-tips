@@ -24,7 +24,7 @@ formatYmd(new Date());
 // Print something like `2021-02-25T04:52:39.720Z` in the Console
 ```
 
-There is another, less known tip which uses the [comma operator](/shorten-codes-with-the-comma-operator.html):
+There is another, less known tip which uses the [comma operator](/shorten-codes-with-the-comma-operator):
 
 ```js
 const formatYmd = date => (console.log(...), date.toISOString().slice(0, 10));
@@ -32,9 +32,9 @@ const formatYmd = date => (console.log(...), date.toISOString().slice(0, 10));
 
 > You will find more useful 1 line-of-code functions on [1 LOC](https://1loc.dev)
 
-### See also
+## See also
 
--   [Conditional logging in the Console](/conditional-logging-in-the-console.html)
--   [Log a value to the Console](/log-a-value-to-the-console.html)
--   [Log a variable to the console using conditional breakpoints](/log-a-variable-to-the-console-using-conditional-breakpoints.html)
--   [Log an array to the Console](/log-an-array-to-the-console.html)
+-   [Conditional logging in the Console](/conditional-logging-in-the-console)
+-   [Log a value to the Console](/log-a-value-to-the-console)
+-   [Log a variable to the console using conditional breakpoints](/log-a-variable-to-the-console-using-conditional-breakpoints)
+-   [Log an array to the Console](/log-an-array-to-the-console)

@@ -39,8 +39,8 @@ console.dir(person, { depth: null });
 */
 ```
 
-It's also possible to use the same technique mentioned in the [_Pretty format JSON_](/pretty-format-json.html) tip which works in both NodeJS and browser environments.
+It's also possible to use the same technique mentioned in the [_Pretty format JSON_](/pretty-format-json) tip which works in both NodeJS and browser environments.
 
-### See also
+## See also
 
--   [Transform values from a JSON representation](/transform-values-from-a-json-representation.html)
+-   [Transform values from a JSON representation](/transform-values-from-a-json-representation)

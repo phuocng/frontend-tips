@@ -14,7 +14,7 @@ const c = (a, b);
 
 We can use it to shorten codes in some cases.
 
-### Shorten an if statement
+## Shorten an if statement
 
 ```js
 let result;
@@ -29,7 +29,7 @@ if (condition) {
 const result = condition ? (doSomething(), value) : other;
 ```
 
-### Shorten an arrow function
+## Shorten an arrow function
 
 ```js
 const arrowFn = (arg) => {
@@ -61,6 +61,6 @@ chunk([1, 2, 3, 4, 5, 6, 7, 8], 3);
 // [[1, 2, 3], [4, 5, 6], [7, 8]]
 ```
 
-### See also
+## See also
 
--   [Log a variable in an arrow function](/log-a-variable-in-an-arrow-function.html)
+-   [Log a variable in an arrow function](/log-a-variable-in-an-arrow-function)

@@ -32,6 +32,6 @@ The only way to represent a `false` value is to remove the attribute. Hence, to 
 <input readonly />
 ```
 
-### See also
+## See also
 
 -   [Omit properties of a Svelte component](/omit-properties-of-a-svelte-component)

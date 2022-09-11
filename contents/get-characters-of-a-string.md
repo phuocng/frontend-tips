@@ -31,7 +31,7 @@ decapitalize = ([first, ...rest]) => `${first.toLowerCase()}${rest.join('')}`;
 capitalize('hello world'); // 'Hello world'
 ```
 
-### See also
+## See also
 
--   [Ignore items from array destructuring](/ignore-items-from-array-destructuring.html)
--   [Pick the first and last items of an array](/pick-the-first-and-last-items-of-an-array.html)
+-   [Ignore items from array destructuring](/ignore-items-from-array-destructuring)
+-   [Pick the first and last items of an array](/pick-the-first-and-last-items-of-an-array)

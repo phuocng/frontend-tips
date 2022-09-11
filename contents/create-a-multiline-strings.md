@@ -26,8 +26,8 @@ multiline
 strings`;
 ```
 
-### See also
+## See also
 
--   [Get rid of escaping quotes with template literal](/get-rid-of-escaping-quotes-with-template-literal.html)
--   [Prevent a string from being escaped](/prevent-a-string-from-being-escaped.html)
--   [Use template literal to concatenate strings](/use-template-literal-to-concatenate-strings.html)
+-   [Get rid of escaping quotes with template literal](/get-rid-of-escaping-quotes-with-template-literal)
+-   [Prevent a string from being escaped](/prevent-a-string-from-being-escaped)
+-   [Use template literal to concatenate strings](/use-template-literal-to-concatenate-strings)

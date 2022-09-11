@@ -19,6 +19,6 @@ If you want to keep a string from being escaped, then use the [String.raw](https
 String.raw`C:\\Foo\Bar\Fuzz\document.pdf`; // C:\\Foo\Bar\Fuzz\document.pdf
 ```
 
--   [Create a multiline strings](/create-a-multiline-strings.html)
--   [Get rid of escaping quotes with template literal](/get-rid-of-escaping-quotes-with-template-literal.html)
--   [Use template literal to concatenate strings](/use-template-literal-to-concatenate-strings.html)
+-   [Create a multiline strings](/create-a-multiline-strings)
+-   [Get rid of escaping quotes with template literal](/get-rid-of-escaping-quotes-with-template-literal)
+-   [Use template literal to concatenate strings](/use-template-literal-to-concatenate-strings)

@@ -16,8 +16,8 @@ const message = "It's a message";
 const message = `It's a message`;
 ```
 
-### See also
+## See also
 
--   [Create a multiline strings](/create-a-multiline-strings.html)
--   [Prevent a string from being escaped](/prevent-a-string-from-being-escaped.html)
--   [Use template literal to concatenate strings](/use-template-literal-to-concatenate-strings.html)
+-   [Create a multiline strings](/create-a-multiline-strings)
+-   [Prevent a string from being escaped](/prevent-a-string-from-being-escaped)
+-   [Use template literal to concatenate strings](/use-template-literal-to-concatenate-strings)

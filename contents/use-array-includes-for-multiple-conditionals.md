@@ -14,7 +14,7 @@ const getDays = (month, year) => {
 };
 ```
 
-Since months in JavaScripts start from 0, we assume that the `month` parameter is zero-based index. We can make the function [quickly return](/early-return.html) if the month is April, June, September or November:
+Since months in JavaScripts start from 0, we assume that the `month` parameter is zero-based index. We can make the function [quickly return](/early-return) if the month is April, June, September or November:
 
 ```js
 if (month === 3 || month === 5 || month === 8 || month === 10) {
@@ -32,7 +32,7 @@ if ([3, 5, 8, 10].includes(month)) {
 ...
 ```
 
-For this specific function, we also can use a [lookup table](/replace-multiple-if-statements-with-a-lookup-table.html):
+For this specific function, we also can use a [lookup table](/replace-multiple-if-statements-with-a-lookup-table):
 
 ```js
 const isLeapYear = (year) => year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0);
@@ -40,8 +40,8 @@ const isLeapYear = (year) => year % 4 === 0 && (year % 100 !== 0 || year % 400 =
 const getDays = (month, year) => [31, isLeapYear(year) ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][month];
 ```
 
-### See also
+## See also
 
--   [Early return](/early-return.html)
--   [Replace multiple if statements with a lookup table](/replace-multiple-if-statements-with-a-lookup-table.html)
--   [Replace multiple if statements with a single switch statement](/replace-multiple-if-statements-with-a-single-switch-statement.html)
+-   [Early return](/early-return)
+-   [Replace multiple if statements with a lookup table](/replace-multiple-if-statements-with-a-lookup-table)
+-   [Replace multiple if statements with a single switch statement](/replace-multiple-if-statements-with-a-single-switch-statement)

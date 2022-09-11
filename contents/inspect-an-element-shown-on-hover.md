@@ -11,7 +11,7 @@ However, it doesn't work with a dynamic element that is displayed when we hover 
 
 There are a few ways to inspect that kind of elements.
 
-### Trigger the mouseover event
+## Trigger the mouseover event
 
 -   Right-click the original element, and choose the _Inspect_ menu item
 -   Click the _Console_ tab
@@ -31,14 +31,14 @@ $0.dispatchEvent(
 
 It simulates the `mouseover` event that is supposed to happen when we hover on the original element.
 
-### Pause the script execution
+## Pause the script execution
 
 -   Open the _Chrome Developer Tools_, and click the _Sources_ tab
 -   Hover on the target element, and click the _F8_ key
 -   Move the mouse over the target element
 -   Activate the _Elements_ tab, and you will see the dynamic element shown up here
 
-### Use debugger
+## Use debugger
 
 It's similar to the previous way.
 
@@ -62,7 +62,7 @@ Once you don't want to monitor the dynamic element anymore, you can [stop listen
 document.removeEventListener('keydown', handler);
 ```
 
-### Track subtree modifications
+## Track subtree modifications
 
 -   Open the _Chrome Developer Tools_, and click the _Elements_ tab
 -   Right-click the `body` element, and choose _Break on > subtree modifications_ from the context menu

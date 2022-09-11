@@ -58,11 +58,11 @@ console.table(resources, ['name', 'link']);
 
 ![console.table](/img/console-table-columns.png)
 
-This tip also has effect when you want to [pick some particular properties from a JSON representation](/pick-given-properties-from-a-json-representation.html).
+This tip also has effect when you want to [pick some particular properties from a JSON representation](/pick-given-properties-from-a-json-representation).
 
-### See also
+## See also
 
--   [Conditional logging in the Console](/conditional-logging-in-the-console.html)
--   [Log a value to the Console](/log-a-value-to-the-console.html)
--   [Log a variable in an arrow function](/log-a-variable-in-an-arrow-function.html)
--   [Log a variable to the console using conditional breakpoints](/log-a-variable-to-the-console-using-conditional-breakpoints.html)
+-   [Conditional logging in the Console](/conditional-logging-in-the-console)
+-   [Log a value to the Console](/log-a-value-to-the-console)
+-   [Log a variable in an arrow function](/log-a-variable-in-an-arrow-function)
+-   [Log a variable to the console using conditional breakpoints](/log-a-variable-to-the-console-using-conditional-breakpoints)

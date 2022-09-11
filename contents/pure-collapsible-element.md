@@ -27,6 +27,6 @@ I often use the tags when including a long error log on GitHub:
 </details>
 ```
 
-### Demo
+## Demo
 
 :demo[]{title="Pure collapsible element" url="/demo/pure-collapsible-element/index.html"}

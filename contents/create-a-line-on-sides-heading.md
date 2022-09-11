@@ -30,6 +30,6 @@ We can use the `::before` and `::after` pseudo elements to represent the left an
 }
 ```
 
-### Demo
+## Demo
 
 :demo[]{title="Create a line-on-sides heading" url="/demo/create-a-line-on-sides-heading/index.html"}

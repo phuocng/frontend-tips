@@ -27,11 +27,11 @@ li {
 }
 ```
 
-### Demo
+## Demo
 
 :demo[]{title="Style list items with special characters" url="/demo/style-list-items-with-special-characters/index.html"}
 
-### See also
+## See also
 
--   [Separate list items](/separate-list-items.html)
--   [Style index numbers of list items](/style-index-numbers-of-list-items.html)
+-   [Separate list items](/separate-list-items)
+-   [Style index numbers of list items](/style-index-numbers-of-list-items)

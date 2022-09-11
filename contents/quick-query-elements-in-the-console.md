@@ -17,6 +17,6 @@ The following screenshot demonstrates how to use them in the _Console_.
 
 ![Query elements in the Console](/img/query-selector-shortcuts.png)
 
-### See also
+## See also
 
--   [Locate an element with a given selector](/locate-an-element-with-a-given-selector.html)
+-   [Locate an element with a given selector](/locate-an-element-with-a-given-selector)

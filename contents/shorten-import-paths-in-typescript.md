@@ -59,6 +59,6 @@ import { userModel } from '@models/user';
 import { authService } from '@services/authService';
 ```
 
-### See also
+## See also
 
--   [Shorten import paths in Webpack](/shorten-import-paths-in-webpack.html)
+-   [Shorten import paths in Webpack](/shorten-import-paths-in-webpack)

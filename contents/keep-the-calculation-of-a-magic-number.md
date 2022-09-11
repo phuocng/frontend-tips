@@ -45,6 +45,6 @@ import { MILLISECOND_DAY } from './constants';
 const diffDays = (date, otherDate) => Math.ceil(Math.abs(date - otherDate) / MILLISECOND_DAY);
 ```
 
-### See also
+## See also
 
--   [Do not use magic numbers when manipulating strings](/do-not-use-magic-numbers-when-manipulating-strings.html)
+-   [Do not use magic numbers when manipulating strings](/do-not-use-magic-numbers-when-manipulating-strings)

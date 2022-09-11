@@ -14,6 +14,6 @@ a[href^='http']:empty:before {
 }
 ```
 
-### Demo
+## Demo
 
 :demo[]{title="Set content for an empty link" url="/demo/set-content-for-an-empty-link/index.html"}

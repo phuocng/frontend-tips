@@ -22,6 +22,6 @@ We can face the similar issue when using special properties of form such as `res
 <button type="submit" name="submitButton">Submit</button>
 ```
 
-### See also
+## See also
 
--   [Avoid to use colons and periods in the id attribute](/avoid-to-use-colons-and-periods-in-the-id-attribute.html)
+-   [Avoid to use colons and periods in the id attribute](/avoid-to-use-colons-and-periods-in-the-id-attribute)

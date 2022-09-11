@@ -52,8 +52,8 @@ Want to transform all `Set` values? No problem!
 JSON.stringify(person, (key, value) => (value instanceof Set ? [...value.values()] : value));
 ```
 
-### See also
+## See also
 
--   [Log the full object in NodeJS](/log-the-full-object-in-nodejs.html)
--   [Pick given properties from a JSON representation](/pick-given-properties-from-a-json-representation.html)
--   [Pretty format JSON](/pretty-format-json.html)
+-   [Log the full object in NodeJS](/log-the-full-object-in-nodejs)
+-   [Pick given properties from a JSON representation](/pick-given-properties-from-a-json-representation)
+-   [Pretty format JSON](/pretty-format-json)

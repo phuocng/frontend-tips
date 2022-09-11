@@ -22,10 +22,10 @@ li:not(:last-child):after {
 
 The footer of this website uses the same technique.
 
-### Demo
+## Demo
 
 :demo[]{title="Separate list items" url="/demo/separate-list-items/index.html"}
 
-### See also
+## See also
 
--   [Style list items with special characters](/style-list-items-with-special-characters.html)
+-   [Style list items with special characters](/style-list-items-with-special-characters)
