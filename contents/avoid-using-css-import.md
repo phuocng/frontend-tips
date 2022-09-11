@@ -1,6 +1,6 @@
 ---
 title: Avoid using CSS @import
-category: Best practice
+category: Practice
 date: 2021-03-21 14:50:00 +7
 layout: layouts/post.njk
 topics: CSS

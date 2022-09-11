@@ -1,6 +1,6 @@
 ---
 title: Trim the spaces before parsing a number
-category: Best practice
+category: Practice
 date: 2021-02-23 09:49:00 +7
 layout: layouts/post.njk
 topics: JavaScript

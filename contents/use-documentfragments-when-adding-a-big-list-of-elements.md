@@ -1,6 +1,6 @@
 ---
 title: Use DocumentFragments when adding a big list of elements
-category: Best practice
+category: Practice
 date: 2021-04-28 09:25:00 +7
 layout: layouts/post.njk
 topics: DOM, JavaScript

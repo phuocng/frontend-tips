@@ -1,6 +1,6 @@
 ---
 title: Use template literal to concatenate strings
-category: Best practice
+category: Practice
 date: 2021-02-23 22:50:00 +7
 layout: layouts/post.njk
 topics: JavaScript

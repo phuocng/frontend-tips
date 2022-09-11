@@ -1,6 +1,6 @@
 ---
 title: Avoid using the <b>, <i>, <s> and <u> tags
-category: Best practice
+category: Practice
 date: 2021-05-13 20:01:00 +7
 layout: layouts/post.njk
 topics: Accessibility, HTML

@@ -1,6 +1,6 @@
 ---
 title: Don't mix styles of an element with its container
-category: Best practice
+category: Practice
 date: 2021-05-12 19:26:00 +7
 layout: layouts/post.njk
 topics: CSS

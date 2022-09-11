@@ -1,6 +1,6 @@
 ---
 title: Prevent the default behavior with jQuery event handler
-category: Best practice
+category: Practice
 date: 2021-02-23 09:51:00 +7
 layout: layouts/post.njk
 topics: DOM, JavaScript

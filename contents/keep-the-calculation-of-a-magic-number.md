@@ -1,6 +1,6 @@
 ---
 title: Keep the calculation of a magic number
-category: Best practice
+category: Practice
 date: 2021-03-11 19:34:00 +7
 layout: layouts/post.njk
 topics: JavaScript

@@ -1,6 +1,6 @@
 ---
 title: Do not add custom methods to primitive objects
-category: Best practice
+category: Practice
 date: 2021-02-22 22:54:00 +7
 layout: layouts/post.njk
 topics: JavaScript

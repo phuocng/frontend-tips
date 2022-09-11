@@ -1,6 +1,6 @@
 ---
 title: Use the datetime attribute when displaying dates, times
-category: Best practice
+category: Practice
 date: 2021-04-13 14:02:00 +7
 layout: layouts/post.njk
 topics: HTML

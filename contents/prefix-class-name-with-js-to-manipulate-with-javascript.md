@@ -1,6 +1,6 @@
 ---
 title: Prefix class name with js to manipulate with javascript
-category: Best practice
+category: Practice
 date: 2021-02-23 08:23:00 +7
 layout: layouts/post.njk
 topics: DOM, HTML

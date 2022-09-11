@@ -1,6 +1,6 @@
 ---
 title: Avoid using multiple <h1> tags per page
-category: Best practice
+category: Practice
 date: 2021-05-13 20:27:00 +7
 layout: layouts/post.njk
 topics: HTML

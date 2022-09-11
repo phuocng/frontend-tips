@@ -1,6 +1,6 @@
 ---
 title: Avoid invisible text when loading a font
-category: Best practice
+category: Practice
 date: 2021-03-25 10:54:00 +7
 layout: layouts/post.njk
 topics: CSS, Google Font

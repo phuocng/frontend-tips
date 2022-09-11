@@ -12,7 +12,7 @@ CSS class names can't contain the `:` character. For example, it's not possible 
 
 ```css
 .lg:flex {
-    ...
+    ...;
 }
 ```
 
@@ -20,7 +20,7 @@ However we can use the `\` character to correct it:
 
 ```css
 .lg\:flex {
-    ...
+    ...;
 }
 ```
 

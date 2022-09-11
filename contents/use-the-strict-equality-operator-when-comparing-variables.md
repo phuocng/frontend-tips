@@ -1,6 +1,6 @@
 ---
 title: Use the strict equality operator when comparing variables
-category: Best practice
+category: Practice
 date: 2021-02-25 13:42:00 +7
 layout: layouts/post.njk
 topics: JavaScript

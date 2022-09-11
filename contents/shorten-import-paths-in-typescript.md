@@ -27,10 +27,10 @@ For example, the following settings will find all imports starting with `@` in t
 }
 ```
 
-| Import path         | Identical absolute path    |
-| -------------------------- | ----------------------------- |
+| Import path              | Identical absolute path    |
+| ------------------------ | -------------------------- |
 | `@/helpers/validator`    | `src/helpers/validator`    |
-| `@/services/authService`  | `src/services/authService`    |
+| `@/services/authService` | `src/services/authService` |
 
 Our imports can be shorten as following:
 

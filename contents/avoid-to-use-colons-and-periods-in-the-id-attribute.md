@@ -1,6 +1,6 @@
 ---
 title: Avoid to use colons and periods in the id attribute
-category: Best practice
+category: Practice
 date: 2021-02-23 09:54:00 +7
 layout: layouts/post.njk
 topics: DOM, HTML

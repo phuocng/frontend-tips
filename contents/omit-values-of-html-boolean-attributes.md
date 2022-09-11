@@ -1,6 +1,6 @@
 ---
 title: Omit values of HTML boolean attributes
-category: Best practice
+category: Practice
 date: 2021-04-19 15:24:00 +7
 layout: layouts/post.njk
 topics: HTML

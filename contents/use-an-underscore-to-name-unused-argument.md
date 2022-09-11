@@ -1,6 +1,6 @@
 ---
 title: Use an underscore to name unused argument
-category: Best practice
+category: Practice
 date: 2021-02-23 10:14:00 +7
 layout: layouts/post.njk
 topics: JavaScript

@@ -1,6 +1,6 @@
 ---
 title: Replace multiple if statements with a lookup table
-category: Best practice
+category: Practice
 date: 2021-03-08 22:10:00 +7
 layout: layouts/post.njk
 topics: JavaScript

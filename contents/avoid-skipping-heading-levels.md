@@ -1,6 +1,6 @@
 ---
 title: Avoid skipping heading levels
-category: Best practice
+category: Practice
 date: 2021-05-13 19:46:00 +7
 layout: layouts/post.njk
 topics: Accessibility, HTML

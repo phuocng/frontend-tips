@@ -1,6 +1,6 @@
 ---
 title: Combine Google font requests
-category: Best practice
+category: Practice
 date: 2021-03-22 21:25:00 +7
 layout: layouts/post.njk
 topics: CSS, Google Font

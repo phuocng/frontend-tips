@@ -1,6 +1,6 @@
 ---
 title: Always pass the radix to parseInt
-category: Best practice
+category: Practice
 date: 2021-02-23 08:15:00 +7
 layout: layouts/post.njk
 topics: JavaScript
