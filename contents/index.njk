@@ -13,6 +13,7 @@ eleventyExcludeFromCollections: true
     {%- for post in collections.sortByTitle -%}
         <div class="card__item card__item--{{ post.data.category | lower }}">
             <a class="card__link" href="{{ post.url }}">{{ post.data.title }}</a>
+            <div class="card__topics">{{ post.data.topics }}</div>
         </div>
     {%- endfor -%}
 

@@ -8,7 +8,7 @@ topics: HTML
 
 A browser might break a long text at unexpected places. For example, the specific path (`/this/is/.../folder`) in the following text is placed at the second line:
 
-```console
+```shell
 ┌───────────────────────────────────────────────────────┐
 | Copy file to the folder:                              |
 | /this/is/a/very/long/path/to/the/destination/folder   |
@@ -25,7 +25,7 @@ Copy your file to the folder: <wbr />/this <wbr />/is <wbr />/a ... <wbr />/dest
 
 The browser will break the paths in between the directory names:
 
-```console
+```shell
 ┌───────────────────────────────────────────────────────┐
 | Copy your file to the folder: /this/is/a/very/long    |
 | /path/to/the/destination/folder                       |
