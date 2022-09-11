@@ -14,6 +14,4 @@ a[href^='http']:empty:before {
 }
 ```
 
-## Demo
-
-:demo[]{title="Set content for an empty link" url="/demo/set-content-for-an-empty-link/index.html"}
+{% demo '/assets/demo/set-content-for-an-empty-link/index.html' %}

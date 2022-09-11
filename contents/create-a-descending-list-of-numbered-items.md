@@ -24,8 +24,6 @@ To do that, we just simply add the `reversed` attribute:
 
 > You can use the `start` attribute which indicates the start number
 
-## Demo
-
 _Top 10 movies rated on [IMDB](https://www.imdb.com/chart/top/)_
 
-:demo[]{title="Create a descending list of numbered items" url="/demo/create-a-descending-list-of-numbered-items/index.html"}
+{% demo '/assets/demo/create-a-descending-list-of-numbered-items/index.html' %}

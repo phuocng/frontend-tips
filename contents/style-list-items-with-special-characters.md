@@ -27,9 +27,7 @@ li {
 }
 ```
 
-## Demo
-
-:demo[]{title="Style list items with special characters" url="/demo/style-list-items-with-special-characters/index.html"}
+{% demo '/assets/demo/style-list-items-with-special-characters/index.html' %}
 
 ## See also
 

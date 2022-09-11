@@ -8,7 +8,7 @@ topics: DOM, HTML
 
 Have you ever seen a class name starting with `js-`?
 
-If the answer is not, then you can visit the [GitHub repository](https://github.com/phuoc-ng/frontend-tips) and see the source of generated HTML. There are bunch of elements whose class are prefixed with `js-` such as:
+If the answer is not, then you can visit the [GitHub repository](https://github.com/phuocng/frontend-tips) and see the source of generated HTML. There are bunch of elements whose class are prefixed with `js-` such as:
 
 ```html
 <meta class="js-ga-set" name="userId" content="..." /> <meta class="js-ga-set" name="dimension1" content="..." />

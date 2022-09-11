@@ -37,6 +37,4 @@ li + li {
 }
 ```
 
-## Demo
-
-:demo[]{title="Remove the border from the last navigation item" url="/demo/remove-the-border-from-the-last-navigation-item/index.html"}
+{% demo '/assets/demo/remove-the-border-from-the-last-navigation-item/index.html' %}

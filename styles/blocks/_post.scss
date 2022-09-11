@@ -117,6 +117,10 @@
         margin: 0;
         padding: 0 0 0 1.5rem;
     }
+
+    video {
+        max-width: 100%;
+    }
 }
 
 @media (min-width: 1024px) {

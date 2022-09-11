@@ -22,9 +22,7 @@ li:not(:last-child):after {
 
 The footer of this website uses the same technique.
 
-## Demo
-
-:demo[]{title="Separate list items" url="/demo/separate-list-items/index.html"}
+{% demo '/assets/demo/separate-list-items/index.html' %}
 
 ## See also
 

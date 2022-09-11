@@ -37,6 +37,6 @@ SCSS and Less also accept `//` as a valid CSS comment, hence you can use `// #re
 /* #endregion */
 ```
 
-The following screenshot shows how Visual Studio Code helps us organize the [CSS of this site](https://github.com/phuoc-ng/frontend-tips/blob/main/css/index.css):
+The following screenshot is an example:
 
 ![Fold CSS declarations with region markers](/assets/img/fold-css-declarations.png)

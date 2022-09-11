@@ -20,6 +20,4 @@ The trick here is to set zero font size for the element, whereas the first lette
 }
 ```
 
-## Demo
-
-:demo[]{title="Show the first letter only" url="/demo/show-the-first-letter-only/index.html"}
+{% demo '/assets/demo/show-the-first-letter-only/index.html' %}

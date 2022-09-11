@@ -1,0 +1,23 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Show a placeholder for an empty list</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="stylesheet" href="/assets/demo.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap">
+        <style>
+            .demo__list {
+                margin: 2rem;
+            }
+            .demo__list:empty::after {
+                border: 1px solid #e5e7eb;
+                content: attr(data-placeholder);
+                padding: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="demo__list" data-placeholder="You don't have any new messages"></ul>
+    </body>
+</html>

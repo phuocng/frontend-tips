@@ -55,9 +55,7 @@ a:not([href*='domain.com']):not([href^='#']):not([href^='/']):after {
 }
 ```
 
-## Demo
-
-:demo[]{title="Add an icon to external links" url="/demo/add-an-icon-to-external-links/index.html"}
+{% demo '/assets/demo/add-an-icon-to-external-links/index.html' %}
 
 ## See also
 

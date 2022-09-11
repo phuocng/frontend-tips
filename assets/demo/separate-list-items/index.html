@@ -1,0 +1,31 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Separate list items</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="stylesheet" href="/assets/demo.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap">
+        <style>
+            .demo__tag:not(:last-child):after {
+                content: ' • ';
+            }
+            .demo__item:not(:last-child):after {
+                content: ',';
+            }
+        </style>
+    </head>
+    <body>
+        <div>Inline items:</div>
+        <span class="demo__tag">CSS</span><span class="demo__tag">JavaScript</span><span class="demo__tag">HTML</span
+        ><span class="demo__tag">TypeScript</span>
+
+        <div>List items:</div>
+        <ul>
+            <li class="demo__item">CSS</li>
+            <li class="demo__item">JavaScript</li>
+            <li class="demo__item">HTML</li>
+            <li class="demo__item">TypeScript</li>
+        </ul>
+    </body>
+</html>

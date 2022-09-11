@@ -24,6 +24,4 @@ ul:empty::after {
 
 > The `:empty` selector doesn't have effect if the list contains a whitespace or an empty child node
 
-## Demo
-
-:demo[]{title="Show a placeholder for an empty list" url="/demo/show-a-placeholder-for-an-empty-list/index.html"}
+{% demo '/assets/demo/show-a-placeholder-for-an-empty-list/index.html' %}

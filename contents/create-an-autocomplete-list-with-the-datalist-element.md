@@ -22,6 +22,4 @@ Users also can enter what they want in the same way the normal text box does.
 </datalist>
 ```
 
-## Demo
-
-:demo[]{title="Create an autocomplete list with the datalist element" url="/demo/create-an-autocomplete-list-with-the-datalist-element/index.html"}
+{% demo '/assets/demo/create-an-autocomplete-list-with-the-datalist-element/index.html' %}

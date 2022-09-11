@@ -31,6 +31,4 @@ The CSS declaration below limits the number of lines to 3:
 
 Note that the `-webkit-line-clamp` property only works when we have `display: -webkit-box` and `-webkit-box-orient: vertical` declarations.
 
-## Demo
-
-:demo[]{title="Truncate long text" url="/demo/truncate-long-text/index.html"}
+{% demo '/assets/demo/truncate-long-text/index.html' %}

@@ -35,10 +35,6 @@ li::before {
 }
 ```
 
-## Demo
-
-:demo[]{title="Style index numbers of list items" url="/demo/style-index-numbers-of-list-items/index.html"}
-
 ## See also
 
 -   [Append leading zeros to ordered list items](/append-leading-zeros-to-ordered-list-items)

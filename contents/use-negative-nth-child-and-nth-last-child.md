@@ -29,9 +29,7 @@ li:nth-last-child(-n + 2) {
 }
 ```
 
-## Demo
-
-:demo[]{title="Use negative nth-child and nth-last-child" url="/demo/use-negative-nth-child-and-nth-last-child/index.html"}
+{% demo '/assets/demo/use-negative-nth-child-and-nth-last-child/index.html' %}
 
 ## See also
 
