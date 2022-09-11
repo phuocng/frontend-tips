@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+title: Tips, tricks and best practices of front-end development
+eleventyExcludeFromCollections: true
+---
+
+<div class="container">
+    <div class="hero">
+        <h1 class="hero__heading">Tips, tricks and best practices of front-end development</h1>
+        <a class="hero__button" href="https://github.com/phuocng/frontend-tips">Star me on GitHub · {{ github.stargazers }}★</a>
+    </div>
+
+    {%- for post in collections.sortByTitle -%}
+        <div class="card__item card__item--{{ post.data.category | lower }}">
+            <a class="card__link" href="{{ post.url }}">{{ post.data.title }}</a>
+            <div class="card__topics">{{ post.data.topics }}</div>
+        </div>
+    {%- endfor -%}
+
+    {% include "follow.njk" %}
+</div>

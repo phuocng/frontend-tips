@@ -1,0 +1,34 @@
+.card__item {
+    background-color: #fff;
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-position-x: 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1.5rem rgb(0 0 0 / 10%);
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem 0.5rem 2.5rem;
+}
+
+.card__item--practice {
+    background-image: url('/assets/img/practice.svg');
+}
+.card__item--tip {
+    background-image: url('/assets/img/tip.svg');
+}
+.card__item--trick {
+    background-image: url('/assets/img/trick.svg');
+}
+
+.card__link {
+    color: #6366f1;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.25;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card__topics {
+    font-size: 0.8rem;
+    font-style: italic;
+}
