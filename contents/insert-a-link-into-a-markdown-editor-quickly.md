@@ -1,0 +1,21 @@
+---
+title: Insert a link into a Markdown editor quickly
+category: Tip
+date: 2022-09-24 17:30:00 +7
+layout: layouts/post.njk
+topics: Markdown
+---
+
+In order to insert a link into a Markdown editor, we often put the link right after the target text to follow the standard Markdown format:
+
+```html
+... [target text](link goes here) ...
+```
+
+The link then is attached to the target text. However, there is a quick way to do that.
+
+1. Copy the link into the clipboard
+2. Select the target text
+3. Then press <kbd>command</kbd> + <kbd>V</kbd> (on macOS) or <kbd>Ctrl</kbd> + <kbd>V</kbd> (on other operating systems) to paste the link
+
+I see these steps work for the most popular Markdown editors such as GitHub, Slack, etc.
