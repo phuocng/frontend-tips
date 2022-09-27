@@ -25,3 +25,7 @@ The input also has a special attribute named `webkitdirectory` which allows user
 ```
 
 It's [supported](https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/webkitdirectory) in all modern browsers.
+
+## See also
+
+-   [Filter file types of a file input](/filter-file-types-of-a-file-input/)
