@@ -23,7 +23,8 @@ console.log({ fullName }); // { fullName: 'John Doe' }
 
 ## See also
 
--   [Conditional logging in the Console](/conditional-logging-in-the-console)
--   [Log a variable in an arrow function](/log-a-variable-in-an-arrow-function)
--   [Log a variable to the console using conditional breakpoints](/log-a-variable-to-the-console-using-conditional-breakpoints)
--   [Log an array to the Console](/log-an-array-to-the-console)
+-   [Conditional logging in the Console](/conditional-logging-in-the-console/)
+-   [Count how many times a function has been called](/count-how-many-times-a-function-has-been-called/)
+-   [Log a variable in an arrow function](/log-a-variable-in-an-arrow-function/)
+-   [Log a variable to the console using conditional breakpoints](/log-a-variable-to-the-console-using-conditional-breakpoints/)
+-   [Log an array to the Console](/log-an-array-to-the-console/)
