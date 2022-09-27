@@ -62,7 +62,8 @@ This tip also has effect when you want to [pick some particular properties from 
 
 ## See also
 
--   [Conditional logging in the Console](/conditional-logging-in-the-console)
--   [Log a value to the Console](/log-a-value-to-the-console)
--   [Log a variable in an arrow function](/log-a-variable-in-an-arrow-function)
--   [Log a variable to the console using conditional breakpoints](/log-a-variable-to-the-console-using-conditional-breakpoints)
+-   [Conditional logging in the Console](/conditional-logging-in-the-console/)
+-   [Count how many times a function has been called](/count-how-many-times-a-function-has-been-called/)
+-   [Log a value to the Console](/log-a-value-to-the-console/)
+-   [Log a variable in an arrow function](/log-a-variable-in-an-arrow-function/)
+-   [Log a variable to the console using conditional breakpoints](/log-a-variable-to-the-console-using-conditional-breakpoints/)
