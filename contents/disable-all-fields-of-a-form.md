@@ -12,8 +12,7 @@ It's easy to disable a particular HTML input or button element by using the `dis
 The following piece of code demonstrates a simple signing in form that consists of two disabled inputs:
 
 ```html
-<input type="text" placeholder="Username" disabled />
-<input type="password" placeholder="Password" disabled />
+<input type="text" placeholder="Username" disabled /> <input type="password" placeholder="Password" disabled />
 ```
 
 There is the other way that you don't have to apply the `disabled` attribute to fields one by one.

@@ -27,8 +27,17 @@ Given the following markup:
 
 It should produce the content as below:
 
-```html
-1. Chapter 1 1.1. Section 1 1.1.1. Sub section A 1.2. Section 2 1.2.1. Sub section A 1.2.2. Sub section B 2. Chapter 2
+```shell
+1. Chapter 1
+
+1.1. Section 1
+1.1.1. Sub section A
+
+1.2. Section 2
+1.2.1. Sub section A
+1.2.2. Sub section B
+
+2. Chapter 2
 ```
 
 We can archive it by using the CSS counter.
@@ -81,4 +90,8 @@ h5::before {
 
 ## See also
 
--   [Style index numbers of list items](/style-index-numbers-of-list-items)
+-   [Append leading zeros to ordered list items](/append-leading-zeros-to-ordered-list-items/)
+-   [Create a descending list of numbered items](/create-a-descending-list-of-numbered-items/)
+-   [Set a numbering type for a list element](/set-a-numbering-type-for-a-list-element/)
+-   [Style index numbers of list items](/style-index-numbers-of-list-items/)
+-   [Style list items with special characters](/style-list-items-with-special-characters/)

@@ -16,8 +16,16 @@ ol {
 
 However, it only has effect with the items whose indices are less than 10. It means that if our list has more than 100 items, then they will be prefixed as following:
 
-```html
-01. Item 02. Item ... 09. Item 10. Item ... 99. Item 100. Item ...
+```shell
+01. Item
+02. Item
+...
+09. Item
+10. Item
+...
+99. Item
+100. Item
+...
 ```
 
 In order to fix that issue, we can use the CSS counter. Each item holds the current value of the counter which is incremented by one in the next item:
@@ -51,5 +59,9 @@ In the same way, `:nth-child(n+100)` overrides the styles of `:nth-child(n+10)`.
 
 ## See also
 
--   [Style index numbers of list items](/style-index-numbers-of-list-items)
+-   [Create a descending list of numbered items](/create-a-descending-list-of-numbered-items/)
+-   [Number headings and subheadings automatically](/number-headings-and-subheadings-automatically/)
+-   [Set a numbering type for a list element](/set-a-numbering-type-for-a-list-element/)
+-   [Style index numbers of list items](/style-index-numbers-of-list-items/)
+-   [Style list items with special characters](/style-list-items-with-special-characters/)
 -   [Use negative nth-child and nth-last-child](/use-negative-nth-child-and-nth-last-child)

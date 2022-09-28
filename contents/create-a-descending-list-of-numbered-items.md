@@ -27,3 +27,11 @@ To do that, we just simply add the `reversed` attribute:
 _Top 10 movies rated on [IMDB](https://www.imdb.com/chart/top/)_
 
 {% demo '/assets/demo/create-a-descending-list-of-numbered-items/index.html' %}
+
+## See also
+
+-   [Append leading zeros to ordered list items](/append-leading-zeros-to-ordered-list-items/)
+-   [Number headings and subheadings automatically](/number-headings-and-subheadings-automatically/)
+-   [Set a numbering type for a list element](/set-a-numbering-type-for-a-list-element/)
+-   [Style index numbers of list items](/style-index-numbers-of-list-items/)
+-   [Style list items with special characters](/style-list-items-with-special-characters/)

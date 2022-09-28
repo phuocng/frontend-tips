@@ -31,5 +31,8 @@ li {
 
 ## See also
 
--   [Separate list items](/separate-list-items)
--   [Style index numbers of list items](/style-index-numbers-of-list-items)
+-   [Append leading zeros to ordered list items](/append-leading-zeros-to-ordered-list-items/)
+-   [Create a descending list of numbered items](/create-a-descending-list-of-numbered-items/)
+-   [Number headings and subheadings automatically](/number-headings-and-subheadings-automatically/)
+-   [Set a numbering type for a list element](/set-a-numbering-type-for-a-list-element/)
+-   [Style index numbers of list items](/style-index-numbers-of-list-items/)
