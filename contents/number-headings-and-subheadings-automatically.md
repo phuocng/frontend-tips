@@ -4,6 +4,8 @@ category: Tip
 date: 2021-03-14 17:56:00 +7
 layout: layouts/post.njk
 topics: CSS
+metadata:
+    image: number-headings-subheadings.png
 ---
 
 It's a common approach to use the [DOM APIs](https://htmldom.dev) to find all headings on the page, and number each of them. This post introduces another way to do that with CSS only.
@@ -91,7 +93,3 @@ h5::before {
 ## See also
 
 -   [Append leading zeros to ordered list items](/append-leading-zeros-to-ordered-list-items/)
--   [Create a descending list of numbered items](/create-a-descending-list-of-numbered-items/)
--   [Set a numbering type for a list element](/set-a-numbering-type-for-a-list-element/)
--   [Style index numbers of list items](/style-index-numbers-of-list-items/)
--   [Style list items with special characters](/style-list-items-with-special-characters/)

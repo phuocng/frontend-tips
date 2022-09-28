@@ -4,6 +4,8 @@ category: Tip
 date: 2021-03-17 14:46:00 +7
 layout: layouts/post.njk
 topics: CSS
+metadata:
+    image: style-index-numbers.png
 ---
 
 By default, an ordered list prefixes each item with its index number. Since there is no actual element or CSS property that represents the index number, we can't add custom styles for it directly.

@@ -4,6 +4,8 @@ category: Tip
 date: 2021-03-14 19:39:00 +7
 layout: layouts/post.njk
 topics: CSS
+metadata:
+    image: style-list-items-special-characters.png
 ---
 
 We often use circles or squares to style list items as following:
@@ -27,7 +29,29 @@ li {
 }
 ```
 
-{% demo '/assets/demo/style-list-items-with-special-characters/index.html' %}
+## Demo
+
+```css
+.weather--sun {
+    list-style-type: '\2600';
+}
+.weather--cloud {
+    list-style-type: '\2601';
+}
+.weather--sun-cloud {
+    list-style-type: '\1F324';
+}
+```
+
+<ul class="weather">
+    <li class="weather--sun">Sun: 23° - 35°</li>
+    <li class="weather--cloud">Mon: 24° - 32°</li>
+    <li class="weather--sun">Tue: 24° - 35°</li>
+    <li class="weather--cloud">Wed: 24° - 32°</li>
+    <li class="weather--cloud">Thu: 25° - 33°</li>
+    <li class="weather--sun-cloud">Fri: 25° - 34°</li>
+    <li class="weather--sun-cloud">Sat: 26° - 35°</li>
+</ul>
 
 ## See also
 

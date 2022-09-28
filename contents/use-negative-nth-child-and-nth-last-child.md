@@ -4,6 +4,8 @@ category: Tip
 date: 2021-02-24 10:17:00 +7
 layout: layouts/post.njk
 topics: CSS
+metadata:
+    image: negative-child.png
 ---
 
 `nth-child` is used to choose a child or a range of children of a given element.
@@ -29,7 +31,17 @@ li:nth-last-child(-n + 2) {
 }
 ```
 
-{% demo '/assets/demo/use-negative-nth-child-and-nth-last-child/index.html' %}
+## Demo
+
+<ul class="negative-child">
+    <li class="demo__item">First</li>
+    <li class="demo__item">Second</li>
+    <li class="demo__item">Third</li>
+    <li class="demo__item">Fourth</li>
+    <li class="demo__item">Fifth</li>
+    <li class="demo__item">Sixth</li>
+    <li class="demo__item">Seventh</li>
+</ul>
 
 ## See also
 

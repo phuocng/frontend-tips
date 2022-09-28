@@ -4,6 +4,8 @@ category: Tip
 date: 2021-03-16 12:41:00 +7
 layout: layouts/post.njk
 topics: CSS
+metadata:
+    image: append-leading-zeros.png
 ---
 
 Setting the `list-style-type` property to the below value will append zero number to items of an ordered list (`ol`):
