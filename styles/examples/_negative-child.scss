@@ -1,0 +1,9 @@
+.negative-child li:nth-child(-n + 3) {
+    text-decoration: underline;
+}
+.negative-child li:nth-child(n + 2):nth-child(-n + 5) {
+    color: #2563eb;
+}
+.negative-child li:nth-last-child(-n + 2) {
+    text-decoration-line: line-through;
+}

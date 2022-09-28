@@ -4,6 +4,8 @@ category: Tip
 date: 2021-02-24 14:29:00 +7
 layout: layouts/post.njk
 topics: HTML
+metadata:
+    image: descending-list.png
 ---
 
 By default, an ordered list element (`ol` tag) will display the number for each item in the ascending order.
@@ -24,6 +26,27 @@ To do that, we just simply add the `reversed` attribute:
 
 > You can use the `start` attribute which indicates the start number
 
+## Demo
+
 _Top 10 movies rated on [IMDB](https://www.imdb.com/chart/top/)_
 
-{% demo '/assets/demo/create-a-descending-list-of-numbered-items/index.html' %}
+<ol reversed>
+    <li>The Lord of the Rings: The Fellowship of the Ring (2001)</li>
+    <li>The Good, the Bad and the Ugly (1966)</li>
+    <li>Pulp Fiction (1994)</li>
+    <li>The Lord of the Rings: The Return of the King (2003)</li>
+    <li>Schindler's List (1993)</li>
+    <li>12 Angry Men (1957)</li>
+    <li>The Dark Knight (2008)</li>
+    <li>The Godfather: Part II (1974)</li>
+    <li>The Godfather (1972)</li>
+    <li>The Shawshank Redemption (1994)</li>
+</ol>
+
+## See also
+
+-   [Append leading zeros to ordered list items](/append-leading-zeros-to-ordered-list-items/)
+-   [Number headings and subheadings automatically](/number-headings-and-subheadings-automatically/)
+-   [Set a numbering type for a list element](/set-a-numbering-type-for-a-list-element/)
+-   [Style index numbers of list items](/style-index-numbers-of-list-items/)
+-   [Style list items with special characters](/style-list-items-with-special-characters/)
