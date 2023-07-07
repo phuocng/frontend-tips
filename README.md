@@ -4,28 +4,28 @@ A series of super tiny, quick tips, tricks and best practices of front-end devel
 
 The series cover different topics:
 
--   CSS
--   HTML
+-   HTML5
+-   CSS3
 -   JavaScript
 -   TypeScript
 -   Browser developer tools
 
 ## Running it on local
 
-1. Clone the project:
+(1) Clone the project:
 
 ```shell
 $ git clone https://github.com/phuocng/frontend-tips
 ```
 
-2. Install the dependencies:
+(2) Install the dependencies:
 
 ```shell
 $ cd frontend-tips
 $ npm install
 ```
 
-3. Run it on the local:
+(3) Run it on the local:
 
 ```shell
 $ npm run start
