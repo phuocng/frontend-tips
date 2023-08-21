@@ -1,0 +1,40 @@
+---
+category: Trick
+created: '2021-02-25'
+tags: JavaScript
+title: Log a variable in an arrow function
+---
+
+Have you ever had to debug an 1 line arrow function using `console.log`? It usually requires us to switch to a multiple lines version such as:
+
+```js
+const formatYmd = (date) => {
+    console.log(date.toISOString());
+    return date.toISOString().slice(0, 10);
+};
+```
+
+You can get rid of that conversion by using the `||` operator. It works because `console.log()` returns `undefined`, so the `||` will enforce the function to evaluate and return the right side which is our actual function.
+
+```js
+const formatYmd = (date) => console.log(date.toISOString()) || date.toISOString().slice(0, 10);
+
+formatYmd(new Date());
+// Print something like `2021-02-25T04:52:39.720Z` in the Console
+```
+
+There is another, less known tip which uses the [comma operator](https://phuoc.ng/collection/tips/shorten-codes-with-the-comma-operator):
+
+```js
+const formatYmd = date => (console.log(...), date.toISOString().slice(0, 10));
+```
+
+> You will find more useful 1 line-of-code functions on the [1 LOC](https://phuoc.ng/collection/1-loc) series.
+
+## See also
+
+-   [Conditional logging in the Console](https://phuoc.ng/collection/tips/conditional-logging-in-the-console)
+-   [Count how many times a function has been called](https://phuoc.ng/collection/tips/count-how-many-times-a-function-has-been-called)
+-   [Log a value to the Console](https://phuoc.ng/collection/tips/log-a-value-to-the-console)
+-   [Log a variable to the console using conditional breakpoints](https://phuoc.ng/collection/tips/log-a-variable-to-the-console-using-conditional-breakpoints)
+-   [Log an array to the Console](https://phuoc.ng/collection/tips/log-an-array-to-the-console)

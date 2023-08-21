@@ -1,0 +1,60 @@
+---
+category: Tip
+cover: /assets/tips/negative-child.png
+created: '2021-02-24'
+tags: CSS
+title: 'Use negative nth-child and nth-last-child'
+---
+
+`nth-child` is used to choose a child or a range of children of a given element.
+Using negative `nth-child` will pick the first few children.
+
+In the following example, the first three items will be underlined. The range of second to fifth items have the blue color.
+
+```css
+li:nth-child(-n + 3) {
+    text-decoration: underline;
+}
+li:nth-child(n + 2):nth-child(-n + 5) {
+    color: #2563eb;
+}
+```
+
+In a similar way, nagative `nth-last-child` will pick the last few children.
+
+```css
+/* Add a decorative line to the last two items */
+li:nth-last-child(-n + 2) {
+    text-decoration-line: line-through;
+}
+```
+
+<Playground>
+```html
+<ul class="negative-child">
+    <li class="demo__item">First</li>
+    <li class="demo__item">Second</li>
+    <li class="demo__item">Third</li>
+    <li class="demo__item">Fourth</li>
+    <li class="demo__item">Fifth</li>
+    <li class="demo__item">Sixth</li>
+    <li class="demo__item">Seventh</li>
+</ul>
+```
+
+```css
+.negative-child li:nth-child(-n+3) {
+    text-decoration: underline
+}
+.negative-child li:nth-child(n+2):nth-child(-n+5) {
+    color: #2563eb
+}
+.negative-child li:nth-last-child(-n+2) {
+    text-decoration-line: line-through
+}
+```
+</Playground>
+
+## See also
+
+-   [Append leading zeros to ordered list items](https://phuoc.ng/collection/tips/append-leading-zeros-to-ordered-list-items)

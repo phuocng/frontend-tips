@@ -1,0 +1,41 @@
+---
+category: Tip
+created: '2021-03-06'
+tags: HTML
+title: Pure collapsible element
+---
+
+We can create an expandable element with pure HTML tags as following:
+
+```html
+<details>
+    <summary>Title</summary>
+    <!--
+    The hidden content that will be shown when
+    clicking the `summary` tag.
+    -->
+</details>
+```
+
+I often use the tags when including a long error log on GitHub:
+
+```html
+<details>
+    <summary>Error log</summary>
+    <pre><code><!-- Full log here --></code></pre>
+</details>
+```
+
+<Playground>
+```html
+ <details>
+    <summary>TLDR</summary>
+    <div>TLDR stands for "too long, don't read". But it's too short, isn't it?</div>
+</details>
+
+<details>
+    <summary>A question?</summary>
+    <div>The answer is hidden initially</div>
+</details>
+```
+</Playground>

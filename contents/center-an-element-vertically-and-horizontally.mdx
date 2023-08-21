@@ -1,0 +1,44 @@
+---
+category: Tip
+created: '2021-03-17'
+tags: CSS
+title: Center an element vertically and horizontally
+---
+
+There're different ways to [center](https://phuoc.ng/collection/css-layout/centering) a given element in both directions.
+
+## Using flexbox
+
+```css
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+```
+
+## Using grid
+
+```css
+.container {
+    display: grid;
+    place-content: center;
+}
+```
+
+## Using positions
+
+We position the child element absolutely to the parent element.
+
+```css
+.parent {
+    position: relative;
+}
+.child {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+```

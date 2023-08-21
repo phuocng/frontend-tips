@@ -1,0 +1,35 @@
+---
+category: Trick
+created: '2021-03-01'
+tags: DevTools
+title: Log a variable to the console using conditional breakpoints
+---
+
+Sometimes it's not possible for us to log data to the _Console_ directly in the code. For example, when we debug codes coming from external libraries.
+
+Perform the steps below to print the variable:
+
+-   Open the Chrome DevTools, and activate the _Sources_ tab
+-   Navigate to the line of a given function that you want to log the data
+-   Right-click the line number, and choose _Add conditional breakpoint ..._ from the context menu
+-   Enter the condition
+
+```js
+console.log('replace-it-with-your-variable');
+```
+
+When the associcate line is hit by the debug process, it will try to evaluate the condition meaning that the variable is printed out.
+
+The nice thing is that the script execution on the page is still being processed because the condition never happens (the `console.log` function returns `undefined`).
+
+In the following screenshot, the `params` variable is logged to the _Console_ when the `sum` function is invoked.
+
+![Log with conditional breakpoints](/assets/tips/log-conditional-breakpoints.png)
+
+## See also
+
+-   [Conditional logging in the Console](https://phuoc.ng/collection/tips/conditional-logging-in-the-console)
+-   [Count how many times a function has been called](https://phuoc.ng/collection/tips/count-how-many-times-a-function-has-been-called)
+-   [Log a value to the Console](https://phuoc.ng/collection/tips/log-a-value-to-the-console)
+-   [Log a variable in an arrow function](https://phuoc.ng/collection/tips/log-a-variable-in-an-arrow-function)
+-   [Log an array to the Console](https://phuoc.ng/collection/tips/log-an-array-to-the-console)

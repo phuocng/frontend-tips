@@ -1,0 +1,30 @@
+---
+category: Practice
+created: '2021-02-23'
+tags: JavaScript
+title: Use template literal to concatenate strings
+---
+
+There are some ways to concatenate variables in a string. It's recommended to use template literal syntax to avoid unexpected result when the types of variables vary.
+
+```js
+const foo = 4;
+const bar = 2;
+const fuzz = 'Fuzz';
+
+// Bad: Use + operator
+foo + bar + fuzz; // '6Fuzz'
+
+// Better: Use concat
+''.concat(foo, bar, fuzz); // 42Fuzz
+[foo, bar, fuzz].join(''); // 42Fuzz
+
+// Best: Use template literal
+`${foo}${bar}${fuzz}`; // 42Fuzz
+```
+
+## See also
+
+-   [Create a multiline strings](https://phuoc.ng/collection/tips/create-a-multiline-strings)
+-   [Get rid of escaping quotes with template literal](https://phuoc.ng/collection/tips/get-rid-of-escaping-quotes-with-template-literal)
+-   [Prevent a string from being escaped](https://phuoc.ng/collection/tips/prevent-a-string-from-being-escaped)

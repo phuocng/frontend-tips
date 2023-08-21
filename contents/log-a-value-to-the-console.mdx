@@ -1,0 +1,29 @@
+---
+category: Tip
+created: '2021-02-27'
+tags: JavaScript
+title: Log a value to the Console
+---
+
+There are a few ways to log a value to the _Console_, but using object destructuring is the convenient and short one.
+
+```js
+const fullName = 'John Doe';
+
+console.log('full name' + fullName);
+console.log('full name', fullName);
+
+// Better: use template string
+console.log(`full name: ${fullName}`);
+
+// Best: use object destructuring
+console.log({ fullName }); // { fullName: 'John Doe' }
+```
+
+## See also
+
+-   [Conditional logging in the Console](https://phuoc.ng/collection/tips/conditional-logging-in-the-console)
+-   [Count how many times a function has been called](https://phuoc.ng/collection/tips/count-how-many-times-a-function-has-been-called)
+-   [Log a variable in an arrow function](https://phuoc.ng/collection/tips/log-a-variable-in-an-arrow-function)
+-   [Log a variable to the console using conditional breakpoints](https://phuoc.ng/collection/tips/log-a-variable-to-the-console-using-conditional-breakpoints)
+-   [Log an array to the Console](https://phuoc.ng/collection/tips/log-an-array-to-the-console)

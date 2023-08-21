@@ -1,0 +1,22 @@
+---
+category: Tip
+created: '2021-03-07'
+tags: Command Line
+title: Run the last command as the root user
+---
+
+We often see an error when executing a command that requires the root user permission. For example, installing a npm package as global probably requires `sudo`:
+
+```shell
+$ npm install -g package-name
+```
+
+In order to sudo the previous command, usually we press the _Arrow_ key, append `sudo` to the beginning of the command and run it again.
+
+It turns out that there is an easier, shorter command:
+
+```shell
+$ sudo !!
+```
+
+Here `!!` references the last command.

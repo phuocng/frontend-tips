@@ -1,0 +1,68 @@
+---
+category: Tip
+created: '2021-02-24'
+tags: CSS
+title: Remove the border from the last navigation item
+---
+
+We often use the `:last-child` selector to unapply particular styles (such as `border`) for the last item.
+Creating a navigation that each item has a bottom border usually looks like:
+
+```css
+li {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Don't add border to the last item */
+li:last-child {
+    border-bottom: none;
+}
+```
+
+Using the `:not` pseudo-class, we can make the code shorter and more easy to maintain with a single CSS declaration:
+
+```css
+/* Add the border to all items except the last one */
+li:not(:last-child) {
+    border-bottom: 1px solid #e5e7eb;
+}
+```
+
+Another approach is to use the `+` selector:
+
+```css
+li + li {
+    border-top: 1px solid #e5e7eb;
+}
+```
+
+<Playground>
+```html
+<ul class="demo__list">
+    <li><a href="https://phuoc.ng/1-loc">1LOC</a></li>
+    <li><a href="https://phuoc.ng/css-layout">CSS Layout</a></li>
+    <li><a href="https://phuoc.ng/html-dom">HTML DOM</a></li>
+    <li><a href="https://phuoc.ng/this-vs-that">this VS that</a></li>
+</ul>
+```
+
+```css
+.demo__list {
+    border: 1px solid #e5e7eb;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 16rem;
+}
+.demo__list li {
+    padding: 0.25rem 0.5rem;
+}
+.demo__list li:not(:last-child) {
+    border-bottom: 1px solid #e5e7eb;
+}
+.demo__list a {
+    display: block;
+    text-decoration: none;
+}
+```
+</Playground>

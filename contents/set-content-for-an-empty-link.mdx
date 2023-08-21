@@ -1,0 +1,26 @@
+---
+category: Tip
+created: '2021-02-24'
+tags: CSS
+title: Set content for an empty link
+---
+
+For a link whose content is empty, we can replace the content with the `href` attribute:
+
+```css
+a[href^='http']:empty:before {
+    content: attr(href);
+}
+```
+
+<Playground>
+```html
+<a class="demo__link" href="https://phuoc.ng/collection/tips"></a>
+```
+
+```css
+.demo__link[href^='http']:empty:before {
+    content: attr(href);
+}
+```
+</Playground>

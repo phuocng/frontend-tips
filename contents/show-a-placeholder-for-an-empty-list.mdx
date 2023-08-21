@@ -1,0 +1,41 @@
+---
+category: Tip
+created: '2021-02-24'
+tags: CSS
+title: Show a placeholder for an empty list
+---
+
+By using the `:empty` selector, it's possible for us to show a custom placeholder.
+
+```css
+ul:empty::after {
+    content: 'Empty';
+}
+```
+
+If you want the placeholder to be more flexible instead of being hardcoded in CSS, it can be taken from an attribute, such as `data-placeholder`:
+
+```css
+ul:empty::after {
+    content: attr(data-placeholder);
+}
+```
+
+> The `:empty` selector doesn't have effect if the list contains a whitespace or an empty child node
+
+<Playground>
+```html
+<ul class="demo__list" data-placeholder="You don't have any new messages"></ul>
+```
+
+```css
+.demo__list {
+    margin: 2rem;
+}
+.demo__list:empty::after {
+    border: 1px solid #e5e7eb;
+    content: attr(data-placeholder);
+    padding: 1rem;
+}
+```
+</Playground>
