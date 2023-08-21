@@ -1,0 +1,27 @@
+---
+category: Tip
+cover: /assets/tips/quickly-type-colors.png
+created: '2021-05-12'
+tags: Visual Studio Code
+title: Quickly type color variables
+---
+
+We often declare variables for colors, mostly at the top of file, as following:
+
+```css
+:root {
+    --color-primary: #...;
+}
+```
+
+The colors then can be reused with the `var` function:
+
+```css
+.btn--primary {
+    background-color: var(--color-primary);
+}
+```
+
+If you're using Visual Studio Code, then you don't have to type `var(...)` completely. Instead, just type `--` and Visual Studio Code suggests the existing color variables.
+
+![Visual Studio Code completes color variables automatically](/assets/tips/vscode-autocomplete-colors.png)

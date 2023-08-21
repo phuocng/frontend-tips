@@ -1,0 +1,40 @@
+---
+category: Tip
+cover: /assets/tips/fold-css.png
+created: '2021-05-12'
+tags: CSS, Visual Studio Code
+title: Fold CSS declarations with region markers
+---
+
+In Visual Studio Code, we can make given CSS declarations foldable with the region markers.
+
+Just wrap the declarations between `/*#region*/` and `/*#endregion*/` if you're using CSS, SCSS or Less.
+
+SCSS and Less also accept `//` as a valid CSS comment, hence you can use `// #region` and `// #endregion` in the SCSS/Less files.
+
+```css
+/* === Header === */
+/* #region */
+
+/* The CSS styles for header go here */
+
+/* #endregion */
+
+/* === Footer === */
+/* #region */
+
+/* The CSS styles for footer go here */
+
+/* #endregion */
+
+/* === Responsive === */
+/* #region */
+
+/* The responsive styles go here */
+
+/* #endregion */
+```
+
+The following screenshot is an example:
+
+![Fold CSS declarations with region markers](/assets/tips/fold-css-declarations.png)

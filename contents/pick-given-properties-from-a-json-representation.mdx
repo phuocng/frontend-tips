@@ -1,0 +1,79 @@
+---
+category: Tip
+cover: /assets/tips/pick-given-properties.png
+created: '2021-04-19'
+tags: JavaScript
+title: Pick given properties from a JSON representation
+---
+
+By default, `JSON.stringify(value)` will pull all serializable properties of `value`.
+
+```js
+const resources = [
+    {
+        name: '1 LOC',
+        description: 'Favorite JavaScript utilities in single line of code',
+        link: 'https://phuoc.ng/collection/1-loc',
+    },
+    {
+        name: 'CSS Layout',
+        description: 'A collection of popular layouts and patterns made with CSS',
+        link: 'https://phuoc.ng/collection/css-layout',
+    },
+    {
+        name: 'HTML DOM',
+        description: 'How to manage HTML DOM with vanilla JavaScript',
+        link: 'https://phuoc.ng/collection/html-dom',
+    },
+    {
+        name: 'Front-end Tips',
+        description: 'Super tiny, quick tips, tricks and best practices of front-end development',
+        link: 'https://phuoc.ng/collection/tips',
+    },
+    {
+        name: 'this VS that',
+        description: 'The differences between ___ and ___ in the front-end development',
+        link: 'https://phuoc.ng/collection/this-vs-that',
+    },
+];
+
+JSON.stringify(resources);
+/*
+[
+	{
+		"name": "1 LOC",
+		"description": "...",
+		"link": "..."
+	},
+	{
+		"name": "CSS Layout",
+		"description": "...",
+		"link": "..."
+	},
+	{
+		"name": "HTML DOM",
+		"description": "...",
+		"link": "..."
+	},
+    ...
+]
+*/
+```
+
+If you want to receive some particular properties, then pass them to the second parameter:
+
+```js
+// Only pick the `name` property
+JSON.stringify(resources, ['name']);
+
+// Pick the `name` and `link` properties
+JSON.stringify(resources, ['name', 'link']);
+```
+
+You can use the same tip when [logging an array to the Console](https://phuoc.ng/collection/tips/log-an-array-to-the-console).
+
+## See also
+
+-   [Log the full object in NodeJS](https://phuoc.ng/collection/tips/log-the-full-object-in-nodejs)
+-   [Pretty format JSON](https://phuoc.ng/collection/tips/pretty-format-json)
+-   [Transform values from a JSON representation](https://phuoc.ng/collection/tips/transform-values-from-a-json-representation)

@@ -1,0 +1,51 @@
+---
+category: Tip
+contributors:
+    - dnrm
+created: '2021-02-27'
+tags: JavaScript
+title: Pretty format JSON
+updated: '2021-03-03'
+---
+
+We often use `JSON.stringify` to generate JSON for a given object. By default, it removes all spaces between items. It's not easy to scan the output, especially when using with `console.log`.
+
+Do you know that it's possible for us to generate a pretty output by passing the indentation level to the third parameter?
+
+```js
+const person = {
+    firstName: 'John',
+    lastName: 'Doe',
+    ages: 42,
+};
+
+JSON.stringify(person, null, 2);
+
+/*
+"{
+  "firstName": "John",
+  "lastName": "Doe",
+  "ages": 42
+}"
+*/
+```
+
+If you prefer tab for the indentations, then passing the `\t` character:
+
+```js
+JSON.stringify(person, null, '\t');
+
+/*
+"{
+	"firstName": "John",
+	"lastName": "Doe",
+	"ages": 42
+}"
+*/
+```
+
+## See also
+
+-   [Log the full object in NodeJS](https://phuoc.ng/collection/tips/log-the-full-object-in-nodejs)
+-   [Pick given properties from a JSON representation](https://phuoc.ng/collection/tips/pick-given-properties-from-a-json-representation)
+-   [Transform values from a JSON representation](https://phuoc.ng/collection/tips/transform-values-from-a-json-representation)

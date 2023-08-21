@@ -1,0 +1,26 @@
+---
+category: Tip
+created: '2021-03-03'
+tags: JavaScript
+title: Format a number as a currency string
+---
+
+Given a number, we can format it as a currency string without using an external libary.
+
+The `NumberFormat` API provides the easy way to format a currency of a given country:
+
+```js
+const formatter = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+    minimumFractionDigits: 2,
+});
+```
+
+The optional `minimumFractionDigits` parameter indicates the minium number of digits in the fraction part. Calling the `format` function will format the input, and prefix or suffix the currency depending on the country.
+
+```js
+formatter.format(2345); // '$2,345.00'
+formatter.format('2345'); // '$2,345.00'
+formatter.format('10000000'); // '$10,000,000.00'
+```

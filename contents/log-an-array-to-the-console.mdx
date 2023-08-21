@@ -1,0 +1,63 @@
+---
+category: Tip
+created: '2021-02-27'
+tags: JavaScript
+title: Log an array to the Console
+---
+
+Instead of using the `console.log` function, `console.table` produces a better output. It works pretty well with an array or object.
+
+```js
+const resources = [
+    {
+        name: '1 LOC',
+        description: 'Favorite JavaScript utilities in single line of code',
+        link: 'https://phuoc.ng/collection/1-loc',
+    },
+    {
+        name: 'CSS Layout',
+        description: 'A collection of popular layouts and patterns made with CSS',
+        link: 'https://phuoc.ng/collection/css-layout',
+    },
+    {
+        name: 'HTML DOM',
+        description: 'How to manage HTML DOM with vanilla JavaScript',
+        link: 'https://phuoc.ng/collection/html-dom',
+    },
+    {
+        name: 'Front-end Tips',
+        description: 'Super tiny, quick tips, tricks and best practices of front-end development',
+        link: 'https://phuoc.ng/collection/tips',
+    },
+    {
+        name: 'this VS that',
+        description: 'The differences between ___ and ___ in the front-end development',
+        link: 'https://phuoc.ng/collection/this-vs-that',
+    },
+];
+
+console.table(resources);
+```
+
+Here is the screenshot compares the output of two methods above:
+
+![console.table](/assets/tips/console-table.png)
+
+If you don't want to see all the columns, then you can indicate the columns explicitly:
+
+```js
+// Show `name` and `link` properties
+console.table(resources, ['name', 'link']);
+```
+
+![console.table](/assets/tips/console-table-columns.png)
+
+This tip also has effect when you want to [pick some particular properties from a JSON representation](https://phuoc.ng/collection/tips/pick-given-properties-from-a-json-representation).
+
+## See also
+
+-   [Conditional logging in the Console](https://phuoc.ng/collection/tips/conditional-logging-in-the-console)
+-   [Count how many times a function has been called](https://phuoc.ng/collection/tips/count-how-many-times-a-function-has-been-called)
+-   [Log a value to the Console](https://phuoc.ng/collection/tips/log-a-value-to-the-console)
+-   [Log a variable in an arrow function](https://phuoc.ng/collection/tips/log-a-variable-in-an-arrow-function)
+-   [Log a variable to the console using conditional breakpoints](https://phuoc.ng/collection/tips/log-a-variable-to-the-console-using-conditional-breakpoints)

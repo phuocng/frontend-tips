@@ -1,0 +1,62 @@
+---
+category: Tip
+cover: /assets/tips/style-list-items-special-characters.png
+created: '2021-03-14'
+tags: CSS
+title: Style list items with special characters
+---
+
+We often use circles or squares to style list items as following:
+
+```css
+li {
+    list-style-type: circle;
+}
+```
+
+Do you know that the `list-style-type` property also accepts a character. It means that we can use an emoji or Unicode character:
+
+```css
+li {
+    list-style-type: '☀️';
+}
+
+/* Or */
+li {
+    list-style-type: '\2600';
+}
+```
+
+<Playground>
+```html
+<ul class="weather">
+    <li class="weather--sun">Sun: 23° - 35°</li>
+    <li class="weather--cloud">Mon: 24° - 32°</li>
+    <li class="weather--sun">Tue: 24° - 35°</li>
+    <li class="weather--cloud">Wed: 24° - 32°</li>
+    <li class="weather--cloud">Thu: 25° - 33°</li>
+    <li class="weather--sun-cloud">Fri: 25° - 34°</li>
+    <li class="weather--sun-cloud">Sat: 26° - 35°</li>
+</ul>
+```
+
+```css
+.weather--sun {
+    list-style-type: '☀️';
+}
+.weather--cloud {
+    list-style-type: '☁';
+}
+.weather--sun-cloud {
+    list-style-type: '🌤';
+}
+```
+</Playground>
+
+## See also
+
+-   [Append leading zeros to ordered list items](https://phuoc.ng/collection/tips/append-leading-zeros-to-ordered-list-items)
+-   [Create a descending list of numbered items](https://phuoc.ng/collection/tips/create-a-descending-list-of-numbered-items)
+-   [Number headings and subheadings automatically](https://phuoc.ng/collection/tips/number-headings-and-subheadings-automatically)
+-   [Set a numbering type for a list element](https://phuoc.ng/collection/tips/set-a-numbering-type-for-a-list-element)
+-   [Style index numbers of list items](https://phuoc.ng/collection/tips/style-index-numbers-of-list-items)

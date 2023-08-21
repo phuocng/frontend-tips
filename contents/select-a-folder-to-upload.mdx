@@ -1,0 +1,29 @@
+---
+category: Tip
+cover: /assets/tips/webkitdirectory.png
+created: '2022-09-27'
+tags: HTML
+title: Select a folder to upload
+---
+
+We often use the file input to give users a way to choose and upload one or multiple files:
+
+```html
+<!-- Upload a single file -->
+<input type="file" />
+
+<!-- Upload many files -->
+<input type="file" multiple />
+```
+
+The input also has a special attribute named `webkitdirectory` which allows users to choose and upload an entire folder including all of its sub directories recursively.
+
+```html
+<input type="file" webkitdirectory multiple />
+```
+
+It's [supported](https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/webkitdirectory) in all modern browsers.
+
+## See also
+
+-   [Filter file types of a file input](https://phuoc.ng/collection/tips/filter-file-types-of-a-file-input)

@@ -1,0 +1,53 @@
+---
+category: Tip
+created: '2021-02-24'
+tags: CSS
+title: Separate list items
+---
+
+The `content` property of the `:after` selector can be used to separate list items:
+
+```css
+/* Inline items */
+span:not(:last-child):after {
+    content: ' • ';
+}
+
+/* List items */
+li:not(:last-child):after {
+    content: ',';
+}
+```
+
+The footer of this website uses the same technique.
+
+<Playground>
+```html
+<div>Inline items:</div>
+<span class="demo__tag">CSS</span>
+<span class="demo__tag">JavaScript</span>
+<span class="demo__tag">HTML</span>
+<span class="demo__tag">TypeScript</span>
+
+<div>List items:</div>
+<ul>
+    <li class="demo__item">CSS</li>
+    <li class="demo__item">JavaScript</li>
+    <li class="demo__item">HTML</li>
+    <li class="demo__item">TypeScript</li>
+</ul>
+```
+
+```css
+.demo__tag:not(:last-child):after {
+    content: ' • ';
+}
+.demo__item:not(:last-child):after {
+    content: ',';
+}
+```
+</Playground>
+
+## See also
+
+-   [Style list items with special characters](https://phuoc.ng/collection/tips/style-list-items-with-special-characters)

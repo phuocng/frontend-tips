@@ -1,0 +1,33 @@
+---
+category: Trick
+contributors:
+    - ApolloRisky
+created: '2021-02-23'
+tags: DOM, JavaScript
+title: Visualize elements on page with the outline style
+updated: '2021-04-02'
+---
+
+The outline property is useful when you want to visualize elements on the page. In the following sample code, we iterate over all the elements and set the `outline` property with a [random hex color](https://phuoc.ng/collection/1-loc/generate-a-random-hex-color):
+
+```js
+const randomColor = () => `#${Math.random().toString(16).slice(2, 8).padEnd(6, '0')}`;
+
+[].forEach.call(document.querySelectorAll('*'), (ele) => (ele.style.outline = `1px solid ${randomColor()}`));
+```
+
+Of course, you will need an opposite command to reset the `outline` property:
+
+```js
+[].forEach.call(document.querySelectorAll('*'), (ele) => ele.style.removeProperty('outline'));
+```
+
+You can change the selector from `*` to whatever you want to match the set of particular elements, for example:
+
+```js
+// Set the outline for links only
+[].forEach.call(
+    document.querySelectorAll('a'),
+    ...
+);
+```
