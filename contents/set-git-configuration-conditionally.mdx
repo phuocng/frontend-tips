@@ -1,0 +1,65 @@
+---
+category: Tip
+created: '2023-08-30'
+description: Set up Git configuration differently for each folder or repository
+openGraphCover: /og/tips/git-configuration-conditionally.png
+tags: Git
+title: Set Git configuration conditionally
+---
+
+When working on different environments, like company projects and personal projects, we usually use different Git accounts. To keep things organized, we clone all the repositories of each account to a dedicated folder. For example, we can clone all the personal project repositories in the `personal-projects` folder, and the company projects in the `work-projects` folder.
+
+Once we clone a Git repository to one of those folders, the first thing we should do is configure the name and email address associated with the cloned repository. This ensures that our commits and contributions are properly identified.
+
+```shell
+$ git config user.name "..."
+$ git config user.email "..."
+```
+
+Behind the scenes, running these commands will add a section called `[user]` to the Git configuration file of the current folder, which is located at `.git/config`:
+
+```shell .git/config
+[user]
+    name=...
+    email=...
+```
+
+If you don't set up your Git configuration properly, you might accidentally push commits with the wrong information attached. It's not hard to run two simple commands to fix this, but it's inconvenient to have to do it for every repository. Plus, it's easy to forget.
+
+Thankfully, Git has a solution: you can set up your configuration differently for each folder or repository you work on. The first step is to create a dedicated Git configuration for each folder.
+
+```shell ~/.personal.gitconfig
+[user]
+    name=...
+    email="personal email address"
+```
+
+```shell ~/.works.gitconfig
+[user]
+    name=...
+    email="company email address"
+```
+
+Now, let's talk about using Git configurations based on the repository path.
+
+To set conditional configurations, we'll be using the `includeIf` directive. This directive allows you to include a configuration file based on a condition. In our case, we want to include a configuration file based on the repository path.
+
+We'll be editing the global Git configuration file, which is typically stored in `~/.gitconfig`.
+
+```shell ~/.gitconfig
+[user]
+    name=...
+    email=...
+[includeIf "gitdir:/personal-projects/"]
+    path=~/.personal.gitconfig
+[includeIf "gitdir:/works-projects/"]
+    path=~/.works.gitconfig
+```
+
+We use two instances of the `includeIf` directive to tell Git which configuration to use based on the project path.
+
+For example, if you clone a project into the `personal-projects` folder, Git will use the configuration defined in `~/.personal.gitconfig` instead of the global Git configuration.
+
+## See also
+
+-   [Use multiple SSH keys for different GitHub accounts](https://phuoc.ng/collection/tips/use-multiple-ssh-keys-for-different-github-accounts)
