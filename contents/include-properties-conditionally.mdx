@@ -1,0 +1,47 @@
+---
+category: Tip
+created: '2023-08-28'
+description: How to include properties conditionally using the spread syntax
+openGraphCover: /og/tips/include-properties-conditionally.png
+tags: JavaScript
+title: Include properties conditionally
+---
+
+To define a property of an object in JavaScript, we typically declare it directly. For example:
+
+```js
+const obj = {
+    foo: 'Baz',
+    bar: 'Qux',
+};
+```
+
+Here's an example: we have an object with two properties named `foo` and `bar`, which have the values `Baz` and `Qux`, respectively.
+
+Now, let's say we only want to include the `bar` property if a certain condition is met. The standard approach is to declare the object as a variable using the `let` declaration, and then set the property later.
+
+```js
+let obj = {
+    foo: 'Bar',
+};
+if (condition) {
+    obj.bar = 'Qux';
+}
+```
+
+While the `if` statement approach works, it's not so convenient when we have to conditionally set many properties at once. Additionally, it turns the object from immutable to mutable due to the `let` declaration.
+
+Fortunately, JavaScript offers the object spread syntax, which is quite handy in this scenario. It allows us to selectively include properties from the source objects, depending on our conditions.
+
+To simplify the sample code above, we can use the following code:
+
+```js
+const obj = {
+    foo: 'Baz',
+    ...(condition && { bar: 'Qux' }),
+};
+```
+
+## See also
+
+-   [Create an array with conditional elements](https://phuoc.ng/collection/tips/create-an-array-with-conditional-elements)
