@@ -1,0 +1,115 @@
+---
+category: Practice
+created: '2023-09-08'
+description: Avoid using default exports in JavaScript
+openGraphCover: /og/tips/avoid-default-exports.png
+tags: JavaScript
+title: Avoid using default exports
+---
+
+As you may already know, there are two different ways to share functions in JavaScript: **default exports** and **named exports**. Default exports are used to export a single value from a module, while named exports allow you to export multiple values from a module.
+
+Default exports are great when you want to export something specific from a module, like a function or a class. Named exports, on the other hand, are perfect for when you want to export multiple things from a module at once.
+
+In this post, we'll explore why using default exports isn't recommended and should be avoided. To get started, let's take a look at some examples of both.
+
+## Named exports
+
+An example of a named export is as follows:
+
+```ts add.ts
+export const add = (a, b) => a + b;
+```
+
+In this example, we've exported a function called `add` from the `add.ts` module. You can easily import this function into another module using its name:
+
+```ts app.ts
+import { add } from './add';
+
+console.log(add(2, 3));     // 5
+```
+
+## Default exports
+
+Let's rewrite the example above with using a default export :
+
+```ts add.ts
+const add = (a, b) => a + b;
+export default add;
+```
+
+In this example, we have exported the `add` function as the default export. This function can then be imported in another module using **any name** of our choice.
+
+```ts app.ts
+import add from './add';
+
+console.log(add(2, 3));     // 5
+```
+
+Now that you have a good understanding of named and default exports, let's dive into the next section to explore the disadvantages of using default exports.
+
+## Poor discovery
+
+Default exports can be confusing in complex modules. Developers may not know which export is the default or even be aware of its existence. This can cause delays as engineers must spend more time looking at documentation or even the source code to find the functions they need.
+
+On the other hand, using named exports makes discovery much simpler. With named exports, developers can easily see the exported members of a module and their corresponding names. This is especially helpful when using an IDE, as popular IDEs allow you to use a shortcut (such as `cmd + space`) to suggest available functions from a given file. Unfortunately, this shortcut doesn't work when using default exports.
+
+![Suggest a named import](/assets/tips/suggest-named-export.png)
+
+## Refactoring
+
+If you decide to rename a named export in a module, for example, changing the name of the `add` function to `sum`, most IDEs can automatically update all usages. This makes the refactoring process much easier.
+
+However, with default exports, this isn't possible.
+
+## Auto-complete
+
+As we discussed earlier, when a module provides named exports, we can easily select a specific function from the module by using a shortcut provided by the IDE. This feature not only saves time, but also helps the IDE suggest and auto-import the necessary functions as we type.
+
+For example, if you start typing `add`, the IDE will display a list of available packages that provide the `add` function. All you have to do is choose the right package from the list, and the editor will automatically insert the import for you. It's that simple!
+
+![Auto-complete a named import](/assets/tips/auto-complete-named-import.png)
+
+## Inconsistent codebases
+
+Default exports can be imported using **any name** you choose. This can lead to inconsistencies when multiple engineers are working on the same codebase and using different import names.
+
+```ts
+import add from './add';
+
+// Other engineer could use another name
+import sum from './add';
+```
+
+## Re-exporting
+
+When developing an npm package, it's common practice to export the package functions in its entry point, which is typically named `index.js` or `index.ts` if the package is implemented in TypeScript.
+
+To keep things organized, we often create separate files for different functions and then re-export them in the entry point file. For example, we might have files named `add.ts` and `multiply.ts`, each containing a function to add or multiply two numbers.
+
+If we use default exports for those files, we need to specify the names of the functions that will be available in the final package.
+
+```ts index.ts
+export { default as add } from './add';
+export { default as multiply } from './multiply';
+```
+
+Using named exports is more convenient:
+
+```ts index.ts
+export { add } from './add';
+export { multiply } from './multiply';
+```
+
+What if you want to export everything? That's where wildcard exports come in – they make it even easier.
+
+```ts index.ts
+export * from './add';
+export * from './multiply';
+```
+
+## Conclusion
+
+Using default exports can make it harder to find things in your code and lead to inconsistencies. Instead, named exports make it easier to discover which members are being exported and what their corresponding names are, especially when using an IDE.
+
+It's recommended to avoid using default exports and instead opt for named exports whenever possible. By doing so, you'll have a more organized and maintainable codebase that's easier to work with in the long run.
