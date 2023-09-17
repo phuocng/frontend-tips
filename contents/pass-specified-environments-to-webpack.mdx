@@ -1,0 +1,164 @@
+---
+category: Tip
+created: '2023-08-29'
+description: Pass environment variables from Webpack instead of hardcoding them into your code
+openGraphCover: /og/tips/pass-environments-webpack.png
+tags: Webpack
+title: Pass specified environments to Webpack
+---
+
+Webpack is a powerful tool that can bundle and optimize your JavaScript code. One cool feature is the ability to customize your build by passing environment variables. In this post, we'll explore some common ways to pass environment variables from Webpack instead of hardcoding them into your code.
+
+So, why use environment variables? Well, they're a great way to store configuration information outside of your code. This means you can change settings without having to modify your code. For instance, you might want to store an API key in an environment variable instead of hardcoding it into your code. This way, you can change the API key without having to modify and redeploy your code.
+
+Let's say we store our configuration in a separate file called `appConfig.ts`, which is located in the root folder.
+
+```ts appConfig.ts
+export const appConfig = {
+  API_KEY: '...',
+};
+```
+
+In the following sections, we'll learn how to access the configuration constants in your code.
+
+## Using different configurations
+
+To use the configuration values in other parts of your code, simply import the file as you normally would. Here's an example:
+
+```ts appConfig.ts
+import { appConfig } from '/path/to/appConfig';
+
+const { API_KEY } = appConfig;
+
+// Use API_KEY to fetch data from remote servers ...
+```
+
+The sample code above shows the typical way to organize and import code. It's nothing fancy, but now it's time for Webpack to shine! Instead of using a relative path to the config file, we can treat it as an external module and import it globally like this:
+
+```ts
+import { appConfig } from 'appConfig';
+
+const { API_KEY } = appConfig;
+```
+
+If your code isn't working because Webpack can't find a module called `appConfig` in the `node_modules` folder, don't worry. You can use the `alias` setting to help Webpack locate the module. Here's an example of what your Webpack configuration could look like:
+
+```ts webpack.config.ts
+import path from 'path';
+import webpack from 'webpack';
+
+const config: webpack.Configuration = {
+    // ...
+    resolve: {
+        alias: {
+            appConfig: path.resolve(__dirname, 'appConfig'),
+        },
+    },
+};
+
+export default config;
+```
+
+This configuration tells Webpack where to find the `appConfig` module. In the example above, it's located at the root folder, just like the Webpack configuration file. But you can adjust the path to match your specific folder.
+
+> I use [TypeScript](https://webpack.js.org/configuration/configuration-languages/) for configuring Webpack because it offers two distinct advantages: type-safety and the ability to use imports within the config file. That being said, the approaches outlined in this post can still be used with a normal JavaScript config file.
+
+## Using DefinePlugin
+
+Another way to set global constants in your code is to use the [`DefinePlugin` plugin](https://webpack.js.org/plugins/define-plugin/). This plugin allows you to define constants that can be accessed from anywhere in your code.
+
+Here's an example of how to use the `DefinePlugin` to define a global constant:
+
+```ts webpack.config.ts
+import webpack from 'webpack';
+
+// Import the config file
+import { appConfig } from './appConfig';
+
+const config: webpack.Configuration = {
+    plugins: [
+        new webpack.DefinePlugin({
+            API_KEY: JSON.stringify(appConfig.API_KEY),
+        }),
+    ],
+};
+
+export default config;
+```
+
+Let's take a moment to discuss the sample code above. Here, we define a constant named `API_KEY` which is obtained from our configuration file. We use `JSON.stringify` to ensure that the value is correctly formatted as a string.
+
+Once you've defined a constant, you can access it from within your code with ease:
+
+```ts
+const response = await fetch(`/path/to/endpoint?api_key=${API_KEY}`);
+const result = await response.json();
+```
+
+## Customizing webpack configuration for different modes
+
+When working on a project, you may need different build modes for development and production. Each mode may require different environment variables to be passed to your Webpack configuration. So, how can we handle this?
+
+One way is to use different config files for each build mode. For example, we could use a `appConfig.dev.ts` file for development mode and a different config file for production.
+
+```ts appConfig.dev.ts
+export const appConfig = {
+    API_KEY: '...',
+};
+```
+
+```ts appConfig.prod.ts
+export const appConfig = {
+    API_KEY: '...',
+};
+```
+
+Similarly, we can store Webpack's configuration in separate files, like `webpack.config.ts` for development and `webpack.prod.config.ts` for production.
+
+In these files, you simply change the path to the `alias` accordingly.
+
+```ts webpack.config.ts
+import path from 'path';
+import webpack from 'webpack';
+
+const config: webpack.Configuration = {
+    // ...
+    resolve: {
+        alias: {
+            appConfig: path.resolve(__dirname, 'appConfig.dev'),
+        },
+    },
+};
+
+export default config;
+```
+
+```ts webpack.prod.config.ts
+import path from 'path';
+import webpack from 'webpack';
+
+const config: webpack.Configuration = {
+    // ...
+    resolve: {
+        alias: {
+            appConfig: path.resolve(__dirname, 'appConfig.prod'),
+        },
+    },
+};
+export default config;
+```
+
+## Simplifying webpack configuration with environment variables
+
+If you notice that there's a lot of duplicate code in the Webpack configurations for different build modes, you can merge them into a single file. Webpack allows you to access the build mode within its configuration file. So, instead of creating two different Webpack configuration files, you can use a single file and set the path to the application configuration file.
+
+```ts webpack.config.ts
+const config: webpack.Configuration = {
+    // ...
+    resolve: {
+        alias: {
+            appConfig: path.resolve(__dirname, `appConfig.${process.env.NODE_ENV}`),
+        },
+    },
+};
+```
