@@ -1,0 +1,28 @@
+---
+category: Tip
+created: '2023-08-29'
+description: Select the direct children of an element with JavaScript DOM
+openGraphCover: /og/tips/select-direct-children.png
+tags: DOM, JavaScript
+title: Select the direct children of an element
+---
+
+When we use the [`querySelectorAll` function](https://phuoc.ng/collection/html-dom/select-an-element-or-list-of-elements) to select all children of a given element, it fetches all the children, including the nested ones. But what if you only want to retrieve the direct children? That's where the `>` selector comes in handy.
+
+To make things clearer, here's an example: let's say you want to select all direct children of an element with the ID of `parent`. You can simply use the following code:
+
+```js
+const parentElement = document.getElementById('parent');
+const directChildren = parentElement.querySelectorAll('> *');
+```
+
+In the code above, we're using `getElementById` to select a parent element with a specific `id` attribute. Then, we use `querySelectorAll` to choose all direct children of that parent element using the `>` selector. The `*` selector matches any element, so this code selects all direct children, no matter their tag name.
+
+If you only want to select a specific type of tag, you can use that tag name instead of the `*` selector. For example, the following code selects only the `li` tags that are direct children of a given `ul` element.
+
+This approach excludes any nested `li` tags.
+
+```js
+const ul = document.getElementById('list');
+const directItems = ul.querySelectorAll('> li');
+```
