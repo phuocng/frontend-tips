@@ -1,0 +1,130 @@
+---
+category: Tip
+created: '2023-09-12'
+description: Prevent scrolling behind a fixed header with scroll-padding-top or scroll-margin-top properties
+openGraphCover: /og/tips/prevent-scrolling-behind-fixed-header.png
+tags: CSS
+title: Prevent scrolling behind a fixed header
+---
+
+Fixed headers are a popular design choice for websites and applications, allowing the header to remain in place while the user scrolls through content. This is especially helpful for long pages, as it allows users to access navigation elements without the need to scroll back to the top.
+
+However, sometimes the content below the header can get hidden when scrolling or jumping to sections, which can be frustrating for users trying to read important information.
+
+But fear not! In this post, we'll share a tip to solve this issue and ensure your fixed header works seamlessly.
+
+## Markup
+
+If you want to create a header with navigation that stays fixed in place as you scroll down a web page, you can use the `<header>` element to wrap your header content. To create the navigation links, you can use the `<nav>` element and style it as needed.
+
+Here's an example of how you can mark up a fixed header with navigation:
+
+```html
+<header>
+    <nav>
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- The projects section -->
+<section id="projects"></section>
+
+<!-- The about section -->
+<section id="about"></section>
+
+<!-- The contact section -->
+<section id="contact"></section>
+```
+
+In this example, we used CSS styles to make sure that the `<header>` element stays fixed at the top of the page. We did this by using the `position: fixed` property.
+
+```css
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4rem;
+}
+```
+
+## scroll-padding-top property
+
+There's a CSS property called `scroll-padding-top` that can help solve the problem.
+
+Basically, `scroll-padding-top` lets you add a padding to the top of the scrolling area, which pushes the content down and prevents it from being overlaid by the header. You can set the value of `scroll-padding-top` in pixels, ems, rems, or percentages. Note that if you use it on the `body` element, it will affect the entire page's scrolling area.
+
+It's important to keep in mind that `scroll-padding-top` only adds padding to the top of the scrolling area. If you need to add padding to other sides, you can use `scroll-padding-left`, `scroll-padding-right`, and `scroll-padding-bottom`.
+
+Here's an example of how you might use `scroll-padding-top` to fix the issue of content being hidden behind a fixed header:
+
+```css
+body {
+    /* Set padding equal to height of fixed header */
+    scroll-padding-top: 4rem;
+}
+```
+
+In this example, we're setting `scroll-padding-top` to 4 rem. Assuming our fixed header is 4 rem tall, this will ensure that there's always enough space at the top of our content. That way, the content won't be hidden behind the header when scrolled.
+
+## scroll-margin-top property
+
+`scroll-margin-top` is a CSS property that allows you to set the margin between the top of an element and the top of the scrolling box. When a user clicks on a link that jumps to a specific section, this property ensures that there is enough space between the top of the section and the bottom of the fixed header for easy readability.
+
+To ensure that users can easily navigate through your website without any content being hidden behind the fixed header, it's best to set `scroll-margin-top` to match the height of your header. This property works best when applied to elements such as sections or headings that are targeted by anchor links.
+
+Let's add this property to our sections:
+
+```css
+section {
+    scroll-margin-top: 4rem;
+}
+```
+
+Keep in mind that `scroll-margin-top` only affects the vertical spacing and should not be used for horizontal spacing.
+
+## Using scroll-padding-top with a dynamic header height
+
+If your website has a dynamic header height, you might be wondering how to effectively use `scroll-padding-top`. Luckily, there's a straightforward solution.
+
+To start, use JavaScript to determine the height of your header. You can do this by adding an event listener for the resize event and updating a CSS variable with the new height value.
+
+```js
+document.addEventListener('DOMContentLoaded', () => {
+    const header = document.querySelector('header');
+    const root = document.documentElement;
+
+    const updateHeaderHeight = () => {
+        const height = header.offsetHeight;
+        root.style.setProperty('--header-height', `${height}px`);
+    };
+
+    window.addEventListener('resize', updateHeaderHeight);
+
+    updateHeaderHeight();
+});
+```
+
+Now, you can make use of the CSS variable by incorporating it into your `scroll-padding-top` rule. This ensures that the padding always matches the current height of your header.
+
+```css
+body {
+    scroll-padding-top: var(--header-height);
+}
+```
+
+> **Note**
+>
+> It's important to keep in mind that the `resize` event can be quite costly. To ensure a better user experience, consider using the debouncing or throttling technique outlined in this [link](https://phuoc.ng/collection/this-vs-that/debouncing-vs-throttling).
+
+Remember, if your header has any elements that could change size dynamically (like images or videos), you might have to manually adjust the header height using JavaScript.
+
+You can apply the same approach to the `scroll-margin-top` property.
+
+## Conclusion
+
+Using the `scroll-padding-top` or `scroll-margin-top` property is an easy and effective way to prevent scrolling behind a fixed header on your website. To make sure your users can always access your content easily, try adding padding to the scrolling area or margin to the target element. This simple tip can keep your content visible and accessible at all times.
