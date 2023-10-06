@@ -29,7 +29,7 @@ However, the result isn't correct if we shorten it as below:
 The issue is caused by the fact that the mapper function accepts three parameters which are the array item, index, and the array.
 Calling `.map(parseInt)` means that we pass the item index to `parseInt` as the second parameter. As a result, we will see `NaN`.
 
-This leads to a requirement of building a function that [accepts only the first parameter](https://phuoc.ng/collection/1-loc/create-a-function-that-accepts-a-single-argument), and ignore the remaining parameters.
+This leads to a requirement of building a function that [accepts only the first parameter](https://phuoc.ng/collection/1-loc/create-a-function-that-accepts-a-single-argument/), and ignore the remaining parameters.
 
 ```js
 const unary = (fn) => (params) => fn(params);
@@ -45,4 +45,4 @@ The `unary` function creates a wrapper of a function, and ignores all parameters
 
 ## See also
 
--   [Accept any numbers of parameters](https://phuoc.ng/collection/tips/accept-any-numbers-of-parameters)
+-   [Accept any numbers of parameters](https://phuoc.ng/collection/tips/accept-any-numbers-of-parameters/)
