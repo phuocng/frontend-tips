@@ -1,0 +1,33 @@
+---
+category: Tip
+created: '2023-10-04'
+description: Copy variables from the browser console to the clipboard
+openGraphCover: /og/tips/copy-variables-browser-console.png
+tags: Browser DevTools
+title: Copy variables from the browser console to the clipboard
+---
+
+If you work with the browser console often, you might need to copy a variable's value to the clipboard from time to time. Luckily, you can easily do this using the `copy()` function.
+
+Not only is it convenient, but using `copy()` also has several advantages over manual copying. For example, copying the values of large or complex objects using the console is faster and more accurate than manual selection. Additionally, some variables might contain invisible or hard-to-select characters, such as non-breaking spaces. With `copy()`, you can ensure that you copy the exact value of the variable without any unintended changes. Lastly, if you need to copy a value from a script that runs too quickly to select manually, `copy()` is often your only option.
+
+## How to use the copy() function
+
+The `copy()` function is a built-in function in the browser console. It allows you to copy the value of a variable to the clipboard. To use this function, simply execute it with the variable as its argument.
+
+Here's an example:
+
+```js
+const myVariable = "Hello, world!";
+copy(myVariable);
+```
+
+When you run this code in the browser console, the value of `myVariable` gets copied to the clipboard. You can then paste this value into any other application you'd like.
+
+## Limitations
+
+It's important to know that the `copy()` function is only available in modern browsers. If you're using an older browser, you'll need to use a different method to copy the values of your variables to the clipboard.
+
+Also, some browsers may limit the use of the `copy()` function for security reasons. If you run into this issue, you can adjust your browser settings or try another method to copy the values of your variables.
+
+In conclusion, the `copy()` function is a handy tool for copying variable values from the browser console to the clipboard. With this function, you can easily transfer data between the console and other applications.
