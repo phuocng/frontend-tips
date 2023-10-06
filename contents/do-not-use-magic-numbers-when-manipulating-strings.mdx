@@ -7,7 +7,7 @@ title: Do not use magic numbers when manipulating strings
 
 It's quite often that we pass the index parameter when using string manipulation functions such as `slice`, `splice`, `substr` or `substring`.
 
-Let's take a look at a simple example which [converts a given date](https://phuoc.ng/collection/1-loc/convert-a-date-to-yyyy-mm-dd-format) object to _YYYY-MM-DD_ format.
+Let's take a look at a simple example which [converts a given date](https://phuoc.ng/collection/1-loc/convert-a-date-to-yyyy-mm-dd-format/) object to _YYYY-MM-DD_ format.
 
 Given a `date` object, we can get the string representing the date in the ISO format:
 
@@ -36,4 +36,4 @@ const format = (date) => date.toISOString().slice(0, FULL_DATE_LENGTH);
 
 ## See also
 
--   [Keep the calculation of a magic number](https://phuoc.ng/collection/tips/keep-the-calculation-of-a-magic-number)
+-   [Keep the calculation of a magic number](https://phuoc.ng/collection/tips/keep-the-calculation-of-a-magic-number/)

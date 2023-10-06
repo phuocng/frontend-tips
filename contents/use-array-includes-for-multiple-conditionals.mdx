@@ -5,7 +5,7 @@ tags: JavaScript
 title: 'Use Array.includes for multiple conditionals'
 ---
 
-Let's consider a function that determines the total [number of days](https://phuoc.ng/collection/1-loc/get-the-number-of-days-in-given-month) in a given month.
+Let's consider a function that determines the total [number of days](https://phuoc.ng/collection/1-loc/get-the-number-of-days-in-given-month/) in a given month.
 
 ```js
 const getDays = (month, year) => {
@@ -13,7 +13,7 @@ const getDays = (month, year) => {
 };
 ```
 
-Since months in JavaScripts start from 0, we assume that the `month` parameter is zero-based index. We can make the function [quickly return](https://phuoc.ng/collection/tips/early-return) if the month is April, June, September or November:
+Since months in JavaScripts start from 0, we assume that the `month` parameter is zero-based index. We can make the function [quickly return](https://phuoc.ng/collection/tips/early-return/) if the month is April, June, September or November:
 
 ```js
 if (month === 3 || month === 5 || month === 8 || month === 10) {
@@ -31,7 +31,7 @@ if ([3, 5, 8, 10].includes(month)) {
 ...
 ```
 
-For this specific function, we also can use a [lookup table](https://phuoc.ng/collection/tips/replace-multiple-if-statements-with-a-lookup-table):
+For this specific function, we also can use a [lookup table](https://phuoc.ng/collection/tips/replace-multiple-if-statements-with-a-lookup-table/):
 
 ```js
 const isLeapYear = (year) => year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0);
@@ -41,6 +41,6 @@ const getDays = (month, year) => [31, isLeapYear(year) ? 29 : 28, 31, 30, 31, 30
 
 ## See also
 
--   [Early return](https://phuoc.ng/collection/tips/early-return)
--   [Replace multiple if statements with a lookup table](https://phuoc.ng/collection/tips/replace-multiple-if-statements-with-a-lookup-table)
--   [Replace multiple if statements with a single switch statement](https://phuoc.ng/collection/tips/replace-multiple-if-statements-with-a-single-switch-statement)
+-   [Early return](https://phuoc.ng/collection/tips/early-return/)
+-   [Replace multiple if statements with a lookup table](https://phuoc.ng/collection/tips/replace-multiple-if-statements-with-a-lookup-table/)
+-   [Replace multiple if statements with a single switch statement](https://phuoc.ng/collection/tips/replace-multiple-if-statements-with-a-single-switch-statement/)

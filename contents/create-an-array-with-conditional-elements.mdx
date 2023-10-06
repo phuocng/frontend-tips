@@ -16,7 +16,7 @@ if (condition) {
 }
 ```
 
-We can use the [short-circuits conditionals](https://phuoc.ng/collection/tips/use-short-circuits-conditionals) to make it shorter:
+We can use the [short-circuits conditionals](https://phuoc.ng/collection/tips/use-short-circuits-conditionals/) to make it shorter:
 
 ```js
 condition && arr.push('fuzz');
@@ -39,7 +39,7 @@ const arr = ['foo', condition ? 'fuzz' : undefined, 'bar'].filter(Boolean);
 The array always inserts new item which can be the new element or `undefined` depending on whether or not the condition matches.
 At the end, the `undefined` items are removed from the array.
 
-This approach allows us to insert element at any position, however we have to be careful with [removing the _falsy_ values](https://phuoc.ng/collection/1-loc/remove-falsy-values-from-array) from the array because the original array can contains the falsy items.
+This approach allows us to insert element at any position, however we have to be careful with [removing the _falsy_ values](https://phuoc.ng/collection/1-loc/remove-falsy-values-from-array/) from the array because the original array can contains the falsy items.
 
 ## Tip: using the spread operator
 
@@ -63,7 +63,7 @@ cart['products'].push(product);
 cart['products'] = [...(cart['products'] || []), product];
 ```
 
-Do you want to see one more advanced example? The function below uses the spread and [comma operator](https://phuoc.ng/collection/tips/shorten-codes-with-the-comma-operator) to [group an array of objects by a key](https://phuoc.ng/collection/1-loc/group-an-array-of-objects-by-a-key):
+Do you want to see one more advanced example? The function below uses the spread and [comma operator](https://phuoc.ng/collection/tips/shorten-codes-with-the-comma-operator/) to [group an array of objects by a key](https://phuoc.ng/collection/1-loc/group-an-array-of-objects-by-a-key/):
 
 ```js
 const groupBy = (arr, key) => arr.reduce((a, i) => ((a[i[key]] = [...(a[i[key]] || []), i]), a), {});
@@ -71,4 +71,4 @@ const groupBy = (arr, key) => arr.reduce((a, i) => ((a[i[key]] = [...(a[i[key]] 
 
 ## See also
 
--   [Include properties conditionally](https://phuoc.ng/collection/tips/include-properties-conditionally)
+-   [Include properties conditionally](https://phuoc.ng/collection/tips/include-properties-conditionally/)

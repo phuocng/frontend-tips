@@ -15,7 +15,7 @@ parseInt('   5   '); // 5
 parseInt('12 345'); // 12, not 12345
 ```
 
-To avoid the similar situations, you should [remove all spaces](https://phuoc.ng/collection/1-loc/remove-spaces-from-a-string) before parsing:
+To avoid the similar situations, you should [remove all spaces](https://phuoc.ng/collection/1-loc/remove-spaces-from-a-string/) before parsing:
 
 ```js
 parseInt(value.replace(/\s+/g, ''), 10);
